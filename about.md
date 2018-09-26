@@ -40,8 +40,8 @@ Summer 2014 | Zebrafish Facility Assistant | Washington University in St. Louis 
 Date|Position| Affiliation
 --|--|--
 2018 |	BA | Occidental College, Los Angeles, California
- - |Major and Minor| Biology with an emphasis in Marine Biology, Studio Art
- 2017 |	Study Abroad Program | James Cook University, Townsville, Queensland, Australia
+     |Major and Minor| Biology with an emphasis in Marine Biology, Studio Art
+2017 |	Study Abroad Program | James Cook University, Townsville, Queensland, Australia
 2014 |	High School Diploma | Clayton High School, Clayton, Missouri
 
 
