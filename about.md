@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am the lam manager and research assistant for Hollie Putnam, Jonathan Puritz, and Carlos Prada at the University of Rhode Island. This Open Lab Notebook is for all things Putnam Lab. 
+I am the Lab Manager and Research Assistant for Hollie Putnam, Jonathan Puritz, and Carlos Prada at the University of Rhode Island. This Open Lab Notebook is for all things Putnam Lab. 
 
 
 
