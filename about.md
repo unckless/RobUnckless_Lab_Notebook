@@ -64,11 +64,11 @@ Other
 - Preparation and imaging specimens with scanning electron microsopy 
 
 
-#### Presentations and Awards
+### Presentations and Awards
 
-Posters
+#### Posters
 2018 Margaret E. Schedl, Whitney L.E. Tsai, James M. Maley & John E. McCormack, Comparison of DNA extraction methods from museum specimens. American Ornithological Society Conference, Tucson, Arizona, USA. 
-Awards
+#### Awards
 AOS Travel Award, grant funding to attend the Amerian Ornithological Soceity Conference 2018
 ASP Travel Grant, funding from the Occidental College Undergraduate Research Center to attend conference
 
