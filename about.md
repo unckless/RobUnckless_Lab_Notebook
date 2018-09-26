@@ -18,12 +18,12 @@ wwww.putnamlab.com
 
 
 ## <center>Margaret E. Schedl</center>
-<center>Department of Biological Sciences</center>
+<center>Department of Biological Sciences, CBLS 180</center>
 <center>University of Rhode Island</center>
 <center>120 Flagg Road, Kingston RI 02881</center>
 
 
-### POSITIONS HELD
+### Positions 
 
 Time|Position| Affiliation
 --|--|--
@@ -35,7 +35,7 @@ Summers 2016-2017	| Laboratory Assistant | Solnica-Krezel Lab, Washington Univer
 Summer 2014 | Zebrafish Facility Assistant | Washington University in St. Louis School of Medicine
 
 
-### EDUCATION
+### Education
 
 Date|Position| Affiliation
 --|--|--
@@ -46,9 +46,9 @@ Date|Position| Affiliation
 
 
 
-###  SKILLS AND TECHNIQUES
+###  Skills and Techniques
 
-LABORATORY
+Laboratory
 - DNA and RNA extraction from tissues and larvae using Zymo Research and Quaigen kits
 - Historical DNA extraction with phenol chloroform and cryogenic extraction
 - Library preparation of DNA for illumina HiSeq Next Generation Sequencing
@@ -56,7 +56,7 @@ LABORATORY
 - in situ antibody staining of zebrafish embryos
 - Microinjections of florescently labeled RNA for confocal imaging of zebrafish embryos
 
-OTHER
+Other
 - Museum specimen preparation of bird skins
 - Rotifer culture growth and maintence
 - Zebrafish tank system care, feeding, breeding, and maintenance
@@ -65,18 +65,24 @@ OTHER
 - Preparation and imaging specimens with scanning electron microsopy 
 
 
-##### PRESENTATIONS AND AWARDS
+#### Presentations and Awards
 
-POSTERS
+Posters
 2018 Margaret E. Schedl, Whitney L.E. Tsai, James M. Maley & John E. McCormack, Comparison of DNA extraction methods from museum specimens. American Ornithological Society Conference, Tucson, Arizona, USA. 
-AWARDS
-AOS Travel Award, grant funding to attend the Amerian Ornithological Soceity Conference
+Awards
+AOS Travel Award, grant funding to attend the Amerian Ornithological Soceity Conference 2018
 ASP Travel Grant, funding from the Occidental College Undergraduate Research Center to attend conference
 
 Member of the Phi Beta Kappa Honors Society
+Distinction in the Senior Comprehensive project in Biology at Occidental College
 
-#### MENTORING
+### Mentoring
 
 Erin Chille, University of Rhode Island undergraduate (Present), Marygrace Trousdell, University of Rhode Island undergraduate (Present), Miles Collins, Occidental College undergraduate (2018), Emily Yue Liang, Occidental College undergraduate (2018), Leeza Lu, Occidental College undergraduate (2018)
+
+### Photography
+
+www.mschedlphotography.com
+
 
 
