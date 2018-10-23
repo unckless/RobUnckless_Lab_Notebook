@@ -21,9 +21,7 @@ https://github.com/barryclark/jekyll-now
 - **Now make that directory an empty git repository.**
 
 `git init` 
-> _You may get an error here that says invalid active developer path, use this code_ 
-
-> `xcode - select --install` _in your terminal to fix it, you should then be able to use git init._
+> _You may get an error here that says invalid active developer path, use this code_ `xcode - select --install` _in your terminal to fix it, you should then be able to use git init._
 
 - **Login to GitHub, go to the repository that you want and fork it to your page. If you don't have a specific one in mind go for this generic repository from Jekyll https://github.com/barryclark/jekyll-now . I used the same repository, forked into Hollie Putnams GitHub and modified for my repository.**
 
