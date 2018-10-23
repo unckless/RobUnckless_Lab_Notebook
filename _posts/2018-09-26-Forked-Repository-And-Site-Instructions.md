@@ -4,7 +4,7 @@ title: "Forking a Notebook Repository and Making it Your Own Site"
 ---
 
 
-### Forking a Notebook Repository and Making it Your Own Site
+### How to Fork a Repository and Make it Into a Site For Your Notebook! 
 
 This is a walk through on how I got the Repository for my Open Lab Notebook, and how in general one can fork a repository, clone it to their computer, edit back and forth, make their repository into a site that acts sort of like a blog, and make posts. 
 https://github.com/barryclark/jekyll-now
@@ -23,7 +23,7 @@ https://github.com/barryclark/jekyll-now
 `git init` 
 > _You may get an error here that says invalid active developer path, use this code_ 
 
-`xcode - select --install` _in your terminal to fix it, you should then be able to use git init._
+> `xcode - select --install` _in your terminal to fix it, you should then be able to use git init._
 
 - **Login to GitHub, go to the repository that you want and fork it to your page. If you don't have a specific one in mind go for this generic repository from Jekyll https://github.com/barryclark/jekyll-now . I used the same repository, forked into Hollie Putnams GitHub and modified for my repository.**
 
@@ -97,6 +97,7 @@ https://github.com/barryclark/jekyll-now
 
 - **You can resolve any conflicts that have arisen in Visual Studio Code.**
 
+- **Now you can go ahead and make a post, see next post of mine for a tutorial! 😁** 
 
 
 
