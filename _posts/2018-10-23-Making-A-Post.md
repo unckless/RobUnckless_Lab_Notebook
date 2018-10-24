@@ -13,7 +13,7 @@ This is a walkthrough of how I made this post and how I made this one, and the l
 
 - The first thing you need in a post is a little map at the top that indicates that this is a post like this:
 
-![post header]({{github.com/meschedl/MESPutnam_Open_Lab_Notebook}}/images/post-header.jpg "post header")
+![post header](/images/post-header.jpg)
 
 - Then you can put in your header
 
@@ -44,12 +44,12 @@ _If I want something in italics I bound it by underscores_
  like `this` 
  ```
 Then you can make things look extra important
- > with a block quote using '> carrots' 
- >> and further emphasis with '>> double carrots'
+ > with a block quote using > carrots
+ >> and further emphasis with >> double carrots
 
 How did I get that image in earlier like this lil shrimp here?
 
-![little shimp]({{github.com/meschedl/MESPutnam_Open_Lab_Notebook}/images/invert.jpg "little shrimp")
+![little shimp](/images/invert.jpg)
 
 You can put an image in your images directory in your repository and then call it to the post 
 
