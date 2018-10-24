@@ -3,7 +3,7 @@ layout: post
 title: "How To Make A Post and Do Fancy Things With Your Text"
 ---
 
-##Making A Post and Making It Look Good
+## Making A Post and Making It Look Good
 
 This is a walkthrough of how I made this post and how I made this one, and the last one, have nice text with indents, bullets, etc. 
 
@@ -12,15 +12,16 @@ This is a walkthrough of how I made this post and how I made this one, and the l
 **Open up your prefered app and start your post. When you save it, save to the _posts directory in your repository directory (or folder), this way you can push it to your Github and it will be in the right place.**
 
 - The first thing you need in a post is a little map at the top that indicates that this is a post like this:
-![an image alt text]({{meschedl.github.io/MESPutnam_Open_Lab_Notebook}}/images/post-header.jpg "post header")
+
+![post header]({{github.com/meschedl/MESPutnam_Open_Lab_Notebook}}/images/post-header.jpg "post header")
 
 - Then you can put in your header
 
-##The top line is a big header, which you do with `##double hashtags`
+## The top line is a big header, which you do with `## double hashtags`
 
-###Slightly smaller header with `###triple hashtags`
+### Slightly smaller header with `### triple hashtags`
 
-####Aesthetic af grey header hittin it with the `####quadruple hashtags`
+#### Aesthetic af grey header hittin it with the `#### quadruple hashtags`
 
 - How am I making bulleted lists? There are three ways:
     * `- bullet one`
@@ -48,13 +49,14 @@ Then you can make things look extra important
 
 How did I get that image in earlier like this lil shrimp here?
 
-![an image alt text]({{meschedl.github.io/MESPutnam_Open_Lab_Notebook}}/images/invert.jpg "little shrimp")
+![little shimp]({{github.com/meschedl/MESPutnam_Open_Lab_Notebook}/images/invert.jpg "little shrimp")
 
 You can put an image in your images directory in your repository and then call it to the post 
+
 `![an image alt text]({{ site.baseurl }}/images/yourimgage.jpg "an image title")`
 
 - **And then of course you can combine things to make bold bulleted lists**
-- _or italics ones_
+- _or italic ones_
 - `Or anything!`
 
-####Your creativity is your only limit 
+#### Your creativity is your only limit 
