@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-I am the Lab Manager and Research Assistant for Hollie Putnam, Jonathan Puritz, and Carlos Prada at the University of Rhode Island. This Open Lab Notebook is for all things Putnam Lab. 
+I am the Lab Manager and Research Assistant for Hollie Putnam, Jonathan Puritz, and Carlos Prada at the University of Rhode Island. This Open Lab Notebook is for all things Putnam Lab. This is my CV. 
 
 
 
 ### More Information
 
-wwww.putnamlab.com
+www.putnamlab.com
 
 ### Contact me
 
@@ -48,12 +48,19 @@ Date|Position| Affiliation
 ###  Skills and Techniques
 
 Laboratory
-- DNA and RNA extraction from tissues and larvae using Zymo Research and Quaigen kits
+- DNA and RNA extraction of avian tissue and oyster larvae using Zymo Research and Qaigen kits
 - Historical DNA extraction with phenol chloroform and cryogenic extraction
-- Library preparation of DNA for illumina HiSeq Next Generation Sequencing
-- Gel eletrophoresis, Serpure bead cleaning, and Qubit analysis of DNA
+- Gel eletrophoresis, Qubit and TapeStation analysis of DNA and RNA
+- Serapure, KAPA Pure, mRNA and Strepavadin bead cleaning of DNA/RNA
+- Library preparation of avian DNA for illumina HiSeq Next Generation Sequencing using Ultra Conserved Elements
+- Expressed Exome Capture Sequencing (EecSeq) preparation of larval oysters
 - in situ antibody staining of zebrafish embryos
 - Microinjections of florescently labeled RNA for confocal imaging of zebrafish embryos
+
+Computational
+- Proficiency with RStudio 
+- Knowlege of most basic statistical methods used in biological data and how to implment them in RStudio
+- Familiar with Species Distribution Modeling (SDM) or Ecological Niche Modeling using Maxent in congruence with RStudio
 
 Other
 - Museum specimen preparation of bird skins
@@ -61,7 +68,7 @@ Other
 - Zebrafish tank system care, feeding, breeding, and maintenance
 - Feeding and milking venom of cone snails
 - Museum collection database management, curation, and verification for marine gastropods and birds
-- Preparation and imaging specimens with scanning electron microsopy 
+- Preparation and imaging micro-mollusk specimens with scanning electron microsopy 
 
 
 ### Presentations and Awards
@@ -77,7 +84,7 @@ Distinction in the Senior Comprehensive project in Biology at Occidental College
 
 ### Mentoring
 
-Erin Chille, University of Rhode Island undergraduate (Present), Marygrace Trousdell, University of Rhode Island undergraduate (Present), Miles Collins, Occidental College undergraduate (2018), Emily Yue Liang, Occidental College undergraduate (2018), Leeza Lu, Occidental College undergraduate (2018)
+Amy Zyck, University of Rhode Island PhD student (present), Kevin Wong, University of Rhode Island PhD student (present), Cassie Raker, University of Rhode Island PhD student (present), Sam Gurr, University of Rhode Island PhD student (present), Erin Chille, University of Rhode Island undergraduate (Present), Marygrace Trousdell, University of Rhode Island undergraduate (Present), Myles Wagner, University of Rhode Island undergraduate (present), Miles Collins, Occidental College undergraduate (2018), Emily Yue Liang, Occidental College undergraduate (2018), Leeza Lu, Occidental College undergraduate (2018)
 
 ### Photography
 
