@@ -13,7 +13,7 @@ This is a walkthrough of how I made this post and how I made this one, and the l
 
 - The first thing you need in a post is a little map at the top that indicates that this is a post like this:
 
-![post header]({{ http://meschedl.github.io/MESPutnam_Open_Lab_Notebook }} /images/header.png "Header")
+![post header](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/images/header.png)
 
 - Then you can put in your header
 
