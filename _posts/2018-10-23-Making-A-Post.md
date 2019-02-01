@@ -13,7 +13,7 @@ This is a walkthrough of how I made this post and how I made this one, and the l
 
 - The first thing you need in a post is a little map at the top that indicates that this is a post like this:
 
-![post header](/images/header.png)
+![post header]({{ http://meschedl.github.io/MESPutnam_Open_Lab_Notebook }} /images/header.png "Header")
 
 - Then you can put in your header
 
@@ -49,7 +49,7 @@ Then you can make things look extra important
 
 How did I get that image in earlier like this lil shrimp here?
 
-![little shimp](/images/invert.jpg)
+!(/images/invert.jpg)
 
 You can put an image in your images directory in your repository and then call it to the post 
 

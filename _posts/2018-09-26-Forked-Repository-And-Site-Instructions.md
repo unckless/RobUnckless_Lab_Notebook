@@ -55,7 +55,7 @@ https://github.com/barryclark/jekyll-now
 
 `git push origin master` _This pushes your changes to GitHub. You may have to put in your login information if this is your first push._
 
-- **You also have to add a new admin link. On your computer open the _layouts folder. Right click on default.html and have it open in Visual Studio code. Edit line 45 to be you GitHub notebook link (ex. https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/).**
+- **You also have to add a new admin link. On your computer open the _layouts folder. Right click on default.html and have it open in Visual Studio code. Edit line 45 to be you GitHub notebook link (ex. https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/).**
 
 - **Save the file and we're going to push again.**
 
