@@ -49,7 +49,7 @@ Then you can make things look extra important
 
 How did I get that image in earlier like this lil shrimp here?
 
-!(/images/invert.jpg)
+![shrimp]({{ site.baseurl}}/images/invert.jpg "invert)
 
 You can put an image in your images directory in your repository and then call it to the post 
 
