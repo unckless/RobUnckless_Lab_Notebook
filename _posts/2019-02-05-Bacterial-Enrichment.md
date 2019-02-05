@@ -82,11 +82,11 @@ Trying 3 Extractions: 1 from each tube of M1105 concentrate (2 tubes) and 1 of t
 13. Add 150μl of MPC Protein Precipitation Reagent to each sample and vortex for 10 seconds
 14. Centrifuge tubes at 4 degrees C for 10 minutes at 10,000 rcf (g)
 15. Popette out supernatant in to new 1.5mL tubes with final tube labels
-    the pellet was saved at this step for potential QC but it should not contain DNA, just precipitated protein
+    - the pellet was saved at this step for potential QC but it should not contain DNA, just precipitated protein
 16. Add 500μl of 100% Isopropanol to each new tube with the supernatant and invert tube 40 times
 17. Centrifuge new tubes at 4 degrees C for 10 minutes at 10,000 rcf (g)
 18. Pour off isopropanol supernatant carefully and try not to dilodge the pellet
-    all three tubes had very small pellets that were around the same size
+    - all three tubes had very small pellets that were around the same size
 19. Wash pellet twice with 70% EtOH. Add 200μl EtOH then aspirate off. Add 100μl EtOH then aspirate off ALL ethanol
 20. Resuspend DNA pellet in 35μl TE buffer (store in -20 if not continuing immediately to Qubit)
 
