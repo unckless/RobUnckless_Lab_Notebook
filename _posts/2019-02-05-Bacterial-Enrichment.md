@@ -1,19 +1,17 @@
 ---
 layout: post
-title: Coral Airbrushing and Homogenate Concentrating for Bacterial Analysis
+title: Airbrushing Coral for Bacterial Composition Analysis with Homogenate Concentration and Test DNA Extraction
 ---
 
-## Airbrushing Coral for Bacterial Composition Analysis with Homogenate Concentration and Test DNA Extraction
+## Airbrushing and Concentrating
 
-### Airbrushing and Concentrating
-
-# **Reagents** 
+### **Reagents** 
 * 20% Bleach
 * Autoclaved 0.2μm filtered seawater
 * 70% ethanol
 * 0.2μm filter DI water
 
-# **Equiptment**
+### **Equiptment**
 * Separate airbrush for bacterial enrichment 
 * Sterile Syringe 50mL
 * 18 guage sterile needles
@@ -24,7 +22,7 @@ title: Coral Airbrushing and Homogenate Concentrating for Bacterial Analysis
 * Centrifuge that can hold 50mL tubes
 * Sterile whirlpaks
 
-# **Preparation**
+### **Preparation**
 * Autoclave the airbrush jars, and clean the lids by soaking in bleach, then sterile DI water, then wiping down with 70% ethanol 
 * Have squirt bottles (autoclavable!) with seawater, DI water, bleach, and ethanold
 _between every sample_
@@ -34,7 +32,7 @@ _between every sample_
 * Fill new airbrush jar with autoclaved filtered seawater
 * Prepare two 50mL conical tubes and 2-3 1.5mL tubes, label after you remove sample from freezer
 
-# **Airbrushing**
+### **Airbrushing**
 1. Take sample out of -80 and let thaw on bench ~5 minutes. In this time you can label your tubes
 2. Transfer the nubbin into a fresh whirlpak (sterile)
 3. Airbrush the coral clean into the whirlpak. Hold the coral base, invert the coral, brush the tissue with air into the bag until the skeleton is clean. Try to use minimal seawater, about 5-10mL. That way you can use the rest (up to 15mL) to rinse the pak into the conical
@@ -43,14 +41,14 @@ _between every sample_
 6. Invert tube 5 times to homogenize then spin in centrifuge for 30 seconds at 800 rcf (g)
 7. Transfer supernatant to other 50mL labeled tube with the same syringe and needle, save the pellet for host and sym
 
-# **Filtering and Concentrating**
+### **Filtering and Concentrating**
 8. Using the _same syringe_ attach to 5.0μm pore sized filter. Keep plunger out and rest invrerted on the foiled benchtop
 9. Pour homogenate from the 50mL conical tube into the syringe and re-place the plunger. Depress plunger to push homogenate through the 5.0μm filter into the Amicon filter. Filter setup below
 ![filter]({{ site.baseurl}}/images/filter-apparatus.png "filter")
 10. If the 5.0μm filter clogs, pour remaining homogenate back into the same 50mL tube, get a new 5.0μm filter, reattach the syringe, and pour homogenate back into the syringe and continue pushing homogenate through the filter
 12. Save the 5.0μm filter(s) in a labeled whirl pak in the freezer for host and sym DNA
 13. Save Amicon filter tube until airbrushing is done for the day, keep on ice until ready to centrifuge
-14. Prep for next sample, see [preparation](#**Preparation**)
+14. Prep for next sample, see preparation
 15. When you have all the samples in the Amicon tubes, bring to centrifuge and set for 1 hour and 10 minutes (it may need longer) at 4 degrees C and at max speed (3124 rcf)
 16. Concentration is finished when about 10mL has gone through the filter
 17. Pipette the concentrate into 2 to 3 1.5mL eppendorf tubes using filter tips. Store at -80°C.
@@ -63,7 +61,7 @@ Samples airbrushed with this protocol 01/24/2019 and 01/29/2019:
 * M1624
 * M1556
 
-## Test for presence of DNA in one sample on 01/25/2019 using MasterPure Complete DNA purification kit (Epicenter, Illumina)
+### Test for presence of DNA in one sample on 01/25/2019 using MasterPure Complete DNA purification kit (Epicenter, Illumina)
 
 Trying 3 Extractions: 1 from each tube of M1105 concentrate (2 tubes) and 1 of the flow-through in the Amicon filter to make sure concentrating works
 
@@ -92,7 +90,7 @@ Trying 3 Extractions: 1 from each tube of M1105 concentrate (2 tubes) and 1 of t
 19. Wash pellet twice with 70% EtOH. Add 200μl EtOH then aspirate off. Add 100μl EtOH then aspirate off ALL ethanol
 20. Resuspend DNA pellet in 35μl TE buffer (store in -20 if not continuing immediately to Qubit)
 
-# **Qubit Quantification**
+### **Qubit Quantification**
 21. Using Broad Range ds DNA Quibit kit
     Working solution: 5.5μl Quant-It Reagent and 1094.5μl BR buffer
 22. Pipette 190μl working solution into 2 thin walled tubes and 199μl working solution into 3 thin walled tubes
