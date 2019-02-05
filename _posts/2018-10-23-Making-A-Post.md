@@ -53,7 +53,7 @@ How did I get that image in earlier like this lil shrimp here?
 
 You can put an image in your images directory in your repository and then call it to the post 
 
-`![image title](/images/yourimgage.jpg)`
+`![image title]({{ site.baseurl}}/images/yourimage.jpg "name")`
 
 - **And then of course you can combine things to make bold bulleted lists**
 - _or italic ones_
