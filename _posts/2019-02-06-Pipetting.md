@@ -50,7 +50,7 @@ Prevention of cross contamination
 ### Pipetting exercise
 Be careful to use the correct pipette. Use distilled water. You don’t have to change tips for these exercises. As you do these exercises, look at the pipette tip when it is holding a volume so you can learn to check your pipetting visually.
 
-P1000 (200-1000 µl) – 7 eppendorf (1.5mL microcentrifuge tubes, they have a lot of names) tubes:
+**P1000 (200-1000 µl) – 7 eppendorf (1.5mL microcentrifuge tubes, they have a lot of names) tubes:**
 1.	Add 1000 µl to three eppendorf tubes.
 2.	Visually check that each tube has the same volume.
 3.	Remove 750 µl from each tube and pipette into three new tubes.
@@ -58,7 +58,7 @@ P1000 (200-1000 µl) – 7 eppendorf (1.5mL microcentrifuge tubes, they have a l
 5.	Remove 250 µl from the original three and pipette into one new tube.
 6.	Remove 750 µl from this tube and discard pipette tip.
 
-P200 (20-200 µl) – 3 sets of PCR 8 well strip tubes, and 1 eppendorf tube:
+**P200 (20-200 µl) – 3 sets of PCR 8 well strip tubes, and 1 eppendorf tube:**
 
 7.	Add 100 µl to each well of a set of strip tubes.
 8.	Visually check that each tube has the same volume.
@@ -69,14 +69,14 @@ P200 (20-200 µl) – 3 sets of PCR 8 well strip tubes, and 1 eppendorf tube:
 13.	Remove 20 µl from the original strip tubes and pipette into one new tube. 
 14.	Remove 160 µl from this tube and discard pipette tip.
 
-P20 (10-20 µl) – 1 set of strip tubes and 1 eppendorf tube:
+**P20 (10-20 µl) – 1 set of strip tubes and 1 eppendorf tube:**
 
 15.	Add 18 µl to each well of a set of strip tubes.
 16.	Visually check that each tube has the same volume.
 17.	Remove 12 µl from each well and pipette into one new tube.
 18.	Remove 96 µl from this tube and discard.
 
-P20 (10-20 µl) – 1 set of strip tubes:
+**P20 (10-20 µl) – 1 set of strip tubes:**
 
 19.	Add 7 µl to three 0.2 mL tubes.
 20.	Visually check that each tube has the same volume.
@@ -85,14 +85,14 @@ P20 (10-20 µl) – 1 set of strip tubes:
 23.	Remove 9 µl from each tube and pipette into three new 0.2 mL tubes.
 24.	Visually check that each tube has the same volume.
 
-Large volume:
+**Large volume:**
 
 25.	Add 179 µl to a tube
 26.	Add 465 µl to the same tube
 27.	Remove 602 µl from the tube
 28.	Remove 42 µl from the tube
 
-Small volume:
+**Small volume:**
 
 1.	Add 8.3 µl to a tube
 2.	Add 13.5 µl to the same tube
