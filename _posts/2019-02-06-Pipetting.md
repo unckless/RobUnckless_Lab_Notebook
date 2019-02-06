@@ -2,9 +2,9 @@
 layout: post
 title: Pipetting Exercises for Starting Labwork
 ---
-### this exercise is a modified from the Moore Laboratory of Zoology's pipette exercise, which they modifed from somewhere else 
+_this exercise is a modified from the Moore Laboratory of Zoology's pipette exercise, which they modifed from somewhere else_
 
-Proficient pipetting is probably the most crucial part of this lab, for three reasons:
+### Proficient pipetting is probably the most crucial part of this lab, for three reasons:
 
 - Accurate pipetting is crucial to the success of molecular projects. Mistakes during pipetting may cause your experiments (e.g. PCR) to fail or to be irreproducible, and thus cause long delays and considerable expense
 - Pipettes are delicate pieces of equipment with high accuracy, which can easily be knocked off their calibration. Furthermore, they are expensive – each set of pipettes represent about $ 1,500.
