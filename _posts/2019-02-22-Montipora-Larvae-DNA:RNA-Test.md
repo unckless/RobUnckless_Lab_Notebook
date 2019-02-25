@@ -103,11 +103,14 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 ### Tape Station
 - Follow RNA Tape Station protocol here (write protocol)
 - Only analyzing sample 398 because it is the only one with RNA
+
 **Results**
+
 ![Tape1]({{ site.baseurl}}/images/Tape-2-22-19.png "tape1")
 
 ## 2-25-19 More Test Extractions
 **Samples**
+
 |Sample #|Date Collected|Type|How Many|
 |-----|-------|------|------|
 |404|6/26/2018|larvae|100|
