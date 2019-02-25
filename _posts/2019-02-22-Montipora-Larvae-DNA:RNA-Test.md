@@ -50,7 +50,7 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 - Repeat last two steps for a final elution volume of 100µl
 - Label tubes, store at 4 degrees C if quantifying the same day or the next, if waiting longer store in -20
 
-###RNA Extraction
+### RNA Extraction
 - Add equal volume (700µl) 100% EtOH to the 1.5mL tubes labeled for RNA containing the original yellow column flow through
 - Vortex and spin down to mix
 - Add 700µl of that liquid to the green RNA spin columns
