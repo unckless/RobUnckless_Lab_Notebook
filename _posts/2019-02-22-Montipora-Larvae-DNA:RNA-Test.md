@@ -91,12 +91,16 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
     - _n_ is # of samples + 2 + %error (usually % error was less than 1%)
 - 10µl of each standard was used to create the standard curve and 1µl of each sample was used in quantification
 - All quantifications are in ng/µl
+
 ### BR DNA
+
 |Standard 1|Standard 2|395|386|389|398|
 |------|------|----|---|---|---|
 |198.9|21557|3.04|too low|too low|9.78|
 |---|---|3.04|too low|too low|9.70|
+
 ### BR RNA
+
 |Standard 1|Standard 2|395|386|389|398|
 |------|------|----|---|---|---|
 |386|11014|too low|too low|too low|15.2|
@@ -123,13 +127,16 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 
 **Followed same extraction protocol as above**
 ## Quibit
+
 ### BR DNA
+
 |Standard 1|Standard 2|404|401|119|102|392|
 |------|------|----|---|---|---|---|
 |196|21470|12.9|21|too low|70.6|4.32|
 |---|---|12.7|21.4|too low|71.6|4.28|
 
 ### BR RNA
+
 |Standard 1|Standard 2|404|401|119|102|392|
 |------|------|----|---|---|---|---|
 |393|10798|46|27.8|101|too low|too low|
