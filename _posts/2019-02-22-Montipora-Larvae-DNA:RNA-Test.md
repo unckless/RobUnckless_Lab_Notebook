@@ -14,7 +14,9 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 - Take sample tube with larvae 1 at a time out of the -80 to minimize amount of thawing
 - Add 300µl DNA/RNA shield directly to the sample tube
 - Record tube number
+
 **Samples**
+
 |Sample #|Date Collected|Type|How Many|Extracter|
 |-----|-------|------|------|------|
 |395|6/26/2018|larvae|15|Maggie|
