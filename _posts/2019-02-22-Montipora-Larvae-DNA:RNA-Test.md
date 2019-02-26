@@ -141,3 +141,23 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 |------|------|----|---|---|---|---|
 |393|10798|46|27.8|101|too low|too low|
 |---|---|45.8|27.6|101|too low|too low|
+
+### Tape Station Results
+
+![Tape2]({{ site.baseurl}}/images/tape1-2-25-19.png "tape2")
+![Tape3]({{ site.baseurl}}/images/tape2-2-25-19.png "tape3")
+![Tape4]({{ site.baseurl}}/images/tape3-2-25-19.png "tape4")
+
+### Graph of DNA and RNA together by number of larvae
+
+**R code for the graph**
+
+```
+QubitValues <- read.csv("larvae.csv", header = TRUE)
+library(ggplot2)
+ggplot()+
+	  geom_bar(data=QubitValues, aes(x=Number, y=ng, fill=Type, width=8), stat = "identity", position= "dodge") +
+	  theme_minimal() + ylab("ng/ul") + xlab("Number of Larvae")
+```
+
+![graph1]({{ site.baseurl}}/images/M-Larvae-Test.jpeg "graph1")
