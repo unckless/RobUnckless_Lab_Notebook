@@ -11,9 +11,9 @@ tags: [DNA, RNA, larvae]
 
 _Make sure ethanol has been added to the wash buffer, and that enzymes have been re-hydrated before starting_
 
-- Take sample tube with larvae 1 at a time out of the -80 to minimize amount of thawing
-- Add 300µl DNA/RNA shield directly to the sample tube
-- Record tube number
+1. Take sample tube with larvae 1 at a time out of the -80 to minimize amount of thawing
+2. Add 300µl DNA/RNA shield directly to the sample tube
+3. Record tube number
 
 **Samples**
 
@@ -24,68 +24,68 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 |389|6/26/2018|larvae|5|Erin|
 |398|6/26/2018|larvae|50|Erin|
 
-- Add 30µl of PK digestion buffer to each sample tube
-- Add 15µl Proteinase K to each sample tube
-- Vortex and spin down sample tubes
-- Place in Thermoixer for 1 hour at 55 degrees C, shaking at 1100 rpm
-- After digestion proceed with DNA and RNA Extraction
+4. Add 30µl of PK digestion buffer to each sample tube
+5. Add 15µl Proteinase K to each sample tube
+6. Vortex and spin down sample tubes
+7. Place in Thermoixer for 1 hour at 55 degrees C, shaking at 1100 rpm
+8. After digestion proceed with DNA and RNA Extraction
 ### DNA Extraction
-- Set up yellow DNA spin columns and collection tubes, label appropriately
-- Warm elution liquids to 70 degrees C (10mM Tris HCl pH. 8.0 and RNase free water)
-- Add equal volume (345µl) DNA/RNA lysis buffer to each sample tube
-- Finger flick to mix tubes
-- Add 700µl (total volume) of sample gently to the yellow DNA spin column
-- Centrifuge at 16,000 rcf (g) for 30 seconds
-- **Important** Save the flow through from this step: transfer to a new 1.5mL tube labeled for RNA
-- Add 400µl DNA/RNA Prep Buffer gently to the yellow DNA spin columns
-- Centrifuge at 16,000 rcf (g) for 30 seconds
-- Discard flow through (Zymo kit waste)
-- Add 700µl DNA/RNA Wash Buffer gently to the yellow DNA spin columns
-- Centrifuge at 16,000 rcf (g) for 30 seconds
-- Discard flow through (Zymo kit waste)
-- Add 400µl DNA/RNA Wash Buffer genetly to the yellow DNA spin columns
-- Centrifuge at 16,000 rcf (g) for **2 minutes**
-- Discard flow through (Zymo kit waste)
-- Transfer yellow columns to new 1.5mL microcentrifuge tubes
-- Add 50µl warmed 10mM Tris HCl to each yellow DNA column by dripping slowly directly on the filer
-- Incubate at room temp for 5 minutes
-- Centrifuge at 16,000 rcf (g) for 30 seconds
-- Repeat last three steps for a final elution volume of 100µl
-- Label tubes, store at 4 degrees C if quantifying the same day or the next, if waiting longer store in -20
+9. Set up yellow DNA spin columns and collection tubes, label appropriately
+10. Warm elution liquids to 70 degrees C (10mM Tris HCl pH. 8.0 and RNase free water)
+11. Add equal volume (345µl) DNA/RNA lysis buffer to each sample tube
+12. Finger flick to mix tubes
+13. Add 700µl (total volume) of sample gently to the yellow DNA spin column
+14. Centrifuge at 16,000 rcf (g) for 30 seconds
+15. **Important** Save the flow through from this step: transfer to a new 1.5mL tube labeled for RNA
+16. Add 400µl DNA/RNA Prep Buffer gently to the yellow DNA spin columns
+17. Centrifuge at 16,000 rcf (g) for 30 seconds
+18. Discard flow through (Zymo kit waste)
+19. Add 700µl DNA/RNA Wash Buffer gently to the yellow DNA spin columns
+20. Centrifuge at 16,000 rcf (g) for 30 seconds
+21. Discard flow through (Zymo kit waste)
+22. Add 400µl DNA/RNA Wash Buffer genetly to the yellow DNA spin columns
+23. Centrifuge at 16,000 rcf (g) for **2 minutes**
+24. Discard flow through (Zymo kit waste)
+25. Transfer yellow columns to new 1.5mL microcentrifuge tubes
+26. Add 50µl warmed 10mM Tris HCl to each yellow DNA column by dripping slowly directly on the filer
+27. Incubate at room temp for 5 minutes
+28. Centrifuge at 16,000 rcf (g) for 30 seconds
+29. Repeat last three steps for a final elution volume of 100µl
+30. Label tubes, store at 4 degrees C if quantifying the same day or the next, if waiting longer store in -20
 
 ### RNA Extraction
-- Add equal volume (700µl) 100% EtOH to the 1.5mL tubes labeled for RNA containing the original yellow column flow through
-- Vortex and spin down to mix
-- Add 700µl of that liquid to the green RNA spin columns
-- Centrifuge at 16,000 rcf (g) for 30 seconds
-- Discard flow through (Zymo kit waste)
-- Add 700µl to the green RNA spin columns (the rest from the 1.5mL RNA tubes)
-- Centrifuge at 16,000 rcf (g) for 30 seconds
-- Discard flow through (Zymo kit waste)
-- Add 400µl DNA/RNA Wash Buffer gently to each green RNA column
-- Centrifuge at 16,000 rcf (g) for 30 seconds
-- Discard flow through (Zymo kit waste)
-- Make DNase I treatment master mix:
+31. Add equal volume (700µl) 100% EtOH to the 1.5mL tubes labeled for RNA containing the original yellow column flow through
+32. Vortex and spin down to mix
+33. Add 700µl of that liquid to the green RNA spin columns
+34. Centrifuge at 16,000 rcf (g) for 30 seconds
+35. Discard flow through (Zymo kit waste)
+36. Add 700µl to the green RNA spin columns (the rest from the 1.5mL RNA tubes)
+37. Centrifuge at 16,000 rcf (g) for 30 seconds
+38. Discard flow through (Zymo kit waste)
+39. Add 400µl DNA/RNA Wash Buffer gently to each green RNA column
+40. Centrifuge at 16,000 rcf (g) for 30 seconds
+41. Discard flow through (Zymo kit waste)
+42. Make DNase I treatment master mix:
     - 75µl DNA Digestion buffer x # of samples
     - 5µl DNase I x # of samples
-- Add 80µl DNase I treatment master mix directly to the filter of the green RNA columns
-- Incubate at room temp for 15 minutes
-- Add 400µl DNA/RNA Prep Buffer gently to each column
-- Centrifuge at 16,000 rcf (g) for 30 seconds
-- Discard flow through (Zymo kit waste)
-- Add 700µl DNA/RNA Wash Buffer gently to the yellow DNA spin columns
-- Centrifuge at 16,000 rcf (g) for 30 seconds
-- Discard flow through (Zymo kit waste)
-- Add 400µl DNA/RNA Wash Buffer genetly to the yellow DNA spin columns
-- Centrifuge at 16,000 rcf (g) for **2 minutes**
-- Discard flow through (Zymo kit waste)
-- Transfer green columns to new 1.5mL microcentrifuge tubes
-- Add 50µl warmed DNase/RNase free water to each green RNA column by dripping slowly directly on the filer
-- Incubate at room temp for 5 minutes
-- Centrifuge at 16,000 rcf (g) for 30 seconds
-- Repeat last three steps for a final elution volume of 100µl
-- Label 1.5mL tubes on ice afterwards, and aliquot 5µl into PCR strip tubes to save for Qubit and Tape Station to avoid freeze-thaw of your stock sample
-- Store all tubes in the -80
+43. Add 80µl DNase I treatment master mix directly to the filter of the green RNA columns
+44. Incubate at room temp for 15 minutes
+45. Add 400µl DNA/RNA Prep Buffer gently to each column
+46. Centrifuge at 16,000 rcf (g) for 30 seconds
+47. Discard flow through (Zymo kit waste)
+48. Add 700µl DNA/RNA Wash Buffer gently to the yellow DNA spin columns
+49. Centrifuge at 16,000 rcf (g) for 30 seconds
+50. Discard flow through (Zymo kit waste)
+51. Add 400µl DNA/RNA Wash Buffer genetly to the yellow DNA spin columns
+52. Centrifuge at 16,000 rcf (g) for **2 minutes**
+53. Discard flow through (Zymo kit waste)
+54. Transfer green columns to new 1.5mL microcentrifuge tubes
+55. Add 50µl warmed DNase/RNase free water to each green RNA column by dripping slowly directly on the filer
+56. Incubate at room temp for 5 minutes
+57. Centrifuge at 16,000 rcf (g) for 30 seconds
+58. Repeat last three steps for a final elution volume of 100µl
+59. Label 1.5mL tubes on ice afterwards, and aliquot 5µl into PCR strip tubes to save for Qubit and Tape Station to avoid freeze-thaw of your stock sample
+60. Store all tubes in the -80
 
 ### Qubit
 - Using Broad Range dsDNA and Broad Range RNA kits
