@@ -48,8 +48,9 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 - Discard flow through (Zymo kit waste)
 - Transfer yellow columns to new 1.5mL microcentrifuge tubes
 - Add 50µl warmed 10mM Tris HCl to each yellow DNA column by dripping slowly directly on the filer
+- Incubate at room temp for 5 minutes
 - Centrifuge at 16,000 rcf (g) for 30 seconds
-- Repeat last two steps for a final elution volume of 100µl
+- Repeat last three steps for a final elution volume of 100µl
 - Label tubes, store at 4 degrees C if quantifying the same day or the next, if waiting longer store in -20
 
 ### RNA Extraction
@@ -80,8 +81,9 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 - Discard flow through (Zymo kit waste)
 - Transfer green columns to new 1.5mL microcentrifuge tubes
 - Add 50µl warmed DNase/RNase free water to each green RNA column by dripping slowly directly on the filer
+- Incubate at room temp for 5 minutes
 - Centrifuge at 16,000 rcf (g) for 30 seconds
-- Repeat last two steps for a final elution volume of 100µl
+- Repeat last three steps for a final elution volume of 100µl
 - Label 1.5mL tubes on ice afterwards, and aliquot 5µl into PCR strip tubes to save for Qubit and Tape Station to avoid freeze-thaw of your stock sample
 - Store all tubes in the -80
 
