@@ -87,24 +87,18 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 
 ### Qubit
 - Using Broad Range dsDNA and Broad Range RNA kits
-- A working stock solution was made of 199µl * _n_
+- A working stock solution was made of 199µl * _n_ buffer + _n_ µl Quant-IT reagent
     - _n_ is # of samples + 2 + %error (usually % error was less than 1%)
 - 10µl of each standard was used to create the standard curve and 1µl of each sample was used in quantification
 - All quantifications are in ng/µl
+- All quantifications were taken twice
 
-### BR DNA
-
-|Standard 1|Standard 2|395|386|389|398|
-|------|------|----|---|---|---|
-|198.9|21557|3.04|too low|too low|9.78|
-|---|---|3.04|too low|too low|9.70|
-
-### BR RNA
-
-|Standard 1|Standard 2|395|386|389|398|
-|------|------|----|---|---|---|
-|386|11014|too low|too low|too low|15.2|
-|---|---|too low|too low|too low|14.4|
+|Sample|DNA Standard 1 (RFU)|DNA Standard 2 (RFU)|DNA 1 (ng/µl)|DNA 2 (ng/µl)|Average DNA| RNA Standard 1 (RFU)| RNA Standard 2 (RFU)| RNA 1 (ng/µl)|RNA 2 (ng/ul)|Average RNA|
+|------|----------|----------|-------------|-------------|-------------|-------------|----|----|----|----|
+|395|198.9|21557|3.04|3.04|3.04|386|11014|too low|-| -|
+|386|198.9|21557|too low|-|-|386|11014|too low|-|-|
+|389|198.9|21557|too low|-|-|386|11014|too low|-|-|
+|398|198.9|21557|9.78|9.70|9.74|386|11014|15.2|14.4|14.8|
 
 ### Tape Station
 - Follow RNA Tape Station protocol here (write protocol)
@@ -128,19 +122,14 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 **Followed same extraction protocol as above**
 ## Quibit
 
-### BR DNA
 
-|Standard 1|Standard 2|404|401|119|102|392|
-|------|------|----|---|---|---|---|
-|196|21470|12.9|21|too low|70.6|4.32|
-|---|---|12.7|21.4|too low|71.6|4.28|
-
-### BR RNA
-
-|Standard 1|Standard 2|404|401|119|102|392|
-|------|------|----|---|---|---|---|
-|393|10798|46|27.8|101|too low|too low|
-|---|---|45.8|27.6|101|too low|too low|
+|Sample|DNA Standard 1 (RFU)|DNA Standard 2 (RFU)|DNA 1 (ng/µl)|DNA 2 (ng/µl)|Average DNA| RNA Standard 1 (RFU)| RNA Standard 2 (RFU)| RNA 1 (ng/µl)|RNA 2 (ng/ul)|Average RNA|
+|------|----------|----------|-------------|-------------|-------------|-------------|----|----|----|----|
+|404|196|21470|12.9|12.7|12.8|393|10798|46|45.8|45.9|
+|401|196|21470|21|21.4|21.2|393|10798|27.8|27.6|27.7|
+|119|196|21470|too low|-|-|393|10798|101|101|101|
+|102|196|21470|70.6|71.6|71.1|393|10798|too low|-|-|
+|392|196|21470|4.32|4.28|4.3|393|10798|too low|-|-|
 
 ### Tape Station Results
 
