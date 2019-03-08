@@ -103,7 +103,7 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 |398|198.9|21557|9.78|9.70|9.74|386|11014|15.2|14.4|14.8|
 
 ### Tape Station
-- Follow RNA Tape Station protocol here (write protocol)
+- Follow RNA Tape Station protocol [HERE](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/)
 - Only analyzing sample 398 because it is the only one with RNA
 
 **Results**
