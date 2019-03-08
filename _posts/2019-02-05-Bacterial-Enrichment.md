@@ -1,29 +1,30 @@
 ---
 layout: post
 title: Airbrushing Coral for Bacterial Composition Analysis with Homogenate Concentration and Test DNA Extraction
+tags: [ DNA, Microbial Enrichment ]
 ---
 
 ## Airbrushing and Concentrating
 
-### **Reagents** 
+### **Reagents**
 * 20% Bleach
 * Autoclaved 0.2μm filtered seawater
 * 70% ethanol
 * 0.2μm filter DI water
 
 ### **Equiptment**
-* Separate airbrush for bacterial enrichment 
+* Separate airbrush for bacterial enrichment
 * Sterile Syringe 50mL
 * 18 guage sterile needles
 * 5.0μm pore-size EMD Millipore Millex
 * 30 kDa cutoff Amicon Ultra-15 centrifugal filter units (Millipore)
-* Sterile 1.5mL tubes 
+* Sterile 1.5mL tubes
 * Sterile 50mL conical tubes
 * Centrifuge that can hold 50mL tubes
 * Sterile whirlpaks
 
 ### **Preparation**
-* Autoclave the airbrush jars, and clean the lids by soaking in bleach, then sterile DI water, then wiping down with 70% ethanol 
+* Autoclave the airbrush jars, and clean the lids by soaking in bleach, then sterile DI water, then wiping down with 70% ethanol
 * Have squirt bottles (autoclavable!) with seawater, DI water, bleach, and ethanold
 _between every sample_
 * Change gloves
@@ -37,7 +38,7 @@ _between every sample_
 2. Transfer the nubbin into a fresh whirlpak (sterile)
 3. Airbrush the coral clean into the whirlpak. Hold the coral base, invert the coral, brush the tissue with air into the bag until the skeleton is clean. Try to use minimal seawater, about 5-10mL. That way you can use the rest (up to 15mL) to rinse the pak into the conical
 4. Once the nubbin is well-brushed, pour the slurry into one 50mL conical. Note the volume. Eyeball volume left until 15mL and use squirt bottle with seawater to clean out whilpak. Ex. Original airbrushing resulted in ~7mL of slurry that went into the tube, this means I can use ~8mL to get the rest of the slurry in the whirlpak stuck to the sides off and into the conical
-5. With a new 50ml syringe and new 18g needle, homogenize for 5 minutes by plunging slurry up and down 
+5. With a new 50ml syringe and new 18g needle, homogenize for 5 minutes by plunging slurry up and down
 6. Invert tube 5 times to homogenize then spin in centrifuge for 30 seconds at 800 rcf (g)
 7. Transfer supernatant to other 50mL labeled tube with the same syringe and needle, save the pellet for host and sym
 
@@ -53,7 +54,7 @@ _between every sample_
 16. Concentration is finished when about 10mL has gone through the filter
 17. Pipette the concentrate into 2 to 3 1.5mL eppendorf tubes using filter tips. Store at -80°C.
 
-After all samples are done clean airbrush and materials again 
+After all samples are done clean airbrush and materials again
 
 Samples airbrushed with this protocol 01/24/2019 and 01/29/2019:
 * M1105
@@ -72,7 +73,7 @@ Trying 3 Extractions: 1 from each tube of M1105 concentrate (2 tubes) and 1 of t
     * 3μl Proteinase K (kept in -20)
 4. Label 3 1.5mL tubes with M1105 1, 2, 3. Tubes 1 and 2 are for two extractions of concentrate and tube 3 is for the flow-through
 5. Add 150μl of lysis master mix to each 1.5mL tube
-6. Vortex samples 
+6. Vortex samples
 7. Add 150mL of 1st concentrate into tube 1. Add 150mL of the second concentrate into tube 2. Add 150mL of the flow through into tube 3
 8. Incubate in Thermomixer for 15 minutes at 65 degrees C and vortex every 5 minutes
 9. After 15 minutes move samples to a Thermomixer at 37 degrees C
