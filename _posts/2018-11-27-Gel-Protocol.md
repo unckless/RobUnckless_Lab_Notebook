@@ -4,7 +4,7 @@ title: PPP Lab Agarose Gel Protocol
 tags: [ protocol, DNA ]
 ---
 
-#### This protocol is for the Putnam, Prada, and Purtiz Labs
+#### This protocol is for the Putnam, Prada, and Puritz Labs
 
 1.	For small gel box, make a 100mL gel mix.
 2.	For 1% gel use 100mL 1X TAE buffer and 1g Agarose, for a 1.5% gel use 1.5g Agarose, for a 2% gel use 2g agarose
@@ -36,5 +36,5 @@ tags: [ protocol, DNA ]
 28.	Wipe the imager with a Kimwipe and DI type II water
 
 29. An extra step can be to annotate your gel image ex:
-![example gel](https://raw.githubusercontent.com/meschedl/Narragansett_Bay_eDNA/blob/master/images/eDNA-test-gel2.jpg)
+![example gel]({{ site.baseurl}}/images/eDNA-test-gel2c.jpg)
 This can easily be done in something as simple as google slides
