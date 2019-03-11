@@ -2,6 +2,7 @@
 layout: post
 title: PPP Lab Agarose Gel Protocol
 tags: [ protocol, DNA ]
+---
 
 #### This protocol is for the Putnam, Prada, and Purtiz Labs
 
@@ -36,4 +37,4 @@ tags: [ protocol, DNA ]
 
 29. An extra step can be to annotate your gel image ex:
 ![example gel](https://raw.githubusercontent.com/meschedl/Narragansett_Bay_eDNA/blob/master/images/eDNA-test-gel2.jpg)
-This can easily be done in something as simple as google slides 
+This can easily be done in something as simple as google slides
