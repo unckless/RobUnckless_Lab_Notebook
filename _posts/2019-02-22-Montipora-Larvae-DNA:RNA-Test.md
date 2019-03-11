@@ -6,7 +6,7 @@ tags: [DNA, RNA, larvae]
 
 # Larvae from Biomineralization Project
 
-**Using Zymo Duet DNA/RNA Extraction Kit [HERE](https://files.zymoresearch.com/protocols/_d7003t_d7003_quick-dna-rna_miniprep_plus_kit.pdf)**
+**Using Zymo Duet DNA/RNA Extraction Kit [HERE](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/company-protocols/_d7003t_d7003_quick-dna-rna_miniprep_plus_kit.pdf)**
 **Other components: Thermoixer and centrifuge capable of 16,000 rcf spin (Eppendorf)**
 
 _Make sure ethanol has been added to the wash buffer, and that enzymes have been re-hydrated before starting_
