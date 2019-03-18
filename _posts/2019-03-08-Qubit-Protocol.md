@@ -16,7 +16,7 @@ tags: [ DNA, RNA , protocol ]
 4. Set up thin walled tubes: enough for each of your samples plus 2 more for standards
 5. Add 190μl of master mix to the 2 tubes for the standards
 6. Add 199μl of master mix to each of your sample tubes
-7. Take standards out of the fridge and add 10μl of Standard 1 to the first standard thin walled tube and add 10μl of Standard 2 to the second standard thin walled tube
+7. Take standards out of the fridge (they say HP for the Putnam Lab) and add 10μl of Standard 1 to the first standard thin walled tube and add 10μl of Standard 2 to the second standard thin walled tube
 8. Add 1μl of sample to the corresponding thin walled sample tube
 9. Vortex and spin down all tubes
 10. Choose appropriate assay in the Qubit and read standard tubes
@@ -24,4 +24,4 @@ tags: [ DNA, RNA , protocol ]
 ![Qubit Standards]({{ site.baseurl}}/images/standards.png "standards")
 11. Read each sample tube one at a time. Our settings are 1μl of sample and we want the output to be ng/μl
 12. Read your samples twice
-13. All components can be disposed of in the tip buckets or trash
+13. All components are safe and can be disposed of in the tip buckets or trash

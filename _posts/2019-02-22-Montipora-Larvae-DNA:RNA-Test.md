@@ -27,7 +27,7 @@ _Make sure ethanol has been added to the wash buffer, and that enzymes have been
 4. Add 30µl of PK digestion buffer to each sample tube
 5. Add 15µl Proteinase K to each sample tube
 6. Vortex and spin down sample tubes
-7. Place in Thermoixer for 1 hour at 55 degrees C, shaking at 1100 rpm
+7. Place in Thermomixer for 1 hour at 55 degrees C, shaking at 1100 rpm
 8. After digestion proceed with DNA and RNA Extraction
 ### DNA Extraction
 9. Set up yellow DNA spin columns and collection tubes, label appropriately
