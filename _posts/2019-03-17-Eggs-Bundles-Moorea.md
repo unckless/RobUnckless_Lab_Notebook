@@ -164,3 +164,14 @@ Additional steps follow [this](https://meschedl.github.io/MESPutnam_Open_Lab_Not
 - Did not run sample 1 because there was no RNA
 
 [Results](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/images/2019-03-15%20-%2018.07.01.pdf):
+
+![1]({{ site.baseurl}}/images/3-16-19-1.png "1")
+![2]({{ site.baseurl}}/images/3-16-19-2.png "2")
+![3]({{ site.baseurl}}/images/3-16-19-3.png "3")
+![4]({{ site.baseurl}}/images/3-16-19-4.png "4")
+![5]({{ site.baseurl}}/images/3-16-19-4.5.png "5")
+![6]({{ site.baseurl}}/images/3-16-19-5.png "6")
+![7]({{ site.baseurl}}/images/3-16-19-6.png "7")
+![8]({{ site.baseurl}}/images/3-16-19-7.png "8")
+![9]({{ site.baseurl}}/images/3-16-19-8.png "9")
+![10]({{ site.baseurl}}/images/3-16-19-9.png "10")
