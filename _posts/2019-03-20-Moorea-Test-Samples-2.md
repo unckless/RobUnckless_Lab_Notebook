@@ -130,7 +130,7 @@ _Samples 44 and 63 had mucus mountains making it hard to aspirate the liquid, th
 - Followed RNA TapeStation [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/)
 - TapeStation was done by [Erin Chille](https://github.com/echille) and include some of her RNA extractions of Montipora larvae
 
-[Results](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/images/2019-03-21%-%15.04.03.pdf):
+[Results](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/images/2019-03-21%20-%2015.24.03.pdf):
 
 ![1]({{ site.baseurl}}/images/3-21-19-1.png "1")
 ![2]({{ site.baseurl}}/images/3-21-19-2.png "2")
