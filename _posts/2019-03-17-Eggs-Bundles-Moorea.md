@@ -73,7 +73,7 @@ Mo'orea Samples:
 5. Centrifuged columns at 16000 rcf for 30 seconds
 6. Flow-through was transferred to new 1.5 or 5mL tubes labeled for RNA
 7. Samples 111 and 120 had an additional 600µl of sample that was spun through the column and the flow-through saved  
-_note: samples 111 and 120 had white flakes/blobs that went through the DNA column and stuck to the sides of the collection tube, even though I tried to not aspirate and un-digested tissue after lysis. Samples 1 and 2 needed new collection tubes after their initial spin because a pellet (symbionts?) formed at the bottom of the collection tube_  
+_note: samples 111 and 120 had white flakes/blobs that went through the DNA column and stuck to the sides of the collection tube, even though I tried to not aspirate any un-digested tissue after lysis. Samples 1 and 2 needed new collection tubes after their initial spin because a pellet (symbionts?) formed at the bottom of the collection tube_  
 
 Additional steps follow [this](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Montipora-Larvae-DNA-RNA-Test/) extraction procedure
 8. Add 400µl DNA/RNA Prep Buffer gently to the yellow DNA spin columns
@@ -93,7 +93,7 @@ Additional steps follow [this](https://meschedl.github.io/MESPutnam_Open_Lab_Not
 22. Label tubes, store at 4 degrees C if quantifying the same day or the next, if waiting longer store in -20
 
 **RNA Extraction**
-23. Add equal volume  100% EtOH to the 1.5mL tubes labeled for RNA containing the original yellow column flow through
+23. Add equal volume  100% EtOH to the 1.5mL and 5mL tubes labeled for RNA containing the original yellow column flow through
 
 |Sample #|Volume added|
 |-----|-------|
