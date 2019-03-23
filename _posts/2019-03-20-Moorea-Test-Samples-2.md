@@ -135,8 +135,8 @@ _Samples 44 and 63 had mucus mountains making it hard to aspirate the liquid, th
 ![1]({{ site.baseurl}}/images/3-21-19-1.png "1")
 ![2]({{ site.baseurl}}/images/3-21-19-2.png "2")
 ![3]({{ site.baseurl}}/images/3-21-19-3.png "3")
-![4]({{ site.baseurl}}/images/3-21-19-4.png "4")
-![5]({{ site.baseurl}}/images/3-21-19-4.5.png "5")
+![4]({{ site.baseurl}}/images/3-21-19-5.png "4")
+![5]({{ site.baseurl}}/images/3-21-19-6.png "5")
 
 **Gel**
 
