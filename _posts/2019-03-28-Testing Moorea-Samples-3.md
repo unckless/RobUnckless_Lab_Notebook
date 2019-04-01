@@ -56,4 +56,4 @@ tags: [ DNA, RNA , Moorea ]
 ![1]({{ site.baseurl}}/images/3-28-19-1.png "1")
 ![2]({{ site.baseurl}}/images/3-28-19-2.png "2")
 ![3]({{ site.baseurl}}/images/3-28-19-3.png "3")
-![4]({{ site.baseurl}}/images/3-28-19-5.png "4")
+![4]({{ site.baseurl}}/images/3-28-19-4.png "4")
