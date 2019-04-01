@@ -14,10 +14,10 @@ The starting volume in the tubes (tissue stored in ~300µl DNA/RNA Shield in -20
 
 | Sample # | Site # | Date Collected | Type | Extraction method |
 |-----|-------|------|---|---|
-| 45 | 2 | 2018/03/12 | Pocillopora verrucosa | bead homogenize |
-| 62 | 2 | 2018/03/12 | Pocillopora verrucosa | add 300µl then bead homogenize |
-| 44 | 2 | 2018/03/12 | Massive Porites | bead homogenize |
-| 63 | 2 | 2018/03/12 | Massive Porites | add 300µl then bead homogenize |
+| 45 | 2 | 2018/03/12 | _Pocillopora verrucosa_ | bead homogenize |
+| 62 | 2 | 2018/03/12 | _Pocillopora verrucosa_ | add 300µl then bead homogenize |
+| 44 | 2 | 2018/03/12 | Massive _Porites_ | bead homogenize |
+| 63 | 2 | 2018/03/12 | Massive _Porites_ | add 300µl then bead homogenize |
 
 - 300µl of DNA/RNA Shield was added to samples 62 and 63
 - Beads from [bead tubes](https://www.fishersci.com/shop/products/zr-bashing-bead-lysis-tubes/nc1099697#?keyword=zymo+bead) were poured into the sample tubes
@@ -130,7 +130,7 @@ _Samples 44 and 63 had mucus mountains making it hard to aspirate the liquid, th
 - Followed RNA TapeStation [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/)
 - TapeStation was done by [Erin Chille](https://github.com/echille) and include some of her RNA extractions of Montipora larvae
 
-[Results](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/images/2019-03-21%20-%2015.24.03.pdf):
+[Results](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2019-03-21%20-%2015.24.03.pdf):
 
 ![1]({{ site.baseurl}}/images/3-21-19-1.png "1")
 ![2]({{ site.baseurl}}/images/3-21-19-2.png "2")

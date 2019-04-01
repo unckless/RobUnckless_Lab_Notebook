@@ -163,7 +163,7 @@ Additional steps follow [this](https://meschedl.github.io/MESPutnam_Open_Lab_Not
 - Followed RNA TapeStation [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/)
 - Did not run sample 1 because there was no RNA
 
-[Results](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/images/2019-03-15%20-%2018.07.01.pdf):
+[Results](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2019-03-15%20-%2018.07.01.pdf):
 
 ![1]({{ site.baseurl}}/images/3-16-19-1.png "1")
 ![2]({{ site.baseurl}}/images/3-16-19-2.png "2")
