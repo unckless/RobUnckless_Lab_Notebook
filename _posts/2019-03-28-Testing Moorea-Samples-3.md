@@ -10,7 +10,7 @@ tags: [ DNA, RNA , Moorea ]
 
 #### Using the Zymo Duet DNA/RNA Extraction [Kit](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/company-protocols/_d7003t_d7003_quick-dna-rna_miniprep_plus_kit.pdf)
 
-**Sample Prep**
+**Sample Prep**  
 
 | Sample # | Site # | Date Collected | Type |
 |-----|-------|------|---|---|
