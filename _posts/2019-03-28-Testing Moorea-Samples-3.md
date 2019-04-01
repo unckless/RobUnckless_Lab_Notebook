@@ -4,7 +4,7 @@ title: Mo'orea Test Samples Part 3
 tags: [ DNA, RNA , Moorea ]
 ---
 
-# Testing to get good RNA out of the Pocillopora and Porites Samples stored in RNA/RNA Shield from M
+# Testing to get good RNA out of the Pocillopora and Porites Samples stored in RNA/RNA Shield from Mo'orea
 
 ## Homogenizing with beads last time may have caused trouble [last time]((https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Mooew-Test-Samples-2/)) because it is hard to get all of the liquid out of the tube with the beads. We have sieves that fit into 1.5mL tubes that would separate the beads from the liquid. The goal of this test was to see if using the sieves gets good RNA and DNA from 4 more coral samples. I took samples from site 3 as to not take too many samples from one site.
 
