@@ -100,11 +100,11 @@ In the terminal
 27. To make a new post open a blank file in your text editor and save it to the _posts directory for your notebook. _Important: you have to use the specific Jeykll markdown file naming convention for the posts/blog to build on the site properly: YYYY-MM-DD-Post-Name.md_
 
 28. The first section of your file needs something called a YAML header
-`---
-layout: post  
-title: Your title  
-tags: [ specfic, tags, if, you, want, them]
----`
+`---`  
+`layout: post`  
+`title: Your title`    
+`tags: [ specfic, tags, if, you, want, them]`  
+`---`  
 This is what sets up the layout for each post.
 
 29. Write your post in Markdown format. Here are examples from [Me](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Montipora-Larvae-DNA-RNA-Test/), [Hollie](https://github.com/hputnam/Putnam_Lab_Notebook/blob/master/_posts/2016-08-31-Geoduck_RNA_Testing.md), [Kevin](https://github.com/kevinhwong1/KevinHWong_Notebook/blob/master/_posts/2019-03-14-Citrate-Synthase-Troubleshooting.md), and [Erin](https://github.com/echille/E.-Chille-Open-Lab-Notebook/blob/master/_posts/2019-04-01-Montipora-Larvae-DNA-RNA-Extraction-Batch-4.md). Look at the Raw version of any of these files to get the syntax for each element, ex links, images, and tables. Save images into your image folder, you can create other folders for things like pdfs or R scripts. Think of your notebook repository just as your physical one, where you put all your information. Csv files can even be easily added to the repo and looked at online: [example](https://github.com/kevinhwong1/Astrangia_Nutrition/blob/master/RAnalysis/Data/BouyantWeight_Apoc2019.csv). The easiest way to get ideas is to look at the notebooks for everyone in the lab and emulate what you like that they have. Save, commit, and push your post to the online repo and it should post within 10 minutes to the actual site.  
