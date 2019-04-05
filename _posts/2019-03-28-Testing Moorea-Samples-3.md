@@ -57,3 +57,12 @@ tags: [ DNA, RNA , Moorea ]
 ![2]({{ site.baseurl}}/images/3-28-19-2.png "2")
 ![3]({{ site.baseurl}}/images/3-28-19-3.png "3")
 ![4]({{ site.baseurl}}/images/3-28-19-4.png "4")
+
+**Gel**
+
+- A 1.5% agarose gel was ran to check the integrity of the genomic DNA
+- Following the PPP Lab [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/)
+- The first 6 samples are from the [next extraction](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Dna-Only-Coral-and-Mussel-Test/), the last 4 samples are from this extraction 
+- Below the sample number is the amount of DNA in ng/µl from the Qubit
+
+![gel]({{ site.baseurl}}/images/gel-04-04-19.jpg "gel")

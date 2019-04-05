@@ -96,3 +96,5 @@ These values are much higher than I have ever gotten out of the corals!!
 - Below the sample number is the amount of DNA in ng/µl from the Qubit
 
 ![gel]({{ site.baseurl}}/images/gel-04-04-19.jpg "gel")
+
+Mytilus DNA is not good quality here
