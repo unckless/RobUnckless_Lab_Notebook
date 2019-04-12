@@ -69,7 +69,7 @@ There is DNA! But, some of the values are very low so I wanted to try extracting
 - A 1.5% agarose gel was ran to check the integrity of the genomic DNA
 - Following the PPP Lab [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/)
 
-![gel]({{ site.baseurl}}/images/gel-04-11-19.jpg "gel")
+![gel]({{ site.baseurl}}/images/gel-4-11-19.jpg "gel")
 
 The quality of the DNA is good actually, but the quantify is low for some samples. Notably 7 didn't show up, but that is concurrent with the Qubit.
 
@@ -128,5 +128,4 @@ Still no DNA for 205. When looking at the tissue sample, it does not look like a
 - A 1.5% agarose gel was ran to check the integrity of the genomic DNA
 - Following the PPP Lab [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/)
 
-![gel]({{ site.baseurl}}/images/gel-04-12-19.jpg "gel")
- 
+![gel]({{ site.baseurl}}/images/gel-4-12-19.jpg "gel")
