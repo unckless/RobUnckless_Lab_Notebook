@@ -89,10 +89,7 @@ The quality of the DNA is good actually, but the quantify is low for some sample
 
 1. Centrifuged all tubes at 12,000 rcf for 1 minute to pellet any debris and beads that got through the sieve
 2. Removed supernatant into new 1.5mL tubes
-3. Added 1 volume Genomic Binding Buffer to each tube, vortexed and spun down
-  - Corals: 690µl
-  - M6: 200µl
-  - M7: 400µl
+3. Added 1 volume (460µl) Genomic Binding Buffer to each tube, vortexed and spun down
 4. 700µl, or all for the mussels, of sample was added to the kit spin column and centrifuged at 12,000 rcf for 1 minute
 5. Collection tubes were discarded
 6. The rest of the coral samples were run through the column in the same way
@@ -122,6 +119,8 @@ The quality of the DNA is good actually, but the quantify is low for some sample
 | 303 | 187 | 20375 | 49 | 49.8 | 49.4 |
 
 Still no DNA for 205. When looking at the tissue sample, it does not look like a massive _Porites_ at all, more like algae. It might be a miss-labeled tube.
+
+All tubes from these extraction are labeled A for the first extraction and B for the second and stored in the -20.
 
 **Gel Verification**
 
