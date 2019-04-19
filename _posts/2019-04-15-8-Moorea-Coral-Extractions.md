@@ -3,7 +3,7 @@ layout: post
 title: Starting Through-put Mo'orea Coral Extractions
 tags: [ DNA, Porites, Pocillopora ]
 ---
-# 8 DNA only extractions from _Porites_ and _Pocillopora_ Corals from Mo'orea
+# 18 DNA only extractions from _Porites_ and _Pocillopora_ Corals from Mo'orea
 
 #### Using the Zymo Quick-DNA Miniprep Plus [kit](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/company-protocols/_d4068_d4069_quick-dna_miniprep_plus_kit.pdf)
 
@@ -32,7 +32,7 @@ tags: [ DNA, Porites, Pocillopora ]
 
 - New [Beads](https://www.fishersci.com/shop/products/disruption-beads-0-5mm-yeast-1/50212143?searchHijack=true&searchTerm=50212143&searchType=RAPID&matchedCatNo=50212143) were poured into sample tubes. The new beads should be easier to pipette the liquid out of them as the do not get sucked up by the p20
 - Samples were homogenized by vortexing for ~30 seconds for all samples
-- Most of the liquid from the tubes was removed by pipetting. This was about 300µl. The tubes contained a small amount of liquid and un-homogenized tissue left, so 200µl of DNA/RNA shield was added to each tube and those were put back into the -20 wi
+- Most of the liquid from the tubes was removed by pipetting. This was about 300µl. The tubes contained a small amount of liquid and un-homogenized tissue left, so 200µl of DNA/RNA shield was added to each tube and those were put back into the -20
 - Following recommendations for samples in DNA/RNA Shield from the kit protocol, 150µl of Solid Tissue Buffer and 10µl of Proteinase K were added to each sample
 - Samples were votexed, spun down, and incubated at 55 degrees C for 5 hours shaking at 600rpm
 
@@ -86,5 +86,8 @@ tags: [ DNA, Porites, Pocillopora ]
 - A 1.5% agarose gel was ran to check the integrity of the genomic DNA
 - Following the PPP Lab [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/)
 - Gel was run by Marygrace Trusdell
+- Two samples are from Kevin Wong's Astrangia homogenates
 
-![gel]({{ site.baseurl}}/images/gel-4-16-19.jpg "gel")
+![gel]({{ site.baseurl}}/images/gel-04-16-19.jpg "gel")
+
+Samples 67, 220, and 338 don't look like they are very good quality. I am going to try to re-extract from 67 and 220 because those are quite low. I should also try 338. This gel was run on the 18th, which is after I started the next extraction.
