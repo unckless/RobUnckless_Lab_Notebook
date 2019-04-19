@@ -69,8 +69,8 @@ tags: [ DNA, Porites, Pocillopora ]
 | 232 | 209 | 23359 | 74.2 | 73.8 | 74 |
 | 241 | 209 | 23359 | 44 | 43.8 | 43.9 |
 | 273 | 209 | 23359 | 9.22 | 9.14 | 9.8 |
-| 305 | 209 | 23359 | 54.2 | 53.8 | 54 |
+| 304 | 209 | 23359 | 54.2 | 53.8 | 54 |
 | 312 | 209 | 23359 | 29.4 | 29.2 | 29.5 |
 
 
-67 and 220 were re-dos, so there might not have been that much left in the first place. I need to do a gel to see how the quality is. 
+67 and 220 were re-dos, so there might not have been that much left in the first place. I need to do a gel to see how the quality is.
