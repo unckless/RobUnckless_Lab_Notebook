@@ -74,3 +74,11 @@ tags: [ DNA, Porites, Pocillopora ]
 
 
 67 and 220 were re-dos, so there might not have been that much left in the first place. I need to do a gel to see how the quality is.
+
+**Gel Verification**
+
+- A 1.5% agarose gel was ran to check the integrity of the genomic DNA
+- Following the PPP Lab [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/)
+- Samples 67 and 220 were not run on the gel
+
+![gel]({{ site.baseurl}}/images/gel-04-19-19.jpg "gel")
