@@ -81,4 +81,4 @@ tags: [ DNA, Porites, Pocillopora ]
 - Following the PPP Lab [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/)
 - Samples 67 and 220 were not run on the gel
 
-![gel]({{ site.baseurl}}/images/gel-04-19-19.jpg "gel")
+![gel]({{ site.baseurl}}/images/gel-4-19-19.jpg "gel")
