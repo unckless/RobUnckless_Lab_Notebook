@@ -42,5 +42,5 @@ For a 1% gel:
 28.	Wipe the imager with a Kimwipe and DI type II water
 
 29. An extra step can be to annotate your gel image ex:
-![gel]({{ site.baseurl}}/images/gel-4-19-19.jpg "gel")
+![gel]({{ site.baseurl}}/images/gel-4-18-19.jpg "gel")
 This can easily be done in something as simple as google slides
