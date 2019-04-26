@@ -11,7 +11,7 @@ tags: [ DNA, RNA , protocol ]
 1. Determine _n_ number: Number of samples + 2 + % error
 2. Create master mix of Qubit Buffer and Quant-IT Reagent
   - _n_ μl of Quant-IT Reagent
-  - 100 * _n_ μl of Buffer
+  - 199 * _n_ μl of Buffer
 3. Vortex and spin down master mix
 4. Set up thin walled tubes: enough for each of your samples plus 2 more for standards
 5. Add 190μl of master mix to the 2 tubes for the standards
