@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Continuing Through-put Mo'orea Coral Extractions Two
+title: Continuing Through-put Mo'orea Coral Extractions Three
 tags: [ DNA, Porites, Pocillopora ]
 ---
 
