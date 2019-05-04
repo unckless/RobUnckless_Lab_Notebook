@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Restriction Enzyme Digest Test for Mo'orea _Porites_ and _Pocillopora_ ddRAD and EpiRAD
+title: Restriction Enzyme Digest Test for Mo'orea Porites and Pocillopora ddRAD and EpiRAD
 tags: [ DNA, ddRAD, EpiRAD, Porites, Pocillopra ]
 ---
 
