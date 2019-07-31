@@ -9,8 +9,8 @@ tags: [ DNA, protocol, Sonication ]
 **Using two samples to test optimal time and intensity for shearing coral DNA for MBD library prep**
 
 Samples:  
-Acropora sperm # 221 (High molecular weight DNA)  
-Montipora soft homogenization # 1431 (smeared DNA)
+Acropora sperm # [221](https://echille.github.io/E.-Chille-Open-Lab-Notebook/Acropora-Larvae-DNA-RNA-Extraction-Batch-2/) (High molecular weight DNA)  
+Montipora soft homogenization # [1431](https://github.com/emmastrand/EmmaStrand_Notebook/blob/master/_posts/2019-06-06-Testing-Soft-and-Hard-Homogenization-Protocol.md) (smeared DNA)
 
 Using 1µg of DNA in 50µl of ultra pure water in [these tubes](https://www.fishersci.com/shop/products/brandtech-thin-wall-0-2ml-pcr-tubes-attached-caps-10/1388258#?keyword=781305)
 
