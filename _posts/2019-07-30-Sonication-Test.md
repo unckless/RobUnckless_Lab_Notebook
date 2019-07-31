@@ -23,7 +23,7 @@ Using 1µg of DNA in 50µl of ultra pure water in [these tubes](https://www.fish
 |221|7.69µl|42.31µl|13|
 1431|5.21µl|44.79µl|14|
 
-1. Used QSonica protocol to set up the sonicator
+1. Used [QSonica protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qsonica/) to set up the sonicator
 2. Set the amplitude to 25%
 3. Set the pulse to be 15 seconds on and 15 seconds off
 4. Used 3 different time setting to test what would give us shearing to about 500 basepairs (1 minute setting, 2.5 minute setting, and 1.5 minute settings)
@@ -41,7 +41,7 @@ Using 1µg of DNA in 50µl of ultra pure water in [these tubes](https://www.fish
 
 7. Visualization with D5000 tapes for the TapeStation 4200 ([protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/DNA-Tapestation/))
 
-**1 minute setting and 2.5 minute setting [results](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2019-07-30%20-%2013.26.32.pdf)** 
+**1 minute setting and 2.5 minute setting [results](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2019-07-30%20-%2013.26.32.pdf)**
 ![first]({{ site.baseurl}}/images/first-sonication-test.png "first")
 
 **1.5 minute setting [results](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2019-07-30%20-%2018.05.38.pdf)**
