@@ -40,7 +40,7 @@ tags: [ DNA, Porites, Pocillopora ]
 - Samples were votexed, spun down, and incubated at 55 degrees C for 5 hours shaking at 600rpm
 
 
-**Following DNA extraction went along exactly as [previous post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/8-Moorea-Coral-Extractions/)**
+**Following DNA extraction went along exactly as [previous post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/18-Moorea-Coral-Extractions/)**
 
 
 **Qubit**

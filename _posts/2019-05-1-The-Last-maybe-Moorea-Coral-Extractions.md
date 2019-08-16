@@ -53,7 +53,7 @@ _Astrangia samples_
 - 500µl of G-DNA binding buffer was added to each tube, vortexed, and spun down
 - Extraction then followed the same way as the Mo'orea samples
 
-**Following DNA extraction went along exactly as [previous post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/8-Moorea-Coral-Extractions/)**
+**Following DNA extraction went along exactly as [previous post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/18-Moorea-Coral-Extractions/)**
 
 
 

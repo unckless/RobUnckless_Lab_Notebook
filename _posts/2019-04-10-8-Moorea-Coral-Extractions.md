@@ -28,7 +28,7 @@ tags: [ DNA, Porites, Pocillopora ]
 
 **DNA Extraction**
 
-1. Centrifuged all tubes at 12,000 rcf for 1 minute to pellet any debris and beads that got through the sieve
+1. Centrifuged all tubes at 12,000 rcf for 1 minute to pellet any debris and beads 
 2. Removed supernatant into new 1.5mL tubes
 3. **Here the proper step is to add 1 volume G-DNA Binding Buffer, but 1 volume (~690µl) G-DNA Wash Buffer was added on accident, this mistake was not noticed until further steps down, but the entire extraction was still processed**
 4. 700µl of sample was added to the kit spin column and centrifuged at 12,000 rcf for 1 minute
