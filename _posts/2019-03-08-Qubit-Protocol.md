@@ -4,7 +4,7 @@ title: dsDNA and RNA Qubit Quantification Protocol
 tags: [ DNA, RNA , protocol ]
 ---
 
-### Broad Range dsDNA, Broad Range RNA, and High Sensitivity RNA
+### Broad Range dsDNA, High Sensitivity dsDNA, Broad Range RNA, and High Sensitivity RNA
 
 **All Steps are the same whichever quantification method you are using**
 
@@ -20,8 +20,6 @@ tags: [ DNA, RNA , protocol ]
 8. Add 1μl of sample to the corresponding thin walled sample tube
 9. Vortex and spin down all tubes
 10. Choose appropriate assay in the Qubit and read standard tubes
-11. If your standard values are not near the range of values in these graphs then your master mix was probably made wrong
-![Qubit Standards]({{ site.baseurl}}/images/standards.png "standards")
 11. Read each sample tube one at a time. Our settings are 1μl of sample and we want the output to be ng/μl
 12. Read your samples twice
 13. All components are safe and can be disposed of in the tip buckets or trash

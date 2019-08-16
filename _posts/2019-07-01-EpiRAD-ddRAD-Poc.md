@@ -4,12 +4,31 @@ title: EpiRAD ddRAD Mo'orea Pocillopora Prep and Protocol
 tags: [ EpiRAD, ddRAD, Moorea, Pocillopora, DNA ]
 ---
 
+# Mo'orea Connect Pocillopora (4 sites) EpiRAD ddRAD Library Prep Notebook and General Protocol
+
+### Goals:
+- Create and optimize an EpiRAD/ddRAD protocol for our lab
+- Test some samples from 4 out of 8 sites in Mo'orea with one species, _Pocillopora_, to see if there are patterns and if it is wise to move forward with prepping and sequencing all sites for both coral species, and potentially urchins and algae also taken from those sites
+
+**Protocol written by Maggie Schedl, Jon Puritz, and Hollie Putnam**  
+Protocols used for reference and guidence: [Notebook](http://onsnetwork.org/jdimond/2016/08/) from Jay Diamond, [Bead-in Protocol](https://docs.google.com/document/d/1T2B89UGMEoGwuLcm7Ru2biW9UM1TfACEntAWV-eF8yo/edit) from C. Hollenbeck, J. Puritz, S. Willis, T. Krabbenhoft, D. Portnoy and J. Gold, [the original RAD protocol](http://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0037135.s001) from Peterson et. al, and the [quaddRAD paper](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.14077).
 
 
+**This post contains information from this specific library prep, if you are looking for the blank version of this protocol, find it [here](https://docs.google.com/document/d/14OVrsnlNqQKNFmtDCV6DlMtYPsnlr8UPkut7DNYmVEY/edit), however it might be most informative to see a full example before going through with your own samples.**
 
 ### Outline
 
-[DNA Extraction and Quantification](#DNA-prep)  
+- [DNA extraction and quantification](#DNA-extraction)  
+- [Digestion simulation and sequencing planning](#Digestion-simulation-and-sequencing-planning)  
+- [Multiplexing planning](#Multiplexing-planning)  
+- [DNA prep and dilution](#DNA-prep)  
+- [Digestion](#Digestion)  
+- [Clean up and quant of digested samples](#Clean-up-and-quant-of-digested-samples)  
+- [Adapter ligation](#Adapter-ligation)  
+- [Pooling and two clean ups](#Pooling-and-two-clean-Ups)  
+- [BluePippin size selection](#BluePippin-size-selection)  
+- [Index addition and amplification](#Index-addition-and-amplification)  
+- [Final libraries quant and visualization](#Final-library-quant-and-visualization)
 
 
 
@@ -21,13 +40,19 @@ tags: [ EpiRAD, ddRAD, Moorea, Pocillopora, DNA ]
 
 
 
-### DNA Prep
 
-DNA was extracted from samples using a Zymo Kit and eluted in 100ul of 10mM Tris-HCl,    
-Optimal DNA quantity 500 ng, Acceptable range is 200-500 ng. If you use more than 500 ng that my exhaust the enzymes and lead to incomplete digestion  
-Optimal DNA quality high molecular weight > 10kb  
-Quantification can be done with the qubit protocol or with the plate reader and the AccueBlue assay  
+
+### DNA Extraction
+
+DNA was extracted from samples using a Zymo Kit and eluted in 100ul of 10mM Tris-HCl, see [this post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/18-Moorea-Coral-Extractions/) for how extractions were done, and these posts contain all extractions and tests: [1](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Eggs-Bundles-Moorea/), [2](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Test-Samples-2/), [3](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Testing-Moorea-Samples-3/), [4](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Dna-Only-Coral-and-Mussel-Test/), [5](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/8-Moorea-Coral-Extractions/), [6](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions/), [7](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions-more/), [8](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Even-More-Moorea-Coral-Extractions/), [9](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions-Four/), [10](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/The-Last-maybe-Moorea-Coral-Extractions/)
+
+Quantification can be done with the [qubit protocol]() or with the plate reader and the AccueBlue assay  
 To visualize DNA quality run a 1.5% agarose gel with a 1kb ladder, or run the genomic DNA TapeStation  
+
+### Digestion Simulation and Sequencing Planing
+
+
+
 
 1.Plan First!
 Plan plates for what samples get what restriction digest (can make separate plates for each type, or spilt a plate in half, etc. whatever makes sense for the number of samples you have), how many barcodes, and how many indexes you are going to use. If you have less than the maximum amount of samples we can mulitplex for one lane (4*12*12= 576), you want to balance maximizing diversity in the sequences you add (aka the more the better), but also save money by having as few pools as possible (number of pools determines how many size selections and how many QCs will be by the sequencing company, also want to minimize problems with size selection variability)
@@ -36,6 +61,14 @@ You can easily plan by dividing the number of samples you have by 46 (the maximu
 Choose 2 samples that have the highest starting concentration of DNA and replicate them across all pools
 
 2. DNA Dilution
+
+
+The optimal DNA quantity 500 ng, Acceptable range is 200-500 ng. If you use more than 500 ng that my exhaust the enzymes and lead to incomplete digestion.   
+Optimal DNA quality high molecular weight > 10kb  
+Quantification can be done with the qubit protocol or with the plate reader and the AccueBlue assay  
+To visualize DNA quality run a 1.5% agarose gel with a 1kb ladder, or run the genomic DNA TapeStation  
+
+
 After quantification, determine DNA quantity in each of the samples. Because you have to digest and prep all samples twice (one ddRAD and one EpiRAD sample) you need two aliquots of 250 ng of DNA
 Calculate volume of each sample needed for 250 ng and transfer that to a (new) 96 well plate, in the order you have planned above
 Calculate volume of water needed to add up to 50ul for each sample well
