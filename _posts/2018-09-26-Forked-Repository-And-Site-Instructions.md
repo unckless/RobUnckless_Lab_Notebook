@@ -51,6 +51,8 @@ author: Maggie Schedl
     - Avatar _This puts in an image you want, if you want just the profile picture on your GitHub account already you can right click on it to and copy the image link. If you want another one you can specify the path to that image._
     - All the social media _This is then put at the footer of all your pages._
 
+16. You also need to change the lines 44 and 50 in the _config.yml file. Change url: on 44 to equal "http://your-username.github.io" and delete what is after the words baseurl: on line 50
+
 16. It shouldn't be necessary to change any of the other sections, if you mess those up your site won't publish. Save this file, but that only saves it to your computer. We have to add it to Git and send it to GitHub before it will change anything online.
 
 17. In your terminal, making sure you are in the notebook directory:
@@ -58,7 +60,7 @@ author: Maggie Schedl
 
 18.`git commit -m "adding new config file"` _Commits your changes and gives a little description of what you changed. You always have to include a commit message, and it is helpful if later you need a specific version of a file and commits were well labeled_
 
-19. `git push origin master` _This pushes your changes to GitHub. Because this is your site and we set it to build from the master branch the origin is master.
+19. `git push origin master` _This pushes your changes to GitHub. Because this is your site and we set it to build from the master branch the origin is master._
 
 > _You may have to put in your login information if this is your first push. You can also set this up so you won't have to login again: `git config --global user.name "John Doe"` and `git config --global user.email johndoe@example.com`_
 
