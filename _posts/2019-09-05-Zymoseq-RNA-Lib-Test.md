@@ -189,4 +189,4 @@ D5000 TapeStation following [protocol](https://meschedl.github.io/MESPutnam_Open
 ![5]({{ site.baseurl}}/images/ZRibo-test-5.png "5")
 ![6]({{ site.baseurl}}/images/ZRibo-test-6.png "6")
 
-Full results PDFs [he](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2019-09-06%20-%2016.45.00.pdf)[re](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2019-09-06%20-%2017.03.12.pdf) 
+Full results PDFs [here](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2019-09-06%20-%2016.45.00.pdf) and [here](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2019-09-06%20-%2017.03.12.pdf) 
