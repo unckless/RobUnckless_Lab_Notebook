@@ -51,8 +51,10 @@ To visualize DNA quality run a 1.5% agarose gel with a 1kb ladder, or run the ge
 
 ### Digestion Simulation and Sequencing Planing
 
+See [this post]
 
 
+### Multiplexing Planing
 
 1.Plan First!
 Plan plates for what samples get what restriction digest (can make separate plates for each type, or spilt a plate in half, etc. whatever makes sense for the number of samples you have), how many barcodes, and how many indexes you are going to use. If you have less than the maximum amount of samples we can mulitplex for one lane (4*12*12= 576), you want to balance maximizing diversity in the sequences you add (aka the more the better), but also save money by having as few pools as possible (number of pools determines how many size selections and how many QCs will be by the sequencing company, also want to minimize problems with size selection variability)
@@ -60,7 +62,7 @@ We have 12 i5 (for PstI cutsite) adapters with unique barcodes, 4 i7 (MspI/HpaII
 You can easily plan by dividing the number of samples you have by 46 (the maximum number of unique i5-i7 combinations we have), and that will tell you how many pools you can have (up to 12), and that each will have 46 samples. Make adjustments as necessary and see example at the end of the protocol
 Choose 2 samples that have the highest starting concentration of DNA and replicate them across all pools
 
-2. DNA Dilution
+### DNA Prep
 
 
 The optimal DNA quantity 500 ng, Acceptable range is 200-500 ng. If you use more than 500 ng that my exhaust the enzymes and lead to incomplete digestion.   
