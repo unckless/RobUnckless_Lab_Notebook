@@ -19,7 +19,7 @@ Protocols used for reference and guidence: [Notebook](http://onsnetwork.org/jdim
 ### Outline
 
 - [DNA extraction and quantification](#DNA-extraction)  
-- [Digestion simulation and sequencing planning](#Digestion-simulation-and-sequencing-planning)  
+- [Digestion test, simulation and sequencing planning](#Digestion-simulation-and-sequencing-planning)  
 - [Multiplexing planning](#Multiplexing-planning)  
 - [DNA prep and dilution](#DNA-prep)  
 - [Digestion](#Digestion)  
@@ -29,29 +29,20 @@ Protocols used for reference and guidence: [Notebook](http://onsnetwork.org/jdim
 - [BluePippin size selection](#BluePippin-size-selection)  
 - [Index addition and amplification](#Index-addition-and-amplification)  
 - [Final libraries quant and visualization](#Final-library-quant-and-visualization)
+- [Notes and glossary](#Notes-and-glossary)
 
 
 
-
-
-
-
-
-
-
-
-
-
-### DNA Extraction
+### DNA extraction
 
 DNA was extracted from samples using a Zymo Kit and eluted in 100ul of 10mM Tris-HCl, see [this post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/18-Moorea-Coral-Extractions/) for how extractions were done, and these posts contain all extractions and tests: [1](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Eggs-Bundles-Moorea/), [2](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Test-Samples-2/), [3](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Testing-Moorea-Samples-3/), [4](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Dna-Only-Coral-and-Mussel-Test/), [5](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/8-Moorea-Coral-Extractions/), [6](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions/), [7](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions-more/), [8](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Even-More-Moorea-Coral-Extractions/), [9](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions-Four/), [10](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/The-Last-maybe-Moorea-Coral-Extractions/)
 
 Quantification can be done with the [qubit protocol]() or with the plate reader and the AccueBlue assay  
 To visualize DNA quality run a 1.5% agarose gel with a 1kb ladder, or run the genomic DNA TapeStation  
 
-### Digestion Simulation and Sequencing Planing
+### Digestion test, simulation and sequencing planing
 
-See [this post]
+See [this post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Rad-Frag-Simulate/)
 
 
 ### Multiplexing Planing
@@ -62,31 +53,28 @@ We have 12 i5 (for PstI cutsite) adapters with unique barcodes, 4 i7 (MspI/HpaII
 You can easily plan by dividing the number of samples you have by 46 (the maximum number of unique i5-i7 combinations we have), and that will tell you how many pools you can have (up to 12), and that each will have 46 samples. Make adjustments as necessary and see example at the end of the protocol
 Choose 2 samples that have the highest starting concentration of DNA and replicate them across all pools
 
+![1]({{ site.baseurl}}/images/multiplex_plan.gif "1")
+
 ### DNA Prep
 
+Notes
+- The optimal DNA quantity 500 ng, Acceptable range is 200-500 ng. If you use more than 500 ng that my exhaust the enzymes and lead to incomplete digestion.   
+- Optimal DNA quality high molecular weight > 10kb  
+- Quantification can be done with the qubit protocol or with the plate reader and the AccueBlue assay  
+- To visualize DNA quality run a 1.5% agarose gel with a 1kb ladder, or run the genomic DNA TapeStation  
 
-The optimal DNA quantity 500 ng, Acceptable range is 200-500 ng. If you use more than 500 ng that my exhaust the enzymes and lead to incomplete digestion.   
-Optimal DNA quality high molecular weight > 10kb  
-Quantification can be done with the qubit protocol or with the plate reader and the AccueBlue assay  
-To visualize DNA quality run a 1.5% agarose gel with a 1kb ladder, or run the genomic DNA TapeStation  
+After quantification, determine DNA quantity in each of the samples. We were limited by one sample that had low concentration and quantity of DNA, so for each digestion we started with 250ng.  
+Because all samples needed to be prepped twice (one ddRAD and one EpiRAD sample) you need two aliquots of 250 ng of DNA.
 
+**Steps**
 
-After quantification, determine DNA quantity in each of the samples. Because you have to digest and prep all samples twice (one ddRAD and one EpiRAD sample) you need two aliquots of 250 ng of DNA
-Calculate volume of each sample needed for 250 ng and transfer that to a (new) 96 well plate, in the order you have planned above
+1. Calculate volume of each sample needed for 250 ng and transfer that to a (new) 96 well plate, in the order you have planned above
 Calculate volume of water needed to add up to 50ul for each sample well
 Example calculations:
-DNA ng/μl quant
-Volume to 250 ng
-Volume water to 50ul
-1X KAPA Pure Bead volume
-Total volume in well
 
-
-5.83
-250/5.83= 42.88μl
-50-42.88= 7.12μl
-1*50= 50μl
-50-µl
+|DNA ng/μl quant|Volume to 250 ng|Volume water to 50ul|Total volume in well|1X KAPA Pure Bead volume|
+|----|----|----|----|---|
+|5.83|250/5.83= 42.88μl|50-42.88= 7.12μl|50μl|1*50= 50μl
 
 
 
