@@ -69,102 +69,111 @@ Because all samples needed to be prepped twice (one ddRAD and one EpiRAD sample)
 **Steps**
 
 1. Calculate volume of each sample needed for 250 ng and transfer that to a (new) 96 well plate, in the order you have planned above
-Calculate volume of water needed to add up to 50ul for each sample well
+2. Calculate volume of water needed to add up to 50ul for each sample well
 Example calculations:
 
 |DNA ng/μl quant|Volume to 250 ng|Volume water to 50ul|Total volume in well|1X KAPA Pure Bead volume|
 |----|----|----|----|---|
 |5.83|250/5.83= 42.88μl|50-42.88= 7.12μl|50μl|1*50= 50μl
 
+A table like this can be printed out for checking off everytime something is added and for help when adding different samples to different locations on plates
+![table]({{ site.baseurl}}/images/digestdilu.png "table")
 
+The volume of KAPA pure beads needed for a 1X cleanup is 50ul. With a multichannel add 50ul of beads to each well in the plate with sample. You can pipette out the right amount of beads + some error into a trough. Try to avoid creating bubbles when adding beads and pipette up and down at least 10 times to mix. Perform a bead clean1 on the plates:
 
-The volume of KAPA pure beads needed for a 1X cleanup is 50ul. With a multichannel add 50ul of beads to each well in the plate with sample. You can pipette out the right amount + some error into a trough for the beads. Try to avoid creating bubbles when adding beads and pipette up and down at least 10 times to mix.
-Perform a bead clean1 on the plates:
-After adding the beads, let the plate shake at room temp for 15 minutes
-Place plate on the magnet stand and wait until the solution becomes clear
-Remove most of the clear liquid with the multichannel (~90μl)
+3. After adding the beads, let the plate shake at room temp for 15 minutes
+3. Placed plate on the magnet stand and waited until the solution becomes clear
+4. Removed most of the clear liquid with the multichannel (~90μl)
 Note that you may not be able to remove all of the supernatant without disturbing the beads. Only remove the supernatant that does not contain beads. Supernatant with beads can be dispensed over the wall of the tube to encourage binding
-Add 200μl FRESH2 80% EtOH to each well while keeping it on the magnet
-Remove 180μl of the EtOH
-Add 100μl FRESH 80% EtOH to each well
-Remove ALL EtOH carefully from each well
-Let samples sit for ~30 seconds, DO NOT LET BEADS DRY TO CRACKED but you want the EtOH to evaporate
-Take the plate off magnet and elute in 68μl Nuclease-Free H20 (for a 80ul digestion reaction
-3. Digestion
-Make master mixes4 for the planned digests: ddRAD and EpiRAD restriction enzymes5 Depending on how the plate is set up you could be doing one or both
-n = number of samples, plus pipette error. Ex 50 samples and 3 for error
-ddRAD
-10μl Cutsmart Buffer * n =
-1μl PstI * n =
-1μl MspI * n =
-EpiRAD
-10μl Cutsmart Buffer * n =
-1μl PstI * n =
-1μl HpaII * n =
+5. Added 200μl FRESH2 80% EtOH to each well while keeping it on the magnet
+6. Removed 180μl of the EtOH
+7. Added 100μl FRESH 80% EtOH to each well
+8. Removed ALL EtOH carefully from each well, using the p20 multichannel to get residual EtOH out
+9. Let samples sit for ~30 seconds, DO NOT LET BEADS DRY TO CRACKED but you want the EtOH to evaporate
+10. Took the plate off magnet and eluted in 68μl Nuclease-Free H20 (for a 80ul digestion reaction
 
-Add 12μl of the appropriate master mix to each sample well, for a total reaction volume of 80ul
-Pipette to mix and make sure all samples are at the bottom of the wells, our large centrifuge can hold 96 well plates (please balance). Use the foil stickers always to cover the plates
-Put plates in Thermocyclers in the 12 hour digest program under the MES account (login 8888)
+### Digestion
 
-4. Bead clean-up of digested samples
-Kapa Beads - (Kapa KK8002)
-To the 80μl left, add 1.8X FRESH PEG NaCl6 and pipette to mix (144μl)
-Incubate plate on shaker for 15 minutes
-Place plate on the magnet stand and wait until the solution becomes clear
-Remove most of the clear liquid with the multichannel (~200μl)
+1. Made master mixes for the planned digests: ddRAD and EpiRAD restriction enzymes (Example here is for plate 3, the same as in the multiplexing example above)  
+
+Depending on how the plate is set up you could be doing one or both
+
+2. Calculated the n number: n = number of samples, plus pipette error. 40 ddRAD samples + 5 for error is 45. 42 EpiRAD samples + 5 for error is 47.   
+  - ddRAD  
+10μl Cutsmart Buffer * 45 = 450μl  
+1μl PstI * 45 = 45μl  
+1μl MspI * 45 = 45μl  
+
+  - EpiRAD  
+10μl Cutsmart Buffer * 47 = 470μl  
+1μl PstI * 47 = 47μl  
+1μl HpaII * 47 = 47μl
+
+3. Added 12μl of the appropriate master mix to each sample well, for a total reaction volume of 80ul
+4. Pipetted to mix and made sure all samples are at the bottom of the wells, our large centrifuge can hold 96 well plates (please balance). Used the foil stickers always to cover the plates
+5. Put the plate in Thermocyclers in the 12 hour digest program under the MES account (login 8888) overnight
+
+### Cleanup and quant of digested samples
+
+**Cleanup**
+1. To the 80μl in each well, added 1.8X FRESH PEG NaCl and pipetted to mix (144μl)
+2. Incubated plate on shaker for 15 minutes
+3. Placed plate on the magnet stand and waited until the solution becomes clear (this took a while, the magnet plate fits on the shaker and the shaking will help the magnetizing of the beads)
+4. Removed most of the clear liquid with the multichannel (~200μl)
 Note that you may not be able to remove all of the supernatant without disturbing the beads. Only remove the supernatant that does not contain beads. Supernatant with beads can be dispensed over the wall of the tube to encourage binding
-Add 200μl FRESH2 80% EtOH to each well while keeping it on the magnet
-Remove 180μl of the EtOH
-Add 100μl FRESH 80% EtOH to each well
-Remove ALL EtOH carefully from each well
-Let samples sit for ~30 seconds, DO NOT LET BEADS DRY TO CRACKED but you want the EtOH to evaporate
-Remove the plate from the magnet and resuspend the beads in 33μl of Nuclease-Free H20 pipetting up and down many times to make sure the beads are fully mixed
-Centrifuge the plate to bring the beads to the bottom and keep the beads in!
+5. Added 200μl FRESH2 80% EtOH to each well while keeping it on the magnet
+6. Removed 180μl of the EtOH
+7. Added 100μl FRESH 80% EtOH to each well
+8. Remove ALL EtOH carefully from each well, using the p20 multichannel to get residual EtOH out
+9. Let samples sit for ~30 seconds, DO NOT LET BEADS DRY TO CRACKED but you want the EtOH to evaporate
+10. Removed the plate from the magnet and resuspended the beads in 33μl of Nuclease-Free H20 pipetting up and down many times to make sure the beads are fully mixed
+11. Centrifuged the plate to bring the beads to the bottom and keep the beads in!
 
-5. Quantify Digested DNA
-Use Broad Range AccuBlue on the plate reader to quantify how much DNA is in the samples. Take the buffer and standards out of the fridge at LEAST 30 min before use, it needs to get up to room temp, keep it in a drawer because the components are light sensitive
-Prepare working solution.
-If you have about a full plate: 20mL buffer, 200ul dye, 200ul enhancer in a 50mL conical, cover with foil because the dye and enhancer are light sensitive
-If you have a different number of samples: 200ul buffer per sample + 2ul dye per sample + 2ul enhancer per sample plus error (also include each standard you’re going to do here as a sample)
-Vortex to mix, and the large centrifuge can be used if needed
-Determine standards needed: probably not all of them (they go up to 200ng/ul, way higher than what we put in), which gives you room to do replicates of standards. For this protocol, two of the 0ng/ul, 2 of the 2ng/ul, two of the 6.25ng/ul, two of the 12.5ng/ul and one 25ng/ul standard are enough for a standard curve in the range the samples should be at
-For each well in a black 96 well microplate that is going to be used (the standards plus your samples), pipette 200ul of the working solution. Use a trough and a multichannel.
-If you’re not copying the exact layout of your plate into this one, its best to draw it out to plan (and later on to put into the plate reader program)
-Add 10ul of the appropriate standard to the standard wells
-Add 2ul of sample to the appropriate well (this is different then the accublue protocol, they want you to use 10ul!)
-Cover the top with foil to block light and incubate on the shaker for 10 minutes
-Turn on the plate reader and wait for it to start up (when it is done the little hatch opens and stays open)
-Open the Gen5 software and chose the BiotiumBroadRangeDNA.prt protocol
-Click on the plate icon to set the plate layout
-Set the replicates for standards as where they are in the plate, as well as the samples, if you don’t use all the options on the program for standards that is fine, click ok if the program gives you an “error” because of this
+**Quantification**   
+Used Broad Range AccuBlue on the plate reader to quantify how much DNA is in the samples.
+1. Took the buffer and standards out of the fridge at LEAST 30 min before use, it needs to get up to room temp, keep it in a drawer because the components are light sensitive
+2. Prepared working solution:  
+About a full plate is: 20mL buffer, 200ul dye, 200ul enhancer in a 50mL conical, cover with foil because the dye and enhancer are light sensitive  
+If you have a different number of samples: 200ul buffer per sample + 2ul dye per sample + 2ul enhancer per sample plus error (also include each standard you’re going to do here as a sample)  
+3. Vortexed to mix, and the large centrifuge can be used if needed
+4. Determined standards needed: probably not all of them (they go up to 200ng/ul, way higher than what was put in), which gives you room to do replicates of standards. For this protocol, two of the 0ng/ul, 2 of the 2ng/ul, two of the 6.25ng/ul, two of the 12.5ng/ul and one 25ng/ul standard are enough for a standard curve in the range the samples should be at
+5. For each well in a black 96 well microplate that is going to be used (the standards plus your samples), pipetted 200ul of the working solution. It is best to use a trough and a multichannel. _Be mindful if the way you set up the microplate is a different layout than the way the sample plate is set up_
+6. Added 10ul of the appropriate standard to the standard wells
+7. Added **2ul** of sample to the appropriate well (this is different then the accublue protocol, they want you to use 10ul!)
+8. Covered the top with foil to block light and incubated on the shaker for 10 minutes (this also helped mix the samples with the solution)
+9. Turned on the plate reader and waited for it to start up (when it is done the little hatch opens and stays open)
+10. Opened the Gen5 software and chose the BiotiumBroadRangeDNA.prt protocol
+11. Click on the plate icon to set the plate layout
+12. Set the replicates for standards as where they are in the plate, as well as the samples, if you don’t use all the options on the program for standards that is fine, click ok if the program gives you an “error” because of this
 The standards are set as the number of ng added to each well, aka the 6.25ng/ul standard is set as 62.5 because that is how many ng were added in the 10ul. The standard curve is made by calculating the ng/well
-Any well that has nothing in it do not click anything leave it white
-Once the bulb has warmed up place the black plate into the holder, remove foil, and press start
-It takes less than a minute to read, and once done click on statistics and graphs tags to look at the readings
-First open excel on the computer (for some reason if you don’t have the excel welcome window already open, the Gen5 software won’t let you copy to excel)
-Press the little excel sheet button on anything in the Gen5 file that you want to copy (the graph of the curve, the statistics table with the ng/well column (from dropdown menu), the table with the curve fitting details, and it will all get copied to one excel file
-Then you can make another column in the excel doc for ng/ul because you know you added 2ul of sample to each well
+13. Set your samples where they are in your plate, **make sure you know what SP1,SP2, SPetc are in how they pertain to your actual sample #s**
+![2]({{ site.baseurl}}/images/platereadersetup.png "2")
+13. Any well that has nothing in it do not click anything leave it white
+14. Once the bulb has warmed up place the black plate into the holder, remove foil, and press start
+15. It takes less than a minute to read, and once done click on statistics and graphs tags to look at the readings
+16. First open excel on the computer (for some reason if you don’t have the excel welcome window already open, the Gen5 software won’t let you copy to excel)
+17. Press the little excel sheet button on anything in the Gen5 file that you want to copy (the graph of the curve, the statistics table with the ng/well column (from dropdown menu), the table with the curve fitting details, and it will all get copied to one excel file
+18. Then you can make another column in the excel doc for ng/ul because you know you added 2ul of sample to each well to make that calculation
 
- 6. Ligation of Adapters8
-Make sure all barcodes and indices are planned at/before this step9
-Place the plate with the digested DNA and beads on the magnet and wait until the liquid goes clear
-Remove all the of the clear liquid into a NEW 96 well plate keeping the same sample orientation
-Make sure adapters are diluted down to a working stock solution.
-See calculator here:
-Or here for specific to this protocol
-Sample by sample, add back the required volume of sample for 100 ng into the same well with the beads it was in before. It is imperative that you do not mix up wells and samples
-For this, making a print out of the plate with the volume needed for each well is a really good idea, same with for the amount of water needed in the next step. It is completely likely that almost all wells will require a different volume and it can get confusing very fast.
-For samples that need it, add enough nuclease-free H20 to equal 31μl for a planned reaction volume of 40ul
-Create the ligation master mix on ice:
-4μl  of 10X ligation buffer * n =
-1μl of T4 ligase*  *n =
-Add this last. It is always good practice to add enzymes last to any master mix. Make sure the ligase is 400 units!
-Add 5μl of the master mix to each well
-2μl of the correct planned i5 adapter working stock (~1uM)* and 2μl off the correct planned i7 adapter working stock
-*The desired total volume of P2 adapter working stock for all samples can be created as needed from 40uM annealed adapter stock using the spreadsheet provided by Peterson et al. and added as the first ingredient in the master mix. Use the above spreadsheet for this!! Very important if you don’t dilute your adapters your libraries are useless
-If you planned the plates in a way that strip tubes of adapters can be aliquoted and then multi-channel pipetted into the wells, that is a quicker way to added to the plate
-Cover and spin down plate
-Incubate plate at room temp (~23℃) for 3 hours, then heat kill the ligase by at temp increase to 65℃ for 10 minutes, then cool the solution at 2°C per 90 seconds until it reaches room temperature, then go to a hold at 4°C. This is in a program called RAD LIGA under the JONP login
+### Ligation of adapters
+Make sure all barcodes and indices are planned at/before this step!!
+
+1. Placed the plate with the digested DNA and beads on the magnet and wait3e until the liquid goes clear
+2. Remove all the of the clear liquid into a NEW 96 well plate keeping the same sample orientation
+3. Make sure adapters are diluted down to a working stock solution.  
+See calculator [here](https://docs.google.com/spreadsheets/d/1fcg6mYESNEvi8jfu3T1Bbue-rsVqgeC6RIXjzT9CRrc/edit?hl=en_US&hl=en_US#gid=2)
+Or [here](https://docs.google.com/spreadsheets/d/1NCe0Z7OXf5TyB4whK0I21QpIbObW1LC-3crCui5m02U/edit#gid=0) for specific to this protocol
+4. Sample by sample, add back the required volume of sample for 100 ng into the same well with the beads it was in before. **It is imperative that you do not mix up wells and samples**  
+  - For this, making a print out of the plate with the volume needed for each well is a really good idea, same with for the amount of water needed in the next step. It is completely likely that almost all wells will require a different volume and it can get confusing very fast.
+5. For samples that need it, add enough nuclease-free H20 to equal 31μl for a planned reaction volume of 40ul
+6. Create the ligation master mix on ice:
+  - 4μl  of 10X ligation buffer * n =
+  - 1μl of T4 ligase*  *  n = _Add this last. It is always good practice to add enzymes last to any master mix. Make sure the ligase is 400,000 units/mL!_
+7. Add 5μl of the master mix to each well
+2μl of the correct planned i5 adapter **working stock (~1uM)** and 2μl off the correct planned i7 adapter **working stock** (see calculators for making working stocks, Very important if you don’t dilute your adapters your libraries are useless)
+8. If you planned the plates in a way that strip tubes of adapters can be aliquoted and then multi-channel pipetted into the wells (carefully!!!), that is a quicker way the adapters were added to multiple wells at the same time. Strip tubes were made for i5 adapters to be added horizontally (each column a different one), same with the i7 adapters being added horizontally (each row a different one). Again, I found it easier to print out maps of the plate and where each adapter was going so that I could double check and highlight when added.
+9. Covered and spun down plate
+10. Incubated plate at room temp (~23℃) for 3 hours, then heat kill the ligase by at temp increase to 65℃ for 10 minutes, then cool the solution at 2°C per 90 seconds until it reaches room temperature, then go to a hold at 4°C. This is in a program called RAD LIGA under the JONP thermocycler (login 1234)
 
 7. Pooling Samples and 2 Clean-ups
 After testing for ligation efficency7 samples can be pooled by index to be added11  and cleaned. For each plate you should do a ligation efficiency test, if the adapters did not ligate, then pooling loses all samples!
