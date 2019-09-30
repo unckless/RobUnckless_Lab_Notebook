@@ -177,7 +177,7 @@ After some consulting of the previous [results](https://meschedl.github.io/MESPu
 
 **D5000 TapeStation**
 
-See the full report [here](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/WGBS-attempt-9-19-19.pdf)
+See the full report [here](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2019-09-27%20-%2009.39.40.pdf) [here](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2019-09-27%20-%2010.03.23.pdf)
 
 Representative tapes:
 
