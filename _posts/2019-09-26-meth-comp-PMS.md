@@ -140,7 +140,8 @@ Samples need to all include 1ng of sample, .05ng spike-in, and water up to 20µl
 
 After some consulting of the previous [results](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/WGBS-MC-1/), we considered that maybe there had not been enough primer in the reaction to get good amplification. So for these libraries, 1µl of each i5 and i7 primer was added. And the 2X LibraryAmp Master Mix was increased in volume to match the total volume (14µl).
 
-- In PCR tubes combined the following:  
+- In PCR tubes combined the following:   
+
 |sample|volume DNA|volume LibAmp MM|volume i5 primer|volume i7 primer|
 |---|---|----|----|----|
 |1041 WGBS|12µl|14µl|1µl 1|1µl 1|
