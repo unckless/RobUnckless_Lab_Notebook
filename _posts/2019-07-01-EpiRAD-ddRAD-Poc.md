@@ -18,19 +18,19 @@ Protocols used for reference and guidence: [Notebook](http://onsnetwork.org/jdim
 
 ### Outline
 
-- [DNA extraction and quantification](#DNA-extraction)  
-- [Digestion test, simulation and sequencing planning](#Digestion-simulation-and-sequencing-planning)  
-- [Multiplexing planning](#Multiplexing-planning)  
-- [DNA prep and dilution](#DNA-prep)  
-- [Digestion](#Digestion)  
-- [Clean up and quant of digested samples](#Clean-up-and-quant-of-digested-samples)  
-- [Adapter ligation](#Adapter-ligation)  
-- [Pooling and two clean ups](#Pooling-and-two-clean-ups)  
-- [BluePippin size selection](#BluePippin-size-selection)  
-- [Index addition and amplification](#Index-addition-and-amplification)  
-- [Final libraries quant and visualization](#Final-library-quant-and-visualization)
-- [Notes and glossary](#Notes-and-glossary)
-- [Materials](#Materials)
+- [DNA extraction and quantification](###DNA-extraction)  
+- [Digestion test, simulation and sequencing planning](###Digestion-simulation-and-sequencing-planning)  
+- [Multiplexing planning](###Multiplexing-planning)  
+- [DNA prep and dilution](###DNA-prep)  
+- [Digestion](###Digestion)  
+- [Clean up and quant of digested samples](###Clean-up-and-quant-of-digested-samples)  
+- [Adapter ligation](###Adapter-ligation)  
+- [Pooling and two clean ups](###Pooling-and-two-clean-ups)  
+- [BluePippin size selection](###BluePippin-size-selection)  
+- [Index addition and amplification](###Index-addition-and-amplification)  
+- [Final libraries quant and visualization](###Final-library-quant-and-visualization)
+- [Notes and glossary](###Notes-and-glossary)
+- [Materials](###Materials)
 
 
 
@@ -88,7 +88,8 @@ mv results results-poc
 **Output: 22679 fragments written**  
 This means that there are 22679 fragments digested by both PstI and MspI in this _Pocillopora_ genome that are between 150 and 700bp long.
 
-Ideally 20,000-30,000 fragments is what you want to see in a range... but a size selection range from 150-700 is really wide and that is not something you want to sequence. Smaller fragments will amplify more and get sequenced more, so you are basically biasing your library by making a range so large. So I ran this simulation 20+ more times with a bunch of different combinations of upper and lower bounds in that range to try to optimize and build data for what our options were.   
+Ideally 20,000-30,000 fragments is what you want to see in a range... but a size selection range from 150-700 is really wide and that is not something you want to sequence. Smaller fragments will amplify more and get sequenced more, so you are basically biasing your library by making a range so large. So I ran this simulation 20+ more times with a bunch of different combinations of upper and lower bounds in that range to try to optimize and build data for what our options were. Ex. 150-500bps
+![actual-range]({{ site.baseurl}}/images/pocillopora150-500frag.jpg "actual-range")   
 Because _Pocillopora damicornis_ is not the same species as who we are actually working with I also did real digestions to help determine what size selection window we should use.
 
 **Digestion tests**  
@@ -112,14 +113,16 @@ Because _Pocillopora damicornis_ is not the same species as who we are actually 
 - All samples were run on a genomic DNA [tapestation run](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/DNA-Tapestation/)
 - Used the TapeStation Analysis software to get the values for the [locus count estimate spreadsheet](https://docs.google.com/spreadsheets/d/14IWxju2VZqXoB0rnVpCoyl0ZAqcs2PjEx_zUTnquA7Y/edit#gid=0) green boxes
 ![sheet]({{ site.baseurl}}/images/locus-count.png "sheet")  
-  - Created a region in one of the double digested samples for PstI and MspI that spans a hypothetical size selection range, ex. 200-500 base pairs. Used this region that to get the % of total value as well as the mean size in the selected region
+  - Created a region in one of the double digested samples for PstI and MspI that spans a hypothetical size selection range, ex. 350-500 base pairs. Used this region that to get the % of total value as well as the mean size in the selected region
+  ![double]({{ site.baseurl}}/images/poc-double.png "double")
   - Created a region in one of the single digested samples for PstI that encompasses the entire size range and get the mean fragment size from that region
   - Created a region in one of the single digested samples for MspI that encompasses the entire size range and get the mean fragment size from that region for enzyme 2
   - Used an estimate of the genome size
 - This will give an estimate for the number of sequence-able fragments in the range selected in the double digest sample
 - Repeated the selection in the double digest sample for all of the same size selection ranges tested in the simulation above
 ![ss]({{ site.baseurl}}/images/size-select-options.png "ss")
-
+- Clearly there is a difference between both estimation methods, but taking the average of the two hopefully is the most accurate.
+- We wanted between 20,000 and 30,000 fragments, and wanted a size selection window of less than 400bp (too broad). The BluePippin cassettes we had purchase had an upper limit of 600bp so that influenced the decision of insert size choice. The size selection step happens after adapter ligation, which adds about 93bp to each fragment. So we made the upper limit to our size range 593 and the lower limit 243. These number correspond to the actual insert DNA size range of 150-500bp. 
 
 ### Multiplexing Planing
 
