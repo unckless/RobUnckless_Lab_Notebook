@@ -79,7 +79,7 @@ plot=NO                                    # statistical graphs: YES or NO
 verbose=YES                                 # additional job status info during the run: YES or NO
 trace=NO                                    # additional info useful to the developer team: YES or NO
 ```
-I saved and ran the script. You need to make a directory first called results it will right into. Then I moved the results to a different name.
+You need to make a directory first called results it will right into. Then I saved and ran the script. Then I moved the results to a different name.
 ```
 mkdir results
 python rsitesearch.py
@@ -126,13 +126,23 @@ Because _Pocillopora damicornis_ is not the same species as who we are actually 
 
 # Multiplexing Planing
 
-1.Plan First!
-Plan plates for what samples get what restriction digest (can make separate plates for each type, or spilt a plate in half, etc. whatever makes sense for the number of samples you have), how many barcodes, and how many indexes you are going to use. If you have less than the maximum amount of samples we can mulitplex for one lane (4*12*12= 576), you want to balance maximizing diversity in the sequences you add (aka the more the better), but also save money by having as few pools as possible (number of pools determines how many size selections and how many QCs will be by the sequencing company, also want to minimize problems with size selection variability)
-We have 12 i5 (for PstI cutsite) adapters with unique barcodes, 4 i7 (MspI/HpaII cutsite) adapters with unique barcodes and 12 paired index sets to be added on in PCR amplification. This allows for 576 different unique combinations. If both digest types are going to be sequenced on the same lane then you’ll need double the number of samples combinations
-You can easily plan by dividing the number of samples you have by 46 (the maximum number of unique i5-i7 combinations we have), and that will tell you how many pools you can have (up to 12), and that each will have 46 samples. Make adjustments as necessary and see example at the end of the protocol
-Choose 2 samples that have the highest starting concentration of DNA and replicate them across all pools
+It is always best to **plan first** before starting library prep on any of the samples. Even before planning, it is best to estimate how many samples you can run on one sequencing lane and still get the desired coverage you want. This is based off of what type of sequencing you are going to do, your estimate of fragments from 1 sample, what you want the coverage to be, and an estimate of how many reads that will be junk. Multiply the total number of reads by the % of reads that will be good, divide that by the number of fragments and finally divide that number by the coverage.
+![plan]({{ site.baseurl}}/images/seq-plan.png "plan")
+For _Pocillopora_, 274 libraries per lane is the limit. Because each sample needs to be digested with regular ddRAD enzymes and methylation specific enzymes, that's actually a limit of 137 samples.
 
+For this project only 56 samples were prepped so far, making 112 paired libraries. Additionally, 2 technical replicates were used in each pool making the total number of unique libraries 124. It is good to have at least one sample that you duplicate across each planned pool for a technical replicate. Chose a sample that has **a lot** of DNA because it needs to be the same sample in each pool. If you have flexibility in your ability to multiplex and how many samples to sequence do more technical replicates.
+
+Each library to be made (2 per sample) needs a unique set of adapters and index pairs so that individual can be found bioinformatically after sequencing. Adapters are ligated to the sticky ends of double digested DNA and contain a unique barcode of know DNA sequence. The i5 adapters ligate to the PstI cutsite. The i7 adapters ligate to the MspI and HpaII cutsite. We have 12 unique i5 adapter barcodes and 4 unique i7 adapter barcodes (for this project we only had 6 i5s at the time). That means you can create 48 unique combinations with just the adapters, and that the maximum number of libraries in one pool is 48. A good way to determine how many pools to have is to divide the number of libraries you are going to make by 48.   
+
+For this project we could only do 24 libraries in a pool (only 6 i5s) so I divided the number of samples (112) by 24. This rounds out to 5 pools, before adding technical replicates. When adding in another 10 samples for 2 TRs per pool, that comes to 122 samples, which divided by 24 is over 5, so 6 pools actually needed to be made, making the full number of libraries 124. It's not an exact science to know how many pools to make. You want to balance maximizing diversity in the sequences you add (aka the more different ones the better), but also save money by having as few pools as possible (number of pools determines how many size selections you do and how many QCs will be by the sequencing company, also want to minimize problems with size selection variability). You also want to plan the easiest plate set up possible because things can get confusing quickly with so many samples.
+
+After size selection during PCR and index sequence is added to each library in a pool. We have 12 unique paired indexes. I planned things in a way that pool one got index pair 501-701, pool two got index pair 502-702 and so on.
+
+Planning the plate layout is also very important. You can chose to do separate plates for separate digestions (ddRAD vs EpiRAD), or if you do them on the same plate have them separated. This generally makes your pools also separated by what type of digestion they got. Because a plate has 12 wells going across the top and 8 down the side, it is easiest to plan for samples getting different i5 adapters in each column, and different i7 adapters in each row. The i7 adapters will have to be repeated for the 5th, 6ht, 7th, and 8th rows. This easily makes 2 even pools on one plate. If you don't have that many samples per pool it is completely fine to leave some wells blank. See gif below for a visual representation of how the multiplexing was planned for one plate of the _Pocillopora_ samples. Pools had between 20 and 22 samples in them, so there were blank spaces on the plates.
 ![1]({{ site.baseurl}}/images/RAD-Plan.gif "1")
+You should also make a spreadsheet like this that clearly states what samples get what adapters, what indexes, and what the basepairs are for the barcodes and indexes.
+![plam]({{ site.baseurl}}/images/fullmap.png "plam")
+
 
 # DNA Prep
 
@@ -243,7 +253,7 @@ for general calculation or [here](https://docs.google.com/spreadsheets/d/1NCe0Z7
 5. For samples that need it, add enough nuclease-free H20 to equal 31μl for a planned reaction volume of 40ul
 6. Create the ligation master mix on ice (Ex. n = 90):
   - 4μl  of 10X ligation buffer * 90 = 360μl
-  - 1μl of T4 ligase*  *  90 = 90μl _Add this last. It is always good practice to add enzymes last to any master mix. Make sure the ligase is 400,000 units/mL!_
+  - 1μl of T4 ligase  *  90 = 90μl _Add this last. It is always good practice to add enzymes last to any master mix. Make sure the ligase is 400,000 units/mL!_
 7. Added 5μl of the ligation master mix to each well
 8. Added 2μl of the correct planned i5 adapter **working stock (~1uM)** and 2μl off the correct planned i7 adapter **working stock** (see calculators for making working stocks, Very important if you don’t dilute your adapters your libraries are useless)
   - If you planned the plates in a way that strip tubes of adapters can be aliquoted and then multi-channel pipetted into the wells, that is a quicker way the adapters were added to multiple wells at the same time.   
@@ -266,7 +276,7 @@ for general calculation or [here](https://docs.google.com/spreadsheets/d/1NCe0Z7
 3. Ran two different PCR programs: the 12 cycle RAD LIG TEST program and the 30 cycle RAD LIG TEST program (under the JONP user in the thermocycler (login 1234))
 4. Ran both PCR reactions (all 20μl, unpurified) on an [agarose gel](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/) with a 1kb plus ladder.
 5. The 30 and/or 12 cycle PCRs should appear on the gel, indicating an increase in DNA concentration resulting from effecting priming of the fragments (and hence effective adapter ligation).
-Generally, the 30 cycle PCR shows a shift in distribution towards smaller fragments owing to the more efficient amplification of smaller fragments (and hence also why we only use 12 cycle PCRs in the final protocol steps as to minimize bias that comes with PCRs). The 12 cycle PCR may also show some unincorporated adapter dimers.
+Generally, the 30 cycle PCR shows a shift in distribution towards smaller fragments owing to the more efficient amplification of smaller fragments (and hence also why we only use 12 cycle PCRs in the final protocol steps as to minimize bias that comes with PCRs). The 12 cycle PCR may also show some unincorporated primer dimers.
 ![ligtest]({{ site.baseurl}}/images/POCpool2ligtest.jpg "ligtest")
 
 **Pooling**
