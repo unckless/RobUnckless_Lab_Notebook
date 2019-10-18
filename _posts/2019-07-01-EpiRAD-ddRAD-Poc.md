@@ -18,30 +18,30 @@ Protocols used for reference and guidence: [Notebook](http://onsnetwork.org/jdim
 
 ### Outline
 
-- [DNA extraction and quantification](###DNA-extraction)  
-- [Digestion test, simulation and sequencing planning](###Digestion-simulation-and-sequencing-planning)  
-- [Multiplexing planning](###Multiplexing-planning)  
-- [DNA prep and dilution](###DNA-prep)  
-- [Digestion](###Digestion)  
-- [Clean up and quant of digested samples](###Clean-up-and-quant-of-digested-samples)  
-- [Adapter ligation](###Adapter-ligation)  
-- [Pooling and two clean ups](###Pooling-and-two-clean-ups)  
-- [BluePippin size selection](###BluePippin-size-selection)  
-- [Index addition and amplification](###Index-addition-and-amplification)  
-- [Final libraries quant and visualization](###Final-library-quant-and-visualization)
-- [Notes and glossary](###Notes-and-glossary)
-- [Materials](###Materials)
+- [DNA extraction and quantification](#DNA-extraction)  
+- [Digestion test, simulation and sequencing planning](#Digestion-simulation-and-sequencing-planning)  
+- [Multiplexing planning](#Multiplexing-planning)  
+- [DNA prep and dilution](#DNA-prep)  
+- [Digestion](#Digestion)  
+- [Clean up and quant of digested samples](#Clean-up-and-quant-of-digested-samples)  
+- [Adapter ligation](#Adapter-ligation)  
+- [Pooling and two clean ups](#Pooling-and-two-clean-ups)  
+- [BluePippin size selection](#BluePippin-size-selection)  
+- [Index addition and amplification](#Index-addition-and-amplification)  
+- [Final libraries quant and visualization](#Final-library-quant-and-visualization)
+- [Notes and glossary](#Notes-and-glossary)
+- [Materials](#Materials)
 
 
 
-### DNA extraction
+# DNA extraction
 
 DNA was extracted from samples using a Zymo Kit and eluted in 100ul of 10mM Tris-HCl, see [this post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/18-Moorea-Coral-Extractions/) for how extractions were done, and these posts contain all extractions and tests: [1](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Eggs-Bundles-Moorea/), [2](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Test-Samples-2/), [3](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Testing-Moorea-Samples-3/), [4](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Dna-Only-Coral-and-Mussel-Test/), [5](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/8-Moorea-Coral-Extractions/), [6](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions/), [7](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions-more/), [8](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Even-More-Moorea-Coral-Extractions/), [9](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions-Four/), [10](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/The-Last-maybe-Moorea-Coral-Extractions/)
 
 Quantification can be done with the [qubit protocol]() or with the plate reader and the AccueBlue assay  
 To visualize DNA quality run a 1.5% agarose gel with a 1kb ladder, or run the genomic DNA TapeStation  
 
-### Digestion test, simulation and sequencing planing
+# Digestion test, simulation and sequencing planing
 
 **Digestion Simulation**  
 See [this post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Rad-Frag-Simulate/) for a full account of simulating digestion done for this project.  
@@ -124,7 +124,7 @@ Because _Pocillopora damicornis_ is not the same species as who we are actually 
 - Clearly there is a difference between both estimation methods, but taking the average of the two hopefully is the most accurate.
 - We wanted between 20,000 and 30,000 fragments, and wanted a size selection window of less than 400bp (too broad). The BluePippin cassettes we had purchase had an upper limit of 600bp so that influenced the decision of insert size choice. The size selection step happens after adapter ligation, which adds about 93bp to each fragment. So we made the upper limit to our size range 593 and the lower limit 243. These number correspond to the actual insert DNA size range of 150-500bp.
 
-### Multiplexing Planing
+# Multiplexing Planing
 
 1.Plan First!
 Plan plates for what samples get what restriction digest (can make separate plates for each type, or spilt a plate in half, etc. whatever makes sense for the number of samples you have), how many barcodes, and how many indexes you are going to use. If you have less than the maximum amount of samples we can mulitplex for one lane (4*12*12= 576), you want to balance maximizing diversity in the sequences you add (aka the more the better), but also save money by having as few pools as possible (number of pools determines how many size selections and how many QCs will be by the sequencing company, also want to minimize problems with size selection variability)
@@ -134,7 +134,7 @@ Choose 2 samples that have the highest starting concentration of DNA and replica
 
 ![1]({{ site.baseurl}}/images/RAD-Plan.gif "1")
 
-### DNA Prep
+# DNA Prep
 
 Notes
 - The optimal DNA quantity 500 ng, Acceptable range is 200-500 ng. If you use more than 500 ng that my exhaust the enzymes and lead to incomplete digestion.   
@@ -171,7 +171,7 @@ Note that you may not be able to remove all of the supernatant without disturbin
 9. Let samples sit for ~30 seconds, DO NOT LET BEADS DRY TO CRACKED but you want the EtOH to evaporate
 10. Took the plate off magnet and eluted in 68μl Nuclease-Free H20 (for a 80ul digestion reaction
 
-### Digestion
+# Digestion
 
 1. Made master mixes for the planned digests: ddRAD and EpiRAD restriction enzymes (Example here is for plate 3, the same as in the multiplexing example above)  
 Depending on how the plate is set up you could be doing one or both
@@ -188,7 +188,7 @@ Depending on how the plate is set up you could be doing one or both
 4. Pipetted to mix and made sure all samples are at the bottom of the wells, our large centrifuge can hold 96 well plates (please balance). Used the foil stickers always to cover the plates
 5. Put the plate in Thermocyclers in the 12 hour digest program under the MES account (login 8888) overnight (37 degrees C for 12 hours then 4 degrees hold)
 
-### Cleanup and quant of digested samples
+# Cleanup and quant of digested samples
 
 **Cleanup**
 1. To the 80μl in each well, added 1.8X FRESH PEG NaCl and pipetted to mix (144μl)
@@ -221,7 +221,7 @@ If you have a different number of samples: 200ul buffer per sample + 2ul dye per
 11. Click on the plate icon to set the plate layout
 12. Set the replicates for standards as where they are in the plate, as well as the samples, if you don’t use all the options on the program for standards that is fine, click ok if the program gives you an “error” because of this
 The standards are set as the number of ng added to each well, aka the 6.25ng/ul standard is set as 62.5 because that is how many ng were added in the 10ul. The standard curve is made by calculating the ng/well
-13. Set your samples where they are in your plate, **make sure you know what SP1,SP2, SPetc are in how they pertain to your actual sample #s**
+13. Set your samples where they are in your plate, **make sure you know what SP1,SP2, SP etc are in how they pertain to your actual sample #s**
 ![2]({{ site.baseurl}}/images/platereadersetup.png "2")
 13. Any well that has nothing in it do not click anything leave it white
 14. Once the bulb has warmed up place the black plate into the holder, remove foil, and press start
@@ -230,7 +230,7 @@ The standards are set as the number of ng added to each well, aka the 6.25ng/ul 
 17. Press the little excel sheet button on anything in the Gen5 file that you want to copy (the graph of the curve, the statistics table with the ng/well column (from dropdown menu), the table with the curve fitting details, and it will all get copied to one excel file
 18. Then you can make another column in the excel doc for ng/ul because you know you added 2ul of sample to each well to make that calculation
 
-### Ligation of adapters
+# Ligation of adapters
 Make sure all barcodes and indices are planned at/before this step!!
 1. Placed the plate with the digested DNA and beads on the magnet and wait3e until the liquid goes clear
 2. Remove all the of the clear liquid into a NEW 96 well plate keeping the same sample orientation
@@ -251,7 +251,7 @@ for general calculation or [here](https://docs.google.com/spreadsheets/d/1NCe0Z7
 9. Covered with foil and spun down plate
 10. Incubated plate at room temp (~23℃) for 3 hours, then heat kill the ligase by at temp increase to 65℃ for 10 minutes, then cool the solution at 2°C per 90 seconds until it reaches room temperature, then go to a hold at 4°C. This is in a program called RAD LIGA under the JONP user in the thermocycler (login 1234)
 
-### Pooling and two clean ups
+# Pooling and two clean ups
 
 **Test for ligation efficiency**  
 1. Purified the ligation control sample with 1.5X room-temp. KAPA Pure beads (40uL rxn X1.5=60μl) and two 80% ethanol washes as above. Resuspended and eluted beads in 20μl nuclease-free water.
@@ -294,7 +294,7 @@ Generally, the 30 cycle PCR shows a shift in distribution towards smaller fragme
   - Why 60μl? Putting all of your elution on the Pippin Prep is risky. One, it’s always a good idea to have some left over at every step in case you need to repeat it, or compare it to a later library. Two, in some cases, it appears the Pippin is sensitive to the amount of DNA loaded (despite a rating of up to 5ug)
 20. Put tubes back onto the magnet and wait until the liquid goes clear, then removed supernatant and transferred to a new tube for each pool
 
-### BluePippin Size Selection
+# BluePippin Size Selection
 
 1. Transferred half (30μl) of each ligation pool (in 1XTE) to a new labeled tube (1 tube per pool/index). This should correspond to 20-25ng of barcoded DNA per sample.
   - It is recommended not using more than ¼ to ½ of the pooled ligation in any run of the Pippin due to variations in product size between runs, and occasional machine failures. This preserves the ability to run the ligations one or more additional times to achieve the desired size fractionation
@@ -331,7 +331,7 @@ Generally, the 30 cycle PCR shows a shift in distribution towards smaller fragme
 Use [HS dsDNA Qubit protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/) but use 2μl of digested DNA for each pool
 This is going to be a small amount because you removed a lot of your sample, less than a ng/ul
 
-### Index addition and amplification
+# Index addition and amplification
 1. For each pool: set up 6 PCR reactions
 2. Made a master mix separate for each pool, with it's specific primer/index pair. Example: pool 2 had index pair 502 and 702   
   - 10µl of 2X KAPA HiFi Hot Start Ready Mix * 6.1 = 61µl
@@ -356,7 +356,7 @@ This is going to be a small amount because you removed a lot of your sample, les
 12. Took tubes of the magnet rack and resuspended the beads in 35μl nuclease-free water and incubated the tubes shaking for 5 minutes
 13. Placed the tubes back in the magnet, and waited until the liquid goes clear. Removed all clear liquid and put into new tubes. These are the libraries!!
 
-### Final library quant and visualization
+# Final library quant and visualization
 
 1. Used the [BR dsDNA Qubit protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/) to get the ng/μl of library. Run this twice, as in re-make the standards and new sample tubes
 2. Analyze the accuracy of the Pippin Prep and the addition of the flowcell and primer sequences by running a [TapeStation](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/DNA-Tapestation/) on all the samples.  
@@ -366,7 +366,7 @@ The PCR reaction adds 55bp of Illumina flowcell annealing sequences. Thus, libra
 Final libraries look weird because it isn't going to be a normal distribution of fragment sizes, what is important is that all your pools have basically the same size range, ex here as in ~250-650bp.
 
 
-### Notes and glossary
+# Notes and glossary
 
 **KAPA Pure Beads**: Beads are used to clean enzymes and any other impurities out of the solution with your DNA. The beads will bind the DNA in a concentration and size dependent and you can wash out all the other molecules in the tube (ex. Buffer, restriction enzymes etc.) then you can elute the DNA from the beads. The higher the ratio of bead solution/PEG the more smaller fragments are retained. The beads are magnetic and will be pulled to the side of the tube with a magnet stand allowing you to take out the other liquid in the tube.  
 **FRESH 80%EtOH**: Make your EtOH fresh that day. After 24 hours your 80% won’t be 80% anymore and will have become more hydrated.  
@@ -382,4 +382,4 @@ Final libraries look weird because it isn't going to be a normal distribution of
 **BluePippin:** The BluePippin (or other Pippin machine, e.g. Pippin Prep) is our preferred method of size selection, and the one recommended by Peterson et al. (2012). It is advertised as producing more consistent and precise size selection than gel extraction. It should be noted, however, that the efficacy of the Pippin MAY be affected by the mass of DNA loaded and temperature.  In particular, we have found that runs made at different temperatures produce size fractions different from what is targeted, with optimal conditions around 68-70F (warmer produces larger fragments, cooler produces smaller fragments). However, we recommend that users confirm the size of the Pippin eluate (or more commonly, the post-Pippin PCR product, allowing for the increase in fragment length due to the PCR primers; see below) on a TapeStation or similar apparatus, and adjust the targeted size as necessary. Also, increasing the size of the target window may help to create more overlap between runs with some discrepancy between target midpoint and median fragment size produced.  
 **Library:** A collection of sequencing-competent fragments.
 
-### Materials
+# Materials
