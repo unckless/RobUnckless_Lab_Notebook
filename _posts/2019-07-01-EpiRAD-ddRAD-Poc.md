@@ -1,14 +1,14 @@
 ---
 layout: post
-title: EpiRAD ddRAD Mo'orea Pocillopora Prep and Protocol
-tags: [ EpiRAD, ddRAD, Moorea, Pocillopora, DNA ]
+title: EpiRAD ddRAD Mo'orea Pocillopora Library Prep and Protocol
+tags: [ EpiRAD, ddRAD, Moorea, Pocillopora, DNA, Protocol ]
 ---
 
 # Mo'orea Connect Pocillopora (4 sites) EpiRAD ddRAD Library Prep Notebook and General Protocol
 
 ### Goals:
 - Create and optimize an EpiRAD/ddRAD protocol for our lab
-- Test some samples from 4 out of 8 sites in Mo'orea with one species, _Pocillopora_, to see if there are patterns and if it is wise to move forward with prepping and sequencing all sites for both coral species, and potentially urchins and algae also taken from those sites
+- Test some samples from 4 out of 8 sites in Mo'orea with one species, _Pocillopora verruosa_, to see if there are patterns and if it is wise to move forward with prepping and sequencing all sites for both coral species, and potentially urchins and algae also taken from those sites
 
 **Protocol written by Maggie Schedl, Jon Puritz, and Hollie Putnam**  
 Protocols used for reference and guidence: [Notebook](http://onsnetwork.org/jdimond/2016/08/) from Jay Diamond, [Bead-in Protocol](https://docs.google.com/document/d/1T2B89UGMEoGwuLcm7Ru2biW9UM1TfACEntAWV-eF8yo/edit) from C. Hollenbeck, J. Puritz, S. Willis, T. Krabbenhoft, D. Portnoy and J. Gold, [the original RAD protocol](http://journals.plos.org/plosone/article/file?type=supplementary&id=info:doi/10.1371/journal.pone.0037135.s001) from Peterson et. al, and the [quaddRAD paper](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.14077).
@@ -25,11 +25,12 @@ Protocols used for reference and guidence: [Notebook](http://onsnetwork.org/jdim
 - [Digestion](#Digestion)  
 - [Clean up and quant of digested samples](#Clean-up-and-quant-of-digested-samples)  
 - [Adapter ligation](#Adapter-ligation)  
-- [Pooling and two clean ups](#Pooling-and-two-clean-Ups)  
+- [Pooling and two clean ups](#Pooling-and-two-clean-ups)  
 - [BluePippin size selection](#BluePippin-size-selection)  
 - [Index addition and amplification](#Index-addition-and-amplification)  
 - [Final libraries quant and visualization](#Final-library-quant-and-visualization)
 - [Notes and glossary](#Notes-and-glossary)
+- [Materials](#Materials)
 
 
 
@@ -42,7 +43,82 @@ To visualize DNA quality run a 1.5% agarose gel with a 1kb ladder, or run the ge
 
 ### Digestion test, simulation and sequencing planing
 
-See [this post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Rad-Frag-Simulate/)
+**Digestion Simulation**  
+See [this post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Rad-Frag-Simulate/) for a full account of simulating digestion done for this project.  
+I downloaded [ddRADSeqTools](https://github.com/GGFHF/ddRADseqTools) from Github by clicking Clone or Download, and select Download Zip  
+Then I unzipped it and made the scrips executable by using the commands they have in the [manual](https://github.com/GGFHF/ddRADseqTools/blob/master/Package/manual/ddRADseqTools-manual.pdf)
+```
+unzip ddRADseqTools-master.zip
+cd ddRADseqTools-master/Package
+chmod u+x *.py
+conda install NumPy #also the manual says you need this program installed
+```
+We used the [_Pocillopora damicornis_ genome](https://www.ncbi.nlm.nih.gov/genome/22550) for running the simulations. It's not the same species but a closely related one so hopefully the information is transferrable.   
+The program uses a text file with all the restriction enzymes and their cut sites as a reference, I went through the file and saw that they didn't have MspI so I added it in
+```
+nano restrictionsites.txt
+
+MspI;C*CGG # add this in alphabetical order
+```
+Then the rsitesearch.py script uses the rsitesearch-config.txt to get all the information on what genome and enzymes to use. This is the only script I used, because it "extracts the fragments resulting from an _in silico_ digestion of a reference genome with two particular restriction endonucleases."
+
+I edited the config file for _Pocillopora_ first using a minimum fragment size bound of 150bp and a maximum bound of fragment sizes to be 700bp. Basically any other size are not going to be things you want to sequence.
+```
+nano  rsitesearch-config.txt
+
+genfile=./poc_GCF_003704095.1_ASM370409v1_genomic.fna.gz             # add in the pocillopora genome, the . because I linked it to this directory
+fragsfile=./results/fragments.fasta         # path of the fragments file
+rsfile=./restrictionsites.txt               # path of the restriction sites file
+enzyme1=PstI                              # id of 1st restriction enzyme used in rsfile or its restriction site sequence
+enzyme2=MspI                                # id of 2nd restriction enzyme used in rsfile or its restriction site sequence
+minfragsize=150                             # lower boundary of loci fragment's size
+maxfragsize=700                             # upper boundary of loci fragment's size
+fragstfile=./results/fragments-stats.txt    # path of the output statistics file
+fragstinterval=25                           # interval length of fragment size
+plot=NO                                    # statistical graphs: YES or NO
+verbose=YES                                 # additional job status info during the run: YES or NO
+trace=NO                                    # additional info useful to the developer team: YES or NO
+```
+I saved and ran the script. You need to make a directory first called results it will right into. Then I moved the results to a different name.
+```
+mkdir results
+python rsitesearch.py
+mv results results-poc
+```
+**Output: 22679 fragments written**  
+This means that there are 22679 fragments digested by both PstI and MspI in this _Pocillopora_ genome that are between 150 and 700bp long.
+
+Ideally 20,000-30,000 fragments is what you want to see in a range... but a size selection range from 150-700 is really wide and that is not something you want to sequence. Smaller fragments will amplify more and get sequenced more, so you are basically biasing your library by making a range so large. So I ran this simulation 20+ more times with a bunch of different combinations of upper and lower bounds in that range to try to optimize and build data for what our options were.   
+Because _Pocillopora damicornis_ is not the same species as who we are actually working with I also did real digestions to help determine what size selection window we should use.
+
+**Digestion tests**  
+
+- Digestion tests consisted of two digestions with each individual enzyme, and two digestions with both enzymes. Two samples were used to make sure results were consistent
+- Samples that were extras or had a lot of DNA were used for the tests
+- Samples were bead cleaned (see copious examples of how to do that below) and resuspended in 68μl
+- For single digestion with PstI:
+  - 10μl Cutsmart buffer
+  - 1μl nuclease-free water
+  - 1μl PstI enzyme
+- For single digestion with MspI:
+  - 10μl Custmart buffer
+  - 1μl nuclease-free water
+  - 1μl MspI enzyme
+- For double digestions with PstI and MspI
+  - 10μl Custmart buffer
+  - 1μl PstI enzyme
+  - 1μl MspI enzyme
+- All samples were digested for 12 hours (37 degrees C for 12 hours then a 4 degree hold)
+- All samples were run on a genomic DNA [tapestation run](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/DNA-Tapestation/)
+- Used the TapeStation Analysis software to get the values for the [locus count estimate spreadsheet](https://docs.google.com/spreadsheets/d/14IWxju2VZqXoB0rnVpCoyl0ZAqcs2PjEx_zUTnquA7Y/edit#gid=0) green boxes
+![sheet]({{ site.baseurl}}/images/locus-count.png "sheet")  
+  - Created a region in one of the double digested samples for PstI and MspI that spans a hypothetical size selection range, ex. 200-500 base pairs. Used this region that to get the % of total value as well as the mean size in the selected region
+  - Created a region in one of the single digested samples for PstI that encompasses the entire size range and get the mean fragment size from that region
+  - Created a region in one of the single digested samples for MspI that encompasses the entire size range and get the mean fragment size from that region for enzyme 2
+  - Used an estimate of the genome size
+- This will give an estimate for the number of sequence-able fragments in the range selected in the double digest sample
+- Repeated the selection in the double digest sample for all of the same size selection ranges tested in the simulation above
+![ss]({{ site.baseurl}}/images/size-select-options.png "ss")
 
 
 ### Multiplexing Planing
@@ -53,7 +129,7 @@ We have 12 i5 (for PstI cutsite) adapters with unique barcodes, 4 i7 (MspI/HpaII
 You can easily plan by dividing the number of samples you have by 46 (the maximum number of unique i5-i7 combinations we have), and that will tell you how many pools you can have (up to 12), and that each will have 46 samples. Make adjustments as necessary and see example at the end of the protocol
 Choose 2 samples that have the highest starting concentration of DNA and replicate them across all pools
 
-![1]({{ site.baseurl}}/images/multiplex_plan.gif "1")
+![1]({{ site.baseurl}}/images/RAD-Plan.gif "1")
 
 ### DNA Prep
 
@@ -95,23 +171,19 @@ Note that you may not be able to remove all of the supernatant without disturbin
 ### Digestion
 
 1. Made master mixes for the planned digests: ddRAD and EpiRAD restriction enzymes (Example here is for plate 3, the same as in the multiplexing example above)  
-
 Depending on how the plate is set up you could be doing one or both
-
-2. Calculated the n number: n = number of samples, plus pipette error. 40 ddRAD samples + 5 for error is 45. 42 EpiRAD samples + 5 for error is 47.   
+2. Calculated the n number: n = number of samples, plus pipette error. Ex. 40 ddRAD samples + 5 for error is 45. 42 EpiRAD samples + 5 for error is 47.   
   - ddRAD  
 10μl Cutsmart Buffer * 45 = 450μl  
 1μl PstI * 45 = 45μl  
 1μl MspI * 45 = 45μl  
-
   - EpiRAD  
 10μl Cutsmart Buffer * 47 = 470μl  
 1μl PstI * 47 = 47μl  
 1μl HpaII * 47 = 47μl
-
 3. Added 12μl of the appropriate master mix to each sample well, for a total reaction volume of 80ul
 4. Pipetted to mix and made sure all samples are at the bottom of the wells, our large centrifuge can hold 96 well plates (please balance). Used the foil stickers always to cover the plates
-5. Put the plate in Thermocyclers in the 12 hour digest program under the MES account (login 8888) overnight
+5. Put the plate in Thermocyclers in the 12 hour digest program under the MES account (login 8888) overnight (37 degrees C for 12 hours then 4 degrees hold)
 
 ### Cleanup and quant of digested samples
 
@@ -157,155 +229,154 @@ The standards are set as the number of ng added to each well, aka the 6.25ng/ul 
 
 ### Ligation of adapters
 Make sure all barcodes and indices are planned at/before this step!!
-
 1. Placed the plate with the digested DNA and beads on the magnet and wait3e until the liquid goes clear
 2. Remove all the of the clear liquid into a NEW 96 well plate keeping the same sample orientation
 3. Make sure adapters are diluted down to a working stock solution.  
 See calculator [here](https://docs.google.com/spreadsheets/d/1fcg6mYESNEvi8jfu3T1Bbue-rsVqgeC6RIXjzT9CRrc/edit?hl=en_US&hl=en_US#gid=2)
-Or [here](https://docs.google.com/spreadsheets/d/1NCe0Z7OXf5TyB4whK0I21QpIbObW1LC-3crCui5m02U/edit#gid=0) for specific to this protocol
-4. Sample by sample, add back the required volume of sample for 100 ng into the same well with the beads it was in before. **It is imperative that you do not mix up wells and samples**  
+for general calculation or [here](https://docs.google.com/spreadsheets/d/1NCe0Z7OXf5TyB4whK0I21QpIbObW1LC-3crCui5m02U/edit#gid=0) for specific to this protocol
+4. Sample by sample, add back the required volume of sample for 100 ng into the same well with the beads it was in before. **It is imperative that you do not mix up wells and samples**  For one sample per plate, make an extra ligation well with the correct amount of DNA and water. Chose a sample that has enough DNA. This sample will be used up for a ligation efficiency test.
   - For this, making a print out of the plate with the volume needed for each well is a really good idea, same with for the amount of water needed in the next step. It is completely likely that almost all wells will require a different volume and it can get confusing very fast.
+  ![plates]({{ site.baseurl}}/images/water-DNA.png "plates")
 5. For samples that need it, add enough nuclease-free H20 to equal 31μl for a planned reaction volume of 40ul
-6. Create the ligation master mix on ice:
-  - 4μl  of 10X ligation buffer * n =
-  - 1μl of T4 ligase*  *  n = _Add this last. It is always good practice to add enzymes last to any master mix. Make sure the ligase is 400,000 units/mL!_
-7. Add 5μl of the master mix to each well
-2μl of the correct planned i5 adapter **working stock (~1uM)** and 2μl off the correct planned i7 adapter **working stock** (see calculators for making working stocks, Very important if you don’t dilute your adapters your libraries are useless)
-8. If you planned the plates in a way that strip tubes of adapters can be aliquoted and then multi-channel pipetted into the wells (carefully!!!), that is a quicker way the adapters were added to multiple wells at the same time. Strip tubes were made for i5 adapters to be added horizontally (each column a different one), same with the i7 adapters being added horizontally (each row a different one). Again, I found it easier to print out maps of the plate and where each adapter was going so that I could double check and highlight when added.
-9. Covered and spun down plate
-10. Incubated plate at room temp (~23℃) for 3 hours, then heat kill the ligase by at temp increase to 65℃ for 10 minutes, then cool the solution at 2°C per 90 seconds until it reaches room temperature, then go to a hold at 4°C. This is in a program called RAD LIGA under the JONP thermocycler (login 1234)
+6. Create the ligation master mix on ice (Ex. n = 90):
+  - 4μl  of 10X ligation buffer * 90 = 360μl
+  - 1μl of T4 ligase*  *  90 = 90μl _Add this last. It is always good practice to add enzymes last to any master mix. Make sure the ligase is 400,000 units/mL!_
+7. Added 5μl of the ligation master mix to each well
+8. Added 2μl of the correct planned i5 adapter **working stock (~1uM)** and 2μl off the correct planned i7 adapter **working stock** (see calculators for making working stocks, Very important if you don’t dilute your adapters your libraries are useless)
+  - If you planned the plates in a way that strip tubes of adapters can be aliquoted and then multi-channel pipetted into the wells, that is a quicker way the adapters were added to multiple wells at the same time.   
+  Strip tubes were made for i5 adapters to be added horizontally (each column a different one), same with the i7 adapters being added horizontally (each row a different one). Again, I found it easier to print out maps of the plate and where each adapter was going so that I could double check and highlight when added.
+9. Covered with foil and spun down plate
+10. Incubated plate at room temp (~23℃) for 3 hours, then heat kill the ligase by at temp increase to 65℃ for 10 minutes, then cool the solution at 2°C per 90 seconds until it reaches room temperature, then go to a hold at 4°C. This is in a program called RAD LIGA under the JONP user in the thermocycler (login 1234)
 
-7. Pooling Samples and 2 Clean-ups
-After testing for ligation efficency7 samples can be pooled by index to be added11  and cleaned. For each plate you should do a ligation efficiency test, if the adapters did not ligate, then pooling loses all samples!
-Base the number of pools off your earlier planning
-For each pool: Transfer the full 40μl of ligation reaction (times the number of wells you are pooling), including the beads to a single 2mL tube. It might help to pipette mix first to make sure to transfer them all (pools might be a few # of samples different, so add them up individually)
-For each pool: split the 2mL tube into 4 tubes with equal volume in each, using a p200 pipette 50μl to make sure each tube has the same volume (again, pools will be slightly different volumes so calculate the amount in each tube separately).
-Add 1.5X PEG-NaCl to each aliquot tube and pipette to mix. This number will change depending on the number of samples per pool
-Incubate plate on shaker for 15 minutes
-Place tubes on the magnet bar (long one) and wait until the solution goes clear. You can pipette to encourage the beads to move to the magnet
-Remove as much clear liquid as you can without removing any beads (~540μl)
-Add 1000μl FRESH2 80% EtOH to each tube while keeping it on the magnet
-Remove 900μl of the EtOH
-Add 1000μl FRESH 80% EtOH to each tube
-Remove ALL EtOH carefully from each tube
-Let samples sit for ~2 minutes, DO NOT LET BEADS DRY TO CRACKED but you want the EtOH to evaporate
-Remove tubes from magnet and add 40μl of nuclease-free H2O water to each tube, mix by pipetting, and incubate for 5 minutes on the shaker to make sure all the beads are separated from the tube wall
-Recombine the 4 separated tubes back together into one tube (1 for each pool)
-Add 1.5X PEG-NaCl (240μl) to each tube, mix by pipetting, and incubate on a shaker for 5 minutes
-Put the tubes on the magnet, wait until the liquid becomes clear, and remove as much of the clear liquid as you can
-Add 1000μl FRESH2 80% EtOH to each tube while keeping it on the magnet
-Remove 900μl of the EtOH
-Add 1000μl FRESH 80% EtOH to each tube
-Remove ALL EtOH carefully from each tube
-Let samples sit for ~2 minutes, DO NOT LET BEADS DRY TO CRACKED but you want the EtOH to evaporate
-Remove tubes from magnet and add 60μl of 1X TE buffer to each tube and pipette to mix. Incubate for 5 minutes on the shaker
-Why 60μl? Putting all of your elution on the Pippin Prep is risky. One, it’s always a good idea to have some left over at every step in case you need to repeat it, or compare it to a later library. Two, in some cases, it appears the Pippin is sensitive to the amount of DNA loaded (despite a rating of up to 5ug)
-Put tubes back onto the magnet and wait until the liquid goes clear, then remove supernatant and transfer to a new tube
+### Pooling and two clean ups
 
-8. BluePippin12 Size Selection
-Transfer half (30μl) of each ligation pool (in 1XTE) to a new labeled tube (1 tube per pool/index). This should correspond to 20-25ng of barcoded DNA per sample.
-We recommend not using more than ¼ to ½ of the pooled ligation in any run of the Pippin due to variations in product size between runs, and occasional machine failures. This preserves the ability to run the ligations one or more additional times to achieve the desired size fractionation
-Follow the BluePippin protocol, make sure the buffer and marker are out at room temp before starting
-Mix each 30μl of pooled ligations (in 1X TE) with 10μl of Marker V1. Vortex briefly and quick spin to collect
-Prep basket to bring upstairs to the GSC: p20 pipette and tips, 1 extra cassettes than you need just in case one continuously fails tests, marker and buffer, samples, gloves, pamphlet about the bluepippin, tubes for storing the sample after size selection, 0.1% tween, good vibes
-Calibrate the machine: place the calibration fixture (in the drawer stored in a sock) on the electrodes, close the lid and press calibrate
-Take out cassette and inspect carefully, tap away any bubbles behind the elution chambers, make note if this cassette has some used wells, look to see if all buffer chambers are full, look for breaks or cracks in the gel
-Place in nest and remove stickers
-Replace all the buffer in the elution wells with 40μl of fresh electrophoresis buffer, you have to use the p20 here because the tips are the only ones thin enough
-Check sample well buffer levels and perform the continuity test (must pass all lanes you are going to use, if some lanes have been run before it’s ok if those fail, if it fails unused lanes, remove and replace all buffer in elution wells and try test again)
-Remove 40μl of buffer from each sample well to be used and replace with the 40uL of sample/Marker V1 solution
-Select program in the software or go to the protocol manager tab and create a new one
-Make sure reference is set to internal for all lanes, if some lanes are not to be used turn the reference off on just those lanes
-Make sure the range of bp is what you want (ex for pocillopora it is 243-593bp)
-Make sure marker on the top dropdown window is V1!
-Re-inspect the settings on the main page and name lanes if you want to. Press start if all is good
-The program will stop when elution is finished, so even though it says it will go 8 hours, it will stop at ~17% “done”
-Remove the entire volume from the elution wells and place into new tubes, volumes range between ~35-50ul. Add 40ul 0.1% tween to each elution well, wait 1 minute, and remove into separate tubes. In theory a % of the sample is recovered with a rinse with tween
-Review the run log to ensure that the standards were observed, if it didn’t detect peaks then it won’t elute that lane ever, so you might as well just stop it. Also look for spikes in the voltage early in the run: voltage near or above 2.5mV cause the DNA to run at unpredictable rates (despite the internal standards). If spikes are observed, check the size of the final library (post-PCR) and/or the pre-PCR elution on the TapeStation
+**Test for ligation efficiency**  
+1. Purified the ligation control sample with 1.5X room-temp. KAPA Pure beads (40uL rxn X1.5=60μl) and two 80% ethanol washes as above. Resuspended and eluted beads in 20μl nuclease-free water.
+2. Prepared 2 PCR reactions on ice for the test ligation as follows using any pair of forward and reverse primers
+  - Made PCR master mix with:  
+   4μl nuclease-free water * 2.2 = 8.4μl  
+   10μl KAPA hot start ready mix (2X) * 2.2 = 22μl  
+   .5μl forward primer 20uM * 2.2 = 1.1μl  
+   .5μl reverse primer 20uM * 2.2 = 1.1μl  
+  - Added 15μl master mix to 2 new PCR tubes
+  - Added 5μl test ligated DNA to each tube
+3. Ran two different PCR programs: the 12 cycle RAD LIG TEST program and the 30 cycle RAD LIG TEST program (under the JONP user in the thermocycler (login 1234))
+4. Ran both PCR reactions (all 20μl, unpurified) on an [agarose gel](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/) with a 1kb plus ladder.
+5. The 30 and/or 12 cycle PCRs should appear on the gel, indicating an increase in DNA concentration resulting from effecting priming of the fragments (and hence effective adapter ligation).
+Generally, the 30 cycle PCR shows a shift in distribution towards smaller fragments owing to the more efficient amplification of smaller fragments (and hence also why we only use 12 cycle PCRs in the final protocol steps as to minimize bias that comes with PCRs). The 12 cycle PCR may also show some unincorporated adapter dimers.
+![ligtest]({{ site.baseurl}}/images/POCpool2ligtest.jpg "ligtest")
 
+**Pooling**
+1. Samples are pooled by index to be added during amplification and then bead cleaned twice to remove any left over adapter before size selection. **Make sure you tested for ligation before pooling! If adapters did not ligate you would pool samples together and never be able to tell them apart again (also, they wouldn't amplify).**
+2. For each pool: Transfer the full 40μl of ligation reaction for each well, including the beads, to a single 1.5mL tube. It might help to pipette mix first to make sure to transfer all the beads.
+3. For each pool: split the 1.5mL tube into 4 tubes with equal volume in each for separate 1.5X cleanups, use a p200 pipette 50μl to make sure each tube has the same volume (Pools will be slightly different volumes if you have different numbers of samples in each, so calculate the amount in each tube separately for accurate splitting). Example:
+  - 20 samples in 1 pool means a total volume of 40 * 20 = 800μl
+  - Split the pool evenly between four 1.5mL tubes, 200μl each
+  - Added 1.5X of PEG NaCl to each 1.5mL split tube, which is 1.5 * 200 = 300μl
+4. Incubated the tubes on shaker for 15 minutes
+5. Placed tubes on the magnet bar (long one) and wait until the solution goes clear. You can pipette to encourage the beads to move to the magnet
+6. Removed as much clear liquid as possible without removing any beads (for the example above that is about 490μl)
+7. Added 1000μl FRESH2 80% EtOH to each tube while keeping it on the magnet
+8. Removed 900μl of the EtOH
+9. Added 1000μl FRESH 80% EtOH to each tube
+10. Removed ALL EtOH carefully from each tube and let samples sit for ~2 minutes, DO NOT LET BEADS DRY TO CRACKED, you can use a pipette tip to remove any EtOH blobs
+12. Recombined the 4 separated tubes back together into one tube (1 for each pool) with the beads
+13. Added 1.5X PEG-NaCl (240μl) to each tube, mix by pipetting, and incubate on a shaker for 15 minutes _this volume of PEG NaCl will always be the same_
+14. After incubation, placed the tubes on the long magnet rack, wait until the liquid became clear, and removed as much of the clear liquid as possible without disturbing the beads
+15. Added 1000μl FRESH2 80% EtOH to each tube while keeping it on the magnet
+16. Removed 900μl of the EtOH
+17. Added 1000μl FRESH 80% EtOH to each tube
+18. Removed ALL EtOH carefully from each tube and let samples sit for ~2 minutes, DO NOT LET BEADS DRY TO CRACKED, you can use a pipette tip to remove any EtOH blobs
+19. Removed tubes from magnet and added 60μl of **1X TE buffer** to each tube and pipetted to mix. Incubated for 5 minutes on the shaker
+  - Why 60μl? Putting all of your elution on the Pippin Prep is risky. One, it’s always a good idea to have some left over at every step in case you need to repeat it, or compare it to a later library. Two, in some cases, it appears the Pippin is sensitive to the amount of DNA loaded (despite a rating of up to 5ug)
+20. Put tubes back onto the magnet and wait until the liquid goes clear, then removed supernatant and transferred to a new tube for each pool
 
-9. Post-Size Selection Qubit
-Use HS dsDNA Qubit protocol but use 2μl of digested DNA for each pool
+### BluePippin Size Selection
+
+1. Transferred half (30μl) of each ligation pool (in 1XTE) to a new labeled tube (1 tube per pool/index). This should correspond to 20-25ng of barcoded DNA per sample.
+  - It is recommended not using more than ¼ to ½ of the pooled ligation in any run of the Pippin due to variations in product size between runs, and occasional machine failures. This preserves the ability to run the ligations one or more additional times to achieve the desired size fractionation
+2. Mainly, follow the BluePippin protocol for the cassette you have
+3. Make sure the buffer and marker are out at room temp before starting (kept in 4 degree fridge)
+4. Pipetted to mix each 30μl of pooled ligations (in 1X TE) with 10μl of Marker V1. Vortex briefly and quick spin to collect
+5. Prepped basket to bring upstairs to the Genome and Sequencing Center:
+  - p20 pipette and tips
+  - 1 extra cassette than you need just in case one continuously fails tests
+  - Marker and buffer
+  - Samples
+  - Gloves
+  - [Pamphlet about the BluePippin](http://www.sagescience.com/wp-content/uploads/2016/09/Pippin-Prep-Operations-Manual-460010-Rev-B.pdf)
+  - Tubes for storing the sample after size selection
+  - 0.1% tween
+  - Good vibes
+6. Turned on the BluePippin and the computer associated with it
+7. Calibrated the machine: placed the calibration fixture (in the drawer stored in a sock) on the electrodes, closed the lid and pressed calibrate
+8. Took out one cassette and inspected carefully, tapping away any bubbles behind the elution chambers. Make note if this cassette has some used wells, look to see if all buffer chambers are full, look for breaks or cracks in the gel _if you see problems with one gel lane, do not use that one!_
+9. Placed cassette in nest and removed stickers
+10. Removed all the buffer in the elution wells, and then replaced it with 40μl of fresh electrophoresis buffer. _You have to use the p20 here because the tips are the only ones thin enough to fit in the opening_
+11. Checked all sample well buffer levels and performed the continuity test (must pass all lanes you are going to use, if some lanes have been run before it’s ok if those fail, if it fails unused lanes, remove and replace all buffer in elution wells and try test again)
+12. Removed 40μl of buffer from each sample well to be used and replaced with the 40uL of sample/Marker V1 solution
+13. Selected the program in the software or go to the protocol manager tab and create a new one
+14. Made sure reference is set to internal for all lanes, if some lanes are not to be used turn the reference off on just those lanes
+15. Made sure the correct range of base pairs (ex. for _Pocillopora_ it is 243-593bp)
+16. Made sure marker on the top dropdown window is V1
+17. Re-inspected the settings on the main page and named the lanes. Press start if all is good
+18. The program will stop when elution is finished, so even though it says it will go 8 hours, it will probably stop at ~17% “done”
+19. Removed the entire volume from the elution wells and placed into new tubes. Volumes range between ~35-50μl
+20. Added 40μl 0.1% tween to each elution well, waited 1 minute, and then removed the same 40μl into separate tubes. In theory a % of the sample is recovered with a rinse with tween
+21. Reviewed the run log to ensure that the standards were observed. If it didn’t detect peaks then it won’t elute that lane ever, so you might as well just stop the run if that happened. Also look for spikes in the voltage early in the run: voltage near or above 2.5mV cause the DNA to run at unpredictable rates (despite the internal standards). If spikes are observed, check the size of the final library (post-PCR) and/or the pre-PCR elution on the TapeStation
+22. Post-Size Selection Qubit:   
+Use [HS dsDNA Qubit protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/) but use 2μl of digested DNA for each pool
 This is going to be a small amount because you removed a lot of your sample, less than a ng/ul
 
-10. PCR and Index11 Addition
-For each pool: set up 6 PCR reactions, if doing a lot of pools this can nicely be set up on a 96 well plate
-Make a master mix for each pool:
-10µl of 2X KAPA HiFi Hot Start Ready Mix * 6.1 =
-4µl water * 6.1 =
-.5μl 20uM PCR primer F -- index specific *6.1 =
-.5μl 20uM PCR primer R – index-specific *6.1 =
+### Index addition and amplification
+1. For each pool: set up 6 PCR reactions
+2. Made a master mix separate for each pool, with it's specific primer/index pair. Example: pool 2 had index pair 502 and 702   
+  - 10µl of 2X KAPA HiFi Hot Start Ready Mix * 6.1 = 61µl
+  - 4µl water * 6.1 = 24.4µl
+  - .5μl 20uM PCR primer 502 * 6.1 = 3.05µl
+  - .5μl 20uM PCR primer 702 * 6.1 = 3.05µl
+3. Combined 15μl of the master mix and 5μl of size-selected DNA in new strip tubes for a total reaction volume of 20μl in each tube. If you doing multiple pools it might be easier to do the amplifications in a 96 well plate
+4. Put in the Thermocycler for amplification, 12 cycle RAD PCR program under the JONP user:
+  - 1 cycle of 98°C for 1:00 min
+  - 12 cycles of 98°C for 10 seconds
+  - 62°C for 30 seconds
+  - 72°C for 30 seconds
+  - 1 cycle of 72°C for 10 min
+  - Hold at 4°C
+5. After the PCR, combined the 6 reactions into a single 1.5 mL tube, for a total of 120μl
+6. Added 1.5X of KAPA Pure Beads (180μl) to each pooled tube, mixed by pipetting, and incubated on a shaker for 15 minutes
+7. Put the tubes on the magnet rack, waited until the liquid became clear, and removed as much of the clear liquid as possible without disturbing the beads
+8. Added 1000μl FRESH2 80% EtOH to each tube while keeping it on the magnet
+9. Removed 900μl of the EtOH
+10. Added 1000μl FRESH 80% EtOH to each tube
+11. Remove ALL EtOH carefully from each tube and let samples sit for ~2 minutes, DO NOT LET BEADS DRY TO CRACKED, you can use a pipette tip to remove any EtOH blobs
+12. Took tubes of the magnet rack and resuspended the beads in 35μl nuclease-free water and incubated the tubes shaking for 5 minutes
+13. Placed the tubes back in the magnet, and waited until the liquid goes clear. Removed all clear liquid and put into new tubes. These are the libraries!!
 
-Combine 15μl of the master mix and 5μl of size-selected DNA in a new 96 well plate for a total reaction volume of 20μl
-Put in the Thermocycler for amplification, 12 cycle RAD PCR program under JONP:
-1 cycle of 98°C for 1:00 min
-12 cycles of 98°C for 10 seconds, 62°C for 30 seconds, 72°C for 30 seconds
-1 cycle of 72°C for 10 min
-Hold at 4°C
-Combine the 6 reactions into a single 1.5 mL tube, for a total of 120μl
-Add 1.5X of KAPA Pure Beads (180μl) to each pooled tube, mix by pipetting, and incubate on a shaker for 15 minutes
-Put the tubes on the magnet, wait until the liquid becomes clear, and remove as much of the clear liquid as you can
-Add 1000μl FRESH2 80% EtOH to each tube while keeping it on the magnet
-Remove 900μl of the EtOH
-Add 1000μl FRESH 80% EtOH to each tube
-Remove ALL EtOH carefully from each tube
-Let samples sit for ~2 minutes, DO NOT LET BEADS DRY TO CRACKED but you want the EtOH to evaporate
-Take tubes of the magnet stand and elute the DNA in 35μl nuclease-free water and incubate shaking for 5 minutes
-Place the tubes back in the magnet, and wait until the liquid goes clear. Remove all liquid and put into new tubes: this is your library13!
+### Final library quant and visualization
 
-11. Quantify and Validate
-UseBR dsDNA Qubit protocol. Run this twice, as in re-make the standards and new sample tubes
-Analyze the accuracy of the Pippin Prep and the addition of the flowcell and primer sequences by running a TapeStation on all the samples
-The PCR reaction adds 55bp of Illumina flowcell annealing sequences. Thus, library size after PCR should be similar across library indices
- It is critical that the sizes be similar between indices of this library (and all other libraries for which data are to be combined) to ensure that the loci included are the same
-If the size ranges are not the same across samples are wrong, you have to go back to size selection with section 8 (why you save 30ul)
-
-
-
-
-Notes and Glossary
-
-Beads are used to clean enzymes and any other impurities out of the solution with your DNA. The beads will bind the DNA in a concentration and size dependent and you can wash out all the other molecules in the tube (ex. Buffer, restriction enzymes etc.) then you can elute the DNA from the beads. The higher the ratio of beads solution/PEG the more smaller fragments are retained. The beads are magnetic and will be pulled to the side of the tube with a magnet stand allowing you to take out the other liquid in the tube.
-Make your EtOH fresh that day. After 24 hours your 80% won’t be 80% anymore and will have become more hydrated.
-Master Mixes: Master mixes reduce the variance in measuring small volumes because larger volumes require less accuracy to achieve a higher precision on a per-sample basis than would be achieved by pipetting directly. To create a master mix, combine the reagents in proportion to the total number of samples, plus ~5-10%. For a 96 well plate, multiply the reagents (per sample) times 100 or 105. E.g. 10uL buffer per reaction = 1000uL in the master mix for 100 samples. Then, dispense the required volume of the mix separately into each reaction (changing tips with each dispensing).
-Using 3 restriction enzymes:
-PstI: Restriction Enzyme used in both ddRAD and EpiRAD digestions CTGCAG NEB BioLabs catalog number R3140M
-MspI: Restriction Enzyme used in ddRAD digestion only CCGG NEB BioLabs catalog number R0106M
-HpaII: Methylation Sensitive Enzyme, won’t cut if there is a methylated GpG at CCGG for EpiRAD digestion only NEB BioLabs catalog number R0171L
-
-6. PEG-NaCl: the salt solution that the beads are in, and this solution facilitates binding of the DNA to the beads. Keep freshly made PEG in the fridge and in a foil wrapper away from light. Use 25mL of 5M NaCl solution, 10g of Polyethylene gylcol 8000, and ultra pure water up to 49m. Mix on the shaker.
-7. Testing Ligation Efficiency:
-In the previous ligation set-up steps, choose a digested sample that has sufficient DNA for 2 ligations (i.e. >=200ng purified digestion), and create two ligation reactions for this sample (can have any adapter/barcode combo). This one will be consumed by the following test.
-Purify the ligation control sample with 1.5X room-temp. KAPA Pure beads (40uL rxn X1.5=60μl) and two 80% ethanol washes as above. Elute in 20μl nuclease-free water.
-Prepare 2 PCR reactions on ice for each test ligation as follows (make 2.2 for 1 ligation, 4.3 for 2 ligations).
-
-4μl H20
-10μl KAPA hot start read mix (2X)
-.5ul forward primer 20uM
-.5ul reverse primer 20uM (random primers are fine)
-5.0 μl ligationed DNA
-
-Run two PCRs: the 12 cycle RAD LIG TEST program and the 30 cycle RAD LIG TEST program
-Run both PCR reactions (all 20μl, unpurified) on an agarose gel with a 1kb plus ladder .
-. The 30 and/or 12 cycle PCRs should appear on the gel, indicating an increase in DNA concentration resulting from effecting priming of the fragments (and hence effective adapter ligation).
-Generally, the 30 cycle PCR shows a shift in distribution towards smaller fragments owing to the more efficient amplification of smaller fragments (and hence also why we only use 12 cycle PCRs in the final protocol steps). The 12 cycle PCR may also show some unincorporated adapter dimers.
-
-Barcode and index example
-The P1-P2 adapter containing barcodes will determine which samples can/must be combined into indexed ligation pools for sequencing. We currently have 48 barcodes re-used across a number of indices. The goal is to have equal numbers of samples in each indexed pool, and each sample with the same mass of ligated DNA, so that they can be loaded in equal proportions on the Illumina. So plan ahead to assign samples into ~equal groups per pool/index (ideally within 10%), with some adjustment for failures or substitutions. Note that each barcode can only be used once per pool, but not all barcodes need be used
-
-Say you have 100 samples, with both digests that’s 200 to muliplex. Divide 200/46 and you get 4.3. To round things out you can do 200/5 and that is 40. That means it is easiest to have 5 pools of 40 samples each. Randomly assign samples to each pool (but keep digestions separated by pools to ease your brain). Determine which 2 samples out of all have the highest DNA concentration, those samples will be replicated across all pools. So this makes 42 samples per pool actually.  Each sample in a pool needs to have a unique combination of i5 and i7, but to keep things simple, those exact same combinations can be shared across all 5 pools. Then each pool will get a unique index pair added in the PCR amplification step. I find it easiest to plan in a spreadsheet with a plate layout, and keep samples in the same location in a plate the entire time before they are pooled.
-Look at this spreadsheet as an example plate for this scenario
+1. Used the [BR dsDNA Qubit protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/) to get the ng/μl of library. Run this twice, as in re-make the standards and new sample tubes
+2. Analyze the accuracy of the Pippin Prep and the addition of the flowcell and primer sequences by running a [TapeStation](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/DNA-Tapestation/) on all the samples.  
+The PCR reaction adds 55bp of Illumina flowcell annealing sequences. Thus, library size after PCR should be similar across library indices, and somewhat add up to your size selection range + 55bp  
+**_It is critical that the sizes be similar between indices of this library (and all other libraries for which data are to be combined) to ensure that the loci included are the same. If the size ranges are not the same across samples are wrong, you have to go back to size selection with section 8 (why you save 30μl)_**
+![lib]({{ site.baseurl}}/images/final-DElib.png "lib")
+Final libraries look weird because it isn't going to be a normal distribution of fragment sizes, what is important is that all your pools have basically the same size range, ex here as in ~250-650bp.
 
 
-Adapter: fully or partially double-stranded product of annealing two oligos. Adapters are ligated to genomic DNA at restriction enzyme cut sites in order to add barcodes and common PCR priming sequences. Ours contain barcodes (See below).
-Barcode: short DNA sequence downstream of the sequencing primer annealing region of an adapter. Used to resolve products of different ligation reactions (usually separate individuals) after sequencing pooled libraries.
-Index: short DNA sequence introduced during PCR amplification of the final library that uniquely identifies products of that PCR reaction. Used combinatorially with Adapter barcodes to resolve multiplexed sample pools. Make sure that your pools for indexing DO NOT contain samples with the same barcodes. Use the above Spreadsheet for planning.
-Pippin Prep: The Pippin Prep (or other Pippin machine, e.g. Pippin Blue) is our preferred method of size selection, and the one recommended by Peterson et al. (2012). It is advertised as producing more consistent and precise size selection than gel extraction. It should be noted, however, that the efficacy of the Pippin MAY be affected by the mass of DNA loaded and temperature.  In particular, we have found that runs made at different temperatures produce size fractions different from what is targeted, with optimal conditions around 68-70F (warmer produces larger fragments, cooler produces smaller fragments). However, we recommend that users confirm the size of the Pippin eluate (or more commonly, the post-Pippin PCR product, allowing for the increase in fragment length due to the PCR primers; see below) on a Fragment Analyzer or similar apparatus, and adjust the targeted size as necessary. Also, increasing the size of the target window may help to create more overlap between runs with some discrepancy between target midpoint and median fragment size produced.
-13. Library: a collection of sequencing-competent fragments.
+### Notes and glossary
 
+**KAPA Pure Beads**: Beads are used to clean enzymes and any other impurities out of the solution with your DNA. The beads will bind the DNA in a concentration and size dependent and you can wash out all the other molecules in the tube (ex. Buffer, restriction enzymes etc.) then you can elute the DNA from the beads. The higher the ratio of bead solution/PEG the more smaller fragments are retained. The beads are magnetic and will be pulled to the side of the tube with a magnet stand allowing you to take out the other liquid in the tube.  
+**FRESH 80%EtOH**: Make your EtOH fresh that day. After 24 hours your 80% won’t be 80% anymore and will have become more hydrated.  
+**Master Mixes**: Master mixes reduce the variance in measuring small volumes because larger volumes require less accuracy to achieve a higher precision on a per-sample basis than would be achieved by pipetting directly. To create a master mix, combine the reagents in proportion to the total number of samples, plus ~5-10%. For a 96 well plate, multiply the reagents (per sample) times 100 or 105. E.g. 10uL buffer per reaction = 1000uL in the master mix for 100 samples. Then, dispense the required volume of the mix separately into each reaction (changing tips with each dispensing).  
+**Restriction enzymes used in this protocol:**  
+  PstI: Restriction Enzyme used in both ddRAD and EpiRAD digestions that recognizes this sequence: CTGCAG  
+  MspI: Restriction Enzyme used in ddRAD digestion only that recognizes this sequence: CCGG    
+  HpaII: Methylation Sensitive Enzyme, won’t cut if there is a methylated GpG at CCGG for EpiRAD digestion only  
+**PEG-NaCl:** The salt solution that the beads are in, and this solution facilitates binding of the DNA to the beads. Keep freshly made PEG in the fridge and in a foil wrapper away from light. To make use 25mL of 5M NaCl solution, 10g of Polyethylene gylcol 8000, and ultra pure water up to 49ml in a 50mL conical. Mix on the shaker until fully combined.  
+**Adapter:** Fully or partially double-stranded product of annealing two oligos. Adapters are ligated to genomic DNA at restriction enzyme cut sites in order to add barcodes and common PCR priming sequences. Ours contain barcodes (See below).  
+**Barcode:** Short known DNA sequence downstream of the sequencing primer annealing region of an adapter. Used to resolve products of different ligation reactions (usually separate individuals) after sequencing pooled libraries.  
+**Index:** Short known DNA sequence introduced during PCR amplification of the final library that uniquely identifies products of that PCR reaction. Used combinatorially with Adapter barcodes to resolve multiplexed sample pools. Make sure that your pools for indexing DO NOT contain samples with the same barcodes.   
+**BluePippin:** The BluePippin (or other Pippin machine, e.g. Pippin Prep) is our preferred method of size selection, and the one recommended by Peterson et al. (2012). It is advertised as producing more consistent and precise size selection than gel extraction. It should be noted, however, that the efficacy of the Pippin MAY be affected by the mass of DNA loaded and temperature.  In particular, we have found that runs made at different temperatures produce size fractions different from what is targeted, with optimal conditions around 68-70F (warmer produces larger fragments, cooler produces smaller fragments). However, we recommend that users confirm the size of the Pippin eluate (or more commonly, the post-Pippin PCR product, allowing for the increase in fragment length due to the PCR primers; see below) on a TapeStation or similar apparatus, and adjust the targeted size as necessary. Also, increasing the size of the target window may help to create more overlap between runs with some discrepancy between target midpoint and median fragment size produced.  
+**Library:** A collection of sequencing-competent fragments.
 
-Technical Replicates
-Purposes
-Digestion controls
-Ligation Controls
-Genotyping controls
+### Materials
