@@ -122,7 +122,7 @@ Because _Pocillopora damicornis_ is not the same species as who we are actually 
 - Repeated the selection in the double digest sample for all of the same size selection ranges tested in the simulation above
 ![ss]({{ site.baseurl}}/images/size-select-options.png "ss")
 - Clearly there is a difference between both estimation methods, but taking the average of the two hopefully is the most accurate.
-- We wanted between 20,000 and 30,000 fragments, and wanted a size selection window of less than 400bp (too broad). The BluePippin cassettes we had purchase had an upper limit of 600bp so that influenced the decision of insert size choice. The size selection step happens after adapter ligation, which adds about 93bp to each fragment. So we made the upper limit to our size range 593 and the lower limit 243. These number correspond to the actual insert DNA size range of 150-500bp. 
+- We wanted between 20,000 and 30,000 fragments, and wanted a size selection window of less than 400bp (too broad). The BluePippin cassettes we had purchase had an upper limit of 600bp so that influenced the decision of insert size choice. The size selection step happens after adapter ligation, which adds about 93bp to each fragment. So we made the upper limit to our size range 593 and the lower limit 243. These number correspond to the actual insert DNA size range of 150-500bp.
 
 ### Multiplexing Planing
 
