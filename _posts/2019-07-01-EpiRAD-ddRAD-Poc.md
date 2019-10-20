@@ -36,7 +36,31 @@ Protocols used for reference and guidence: [Notebook](http://onsnetwork.org/jdim
 
 # DNA extraction
 
-DNA was extracted from samples using a Zymo Kit and eluted in 100ul of 10mM Tris-HCl, see [this post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/18-Moorea-Coral-Extractions/) for how extractions were done, and these posts contain all extractions and tests: [1](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Eggs-Bundles-Moorea/), [2](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Test-Samples-2/), [3](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Testing-Moorea-Samples-3/), [4](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Dna-Only-Coral-and-Mussel-Test/), [5](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/8-Moorea-Coral-Extractions/), [6](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions/), [7](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions-more/), [8](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Even-More-Moorea-Coral-Extractions/), [9](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions-Four/), [10](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/The-Last-maybe-Moorea-Coral-Extractions/)
+DNA was extracted from samples using the Zymo Research Quick DNA Miniprep Plus kit and eluted in 100ul of 10mM Tris-HCl, these posts contain all extractions and tests: [1](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Eggs-Bundles-Moorea/), [2](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Test-Samples-2/), [3](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Testing-Moorea-Samples-3/), [4](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Dna-Only-Coral-and-Mussel-Test/), [5](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/8-Moorea-Coral-Extractions/), [6](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions/), [7](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions-more/), [8](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Even-More-Moorea-Coral-Extractions/), [9](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Moorea-Coral-Extractions-Four/), [10](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/The-Last-maybe-Moorea-Coral-Extractions/), [11](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/18-Moorea-Coral-Extractions/)
+
+**Tissue homogenization and digestion**
+1. [Beads](https://www.fishersci.com/shop/products/disruption-beads-0-5mm-yeast-1/50212143?searchHijack=true&searchTerm=50212143&searchType=RAPID&matchedCatNo=50212143) were poured into sample tubes (samples were coral pieces stored in ~500µl DNA/RNA shield in the -20 freezer)
+2. Samples were homogenized by vortexing for ~30 seconds for all samples
+3. Most of the liquid from the tubes was removed by pipetting. This was about 300µl. The tubes contained a small amount of liquid and un-homogenized tissue left, so 200µl of DNA/RNA shield was added to each tube and those were put back into the -20
+4. Following recommendations for samples in DNA/RNA Shield from the kit protocol, 150µl of Solid Tissue Buffer and 10µl of Proteinase K were added to each sample
+5. Samples were votexed, spun down, and incubated at 55 degrees C for 5 hours shaking at 600rpm in a thermomixer
+
+**DNA extraction**
+1. Centrifuged all tubes at 12,000 rcf for 1 minute to pellet any debris and beads
+2. Removed supernatant into new 1.5mL tubes
+3.  Added 1 volume (420µl) Genomic Binding Buffer to each tube, vortexed and spun down
+4. 700µl of sample was added to the kit spin column and centrifuged at 12,000 rcf for 1 minute
+5. Collection tubes were discarded
+6. The rest of the digested volume was run through the column in the same way
+7. Added 400µl DNA Pre-Wash Buffer to each column, centrifuged at 12,000 rcf for 1 minute, and discarded the flow through
+8. Added 700µl G-DNA Wash Bufferto each column, centrifuged at 12,000 rcf for 1 minute, and discarded the flow through
+9. Added 200µl G-DNA Wash Bufferto each column, centrifuged at 12,000 rcf for 1 minute, and discarded the collection tube
+10. Columns were transferred to 1.5mL tubes
+11. Added 50µl warmed 70 degrees C 10mM Tris-HCl directly to the column filter and incubated at room temp for 5 minutes
+12. Centrifuged for 1 minute at 12,000 rcf
+13. Repeated steps 11 and 12 one more time
+14. Stored tubes in fridge to qubit the next day if not quantifying immediately
+
 
 Quantification can be done with the [qubit protocol]() or with the plate reader and the AccueBlue assay  
 To visualize DNA quality run a 1.5% agarose gel with a 1kb ladder, or run the genomic DNA TapeStation  
@@ -394,4 +418,45 @@ Final libraries look weird because it isn't going to be a normal distribution of
 **BluePippin:** The BluePippin (or other Pippin machine, e.g. Pippin Prep) is our preferred method of size selection, and the one recommended by Peterson et al. (2012). It is advertised as producing more consistent and precise size selection than gel extraction. It should be noted, however, that the efficacy of the Pippin MAY be affected by the mass of DNA loaded and temperature.  In particular, we have found that runs made at different temperatures produce size fractions different from what is targeted, with optimal conditions around 68-70F (warmer produces larger fragments, cooler produces smaller fragments). However, we recommend that users confirm the size of the Pippin eluate (or more commonly, the post-Pippin PCR product, allowing for the increase in fragment length due to the PCR primers; see below) on a TapeStation or similar apparatus, and adjust the targeted size as necessary. Also, increasing the size of the target window may help to create more overlap between runs with some discrepancy between target midpoint and median fragment size produced.  
 **Library:** A collection of sequencing-competent fragments.
 
-# Materials
+# Materials and equipment
+
+**Materials**
+- [Zymo Quick-DNA Miniprep Plus kit](https://www.zymoresearch.com/collections/quick-dna-kits/products/quick-dna-miniprep-plus-kit)
+- [Beads for homogenization](https://www.fishersci.com/shop/products/disruption-beads-0-5mm-yeast-1/50212143?searchHijack=true&searchTerm=50212143&searchType=RAPID&matchedCatNo=50212143)
+- 100% Ethanol
+- [Ultra-pure/nuclease-free water](https://www.fishersci.com/shop/products/water-sterile-dnase-rnase-free-fisher-bioreagents-2/BP248450#?keyword=RNase+free+water)
+- [KAPA Pure beads](https://sequencing.roche.com/en-us/products-solutions/by-category/library-preparation/library-preparation-accessories/kapa-pure-beads/ordering.html)
+- [Amplification Master Mix](https://rochesequencingstore.com/catalog/kapa-hifi-hotstart-readymix/)
+- [TE buffer](https://www.fishersci.com/shop/products/tris-edta-1x-solution-ph-8-0-molecular-biology-fisher-bioreagents-3/bp24731#?keyword=TE+buffer)
+- [5M sodium chloride](https://www.fishersci.com/shop/products/sodium-chloride-5m-aq-soln-autoclaved/AAJ61890AK#?keyword=5M+NACL)
+- [Polyethylene glycol 8000](https://www.fishersci.com/shop/products/polyethylene-glycol-8000-peg-fisher-bioreagents-2/BP233100#?keyword=polyethylene+glycol)
+- [AccuBlue® Broad Range dsDNA Quantitation Kit](https://biotium.com/product/accublue-broad-range-dsdna-quantitation-kit-with-9-dna-standards/)
+- [HS dsDNA Qubit Quantification kit](https://www.fishersci.com/shop/products/invitrogen-quant-it-qubit-dsdna-hs-assay-kit-2/p-4925121#?keyword=qubit+hs+dsdna)
+- [BR dsDNA Qubit Quantification kit](https://www.fishersci.com/shop/products/invitrogen-quant-it-qubit-dsdna-br-assay-kit-2/p-4925120#?keyword=qubit+hs+dsdna)
+- [D5000 DNA Tapestation supplies](https://www.agilent.com/en/product/automated-electrophoresis/tapestation-systems/tapestation-dna-screentape-reagents/dna-screentape-analysis-228260), D5000 reagents: #5067-5589. D5000 tapes: #5067-5588
+- [Genomic DNA Tapestation supplies](https://www.agilent.com/en/product/automated-electrophoresis/tapestation-systems/tapestation-dna-screentape-reagents/genomic-dna-screentape-analysis-228261), Genomic reagents: #5067-5366. Genomic tapes: #5067-5365
+- [T4 DNA ligase](https://www.neb.com/products/m0202-t4-dna-ligase#Product%20Information), #M0202L
+- [T4 DNA ligase reaction buffer](https://www.neb.com/products/b0202-t4-dna-ligase-reaction-buffer#Product%20Information)
+- [High fidelity PstI restriction enzyme](https://www.neb.com/products/r3140-psti-hf#Product%20Information), #R3140M
+- [MspI restriction enzyme](https://www.neb.com/products/r0106-mspi#Product%20Information), #R0106M
+- [HpaII restriction enzyme](https://www.neb.com/products/r0171-hpaii#Product%20Information), #R0171L
+- [BluePippin Supplies](http://store.sagescience.com/), materials in this protocol are:
+  - [BDF2010, 2% Agarose, dye-free, w/ internal standards, BluePippin.100-600 bp.10/pkg](http://store.sagescience.com/s.nl/it.A/id.1058/.f)
+- [RNase, DNase, DNA & PCR inhibitor free 1.5mL tubes](https://geneseesci.com/shop-online/product-details/24-282S)
+- [Semi-skirted 96 well plates](https://geneseesci.com/shop-online/product-details/24-301)
+- [Foil seal for 96 well plate](https://www.thermofisher.com/order/catalog/product/AB0626?SID=srch-srp-AB0626)
+- p1000, p200, p20, and p2 pipette tips
+- [PCR strip tubes](https://www.usascientific.com/0.2ml-flex-free-pcr-8-tube-attached-clear-flat-caps.aspx)
+- Gloves
+
+**Equipment**
+- Sage Science BluePippin
+- Orbital shaker
+- Eppendorf Mastercycler Pro
+- BioTek Synergy HTX Multimode plate reader
+- Qubit Fluorometer
+- Eppendorf Thermomixer
+- Aglient Technologies TapeStation 4200
+- p1000, p200, p20, and p2 pipettes and multichannel pipettes
+- Benchtop mini centrifuge
+- Centrifuge capable of doing 96 well plates
