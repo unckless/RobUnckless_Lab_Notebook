@@ -194,3 +194,24 @@ Full [Results](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/mast
 I am not sure why samples 13 and 14 have such weird traces, it may be a tape or buffer error because of how the upper and lower markers spread so much. I will re-tapestation those two samples.
 
 I would say the other samples are good enough to send off for sequencing.
+
+Re-tapestation of samples 13 and 14
+
+![5]({{ site.baseurl}}/images/13-14.png "5")
+
+These libraries look like the others!
+
+| ID | ng/ul | volume | total ng |
+|----|-------|--------|----------|
+| 13 | 8.9   | 19     | 169.1    |
+| 14 | 10    | 19     | 190      |
+| 15 | 11.7  | 19     | 222.3    |
+| 16 | 6.59  | 19     | 125.21   |
+| 17 | 2.81  | 19     | 53.39    |
+| 18 | 7.36  | 19     | 139.84   |
+| 19 | 2.27  | 19     | 43.13    |
+| 20 | 3.02  | 19     | 57.38    |
+| 21 | 3.68  | 19     | 69.92    |
+| 22 | 5.09  | 19     | 96.71    |
+| 23 | 4.1   | 19     | 77.9     |
+| 24 | 4.54  | 19     | 86.26    |
