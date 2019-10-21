@@ -134,16 +134,16 @@ RNA samples were given to me each with **300ng and in 8µl volume**. These are t
 |---|---|
 |13|CD Index #7|
 |14|CD Index #77|
-|15|CD Index #|
-|16|CD Index #|
-|17|CD Index #|
-|18|CD Index #|
-|19|CD Index #|
-|20|CD Index #|
-|21|CD Index #|
-|22|CD Index #|
-|23|CD Index #|
-|24|CD Index #|
+|15|CD Index #93|
+|16|CD Index #5|
+|17|CD Index #4|
+|18|CD Index #86|
+|19|CD Index #12|
+|20|CD Index #2|
+|21|CD Index #85|
+|22|CD Index #94|
+|23|CD Index #6|
+|24|CD Index #78|
 
 63. Added 25µl ZymoTaq Premix to each sample tube on ice, pipetted to mix, and spun down
 64. Placed in thermocycler MES login program ZRibo Index Amp program:
@@ -193,4 +193,4 @@ Full [Results](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/mast
 
 I am not sure why samples 13 and 14 have such weird traces, it may be a tape or buffer error because of how the upper and lower markers spread so much. I will re-tapestation those two samples.
 
-I would say the other samples are good enough to send off for sequencing. 
+I would say the other samples are good enough to send off for sequencing.
