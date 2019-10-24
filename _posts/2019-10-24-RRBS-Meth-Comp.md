@@ -131,3 +131,5 @@ Full [Results](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/mast
 ![4]({{ site.baseurl}}/images/RRBS4.png "4")
 ![5]({{ site.baseurl}}/images/RRBS5.png "5")
 ![6]({{ site.baseurl}}/images/RRBS6.png "6")
+
+They have long tails but they all look like they worked!!
