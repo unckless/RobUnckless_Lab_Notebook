@@ -104,3 +104,5 @@ Genomic DNA screentape
 
 ![1]({{ site.baseurl}}/images/por-HMW-1.png "1")
 ![2]({{ site.baseurl}}/images/por-HMW-2.png "2")
+
+Amazing quality! Just have to extract more! 
