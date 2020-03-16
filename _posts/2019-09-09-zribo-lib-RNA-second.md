@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Zymo-Seq RiboFree Total RNA Library Prep Kit Soft RNA
-tags: [ RNA , Library Prep , Montipora, Pocillopora ]
+tags: [ RNA , RNA Library Prep , Montipora, Pocillopora ]
 ---
 
 ## Another free sequencing with the [Zymo-Seq RiboFree Total RNA Library Prep Kit](https://www.zymoresearch.com/products/zymo-seq-ribofree-total-rna-library-kit)

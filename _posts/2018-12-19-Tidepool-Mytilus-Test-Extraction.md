@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tide pool Flux Mytilus Test DNA RNA Extraction
-tags: [ DNA, RNA, Mytilus]
+tags: [ DNA/RNA Extraction, DNA, RNA, Mytilus]
 ---
 
 #### Whole mussels stored in -80, took out one plastic bag with 5 mussels

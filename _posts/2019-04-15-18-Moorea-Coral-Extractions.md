@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Starting Through-put Mo'orea Coral Extractions
-tags: [ DNA, Porites, Pocillopora ]
+tags: [ DNA Extraction, Porites, Pocillopora, DNA ]
 ---
 # 18 DNA only extractions from _Porites_ and _Pocillopora_ Corals from Mo'orea
 
@@ -38,7 +38,7 @@ tags: [ DNA, Porites, Pocillopora ]
 
 **DNA Extraction**
 
-1. Centrifuged all tubes at 12,000 rcf for 1 minute to pellet any debris and beads 
+1. Centrifuged all tubes at 12,000 rcf for 1 minute to pellet any debris and beads
 2. Removed supernatant into new 1.5mL tubes
 3.  Added 1 volume (420µl) Genomic Binding Buffer to each tube, vortexed and spun down
 4. 700µl of sample was added to the kit spin column and centrifuged at 12,000 rcf for 1 minute

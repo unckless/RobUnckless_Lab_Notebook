@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Mo'orea Test Samples Part 3
-tags: [ DNA, RNA , Moorea ]
+title: Mo'orea Test Extractions Part 3
+tags: [ DNA/RNA Extraction, Pocillopora, Montipora, DNA, RNA ]
 ---
 
 # Testing to get good RNA out of the Pocillopora and Porites Samples stored in RNA/RNA Shield from Mo'orea
@@ -62,7 +62,7 @@ tags: [ DNA, RNA , Moorea ]
 
 - A 1.5% agarose gel was ran to check the integrity of the genomic DNA
 - Following the PPP Lab [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/)
-- The first 6 samples are from the [next extraction](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Dna-Only-Coral-and-Mussel-Test/), the last 4 samples are from this extraction 
+- The first 6 samples are from the [next extraction](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Dna-Only-Coral-and-Mussel-Test/), the last 4 samples are from this extraction
 - Below the sample number is the amount of DNA in ng/µl from the Qubit
 
 ![gel]({{ site.baseurl}}/images/gel-04-04-19.jpg "gel")

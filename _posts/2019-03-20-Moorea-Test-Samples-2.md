@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Testing More Pocillopora and Porites Mo'orea Samples
-tags: [ DNA, RNA , Moorea ]
+title: Testing Extraction of More Pocillopora and Porites Mo'orea Samples
+tags: [ DNA/RNA Extraction, Pocillopora, Montipora, DNA, RNA ]
 ---
 
 ### DNA amounts for Pocillopora and Porites Mo'orea samples were really low in the [previous extraction](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Eggs-Bundles-Moorea/), and RNA quality for Porites was poor. We wanted to try bead homogenizing and incubating to see if un-digested proteins/sugars were inhibiting nucleic acid binding on the columns.

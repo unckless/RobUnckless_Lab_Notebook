@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Oyster Nutrient Enrichment Treatment RNA Lib Prep with Zymo-Seq RiboFree Total RNA Library Prep Kit
-tags: [ RNA , Library Prep ]
+tags: [ RNA , RNA Library Prep, Crassostrea ]
 ---
 
 ### We have more free RNA Library Prep Kit Sequencing, using nutrient enriched and control treated eastern oysters (_Crassostrea virginica_) from [Rebecca Stevick](https://github.com/rjstevick) using the [Zymo-Seq RiboFree Total RNA Library Prep Kit](https://www.zymoresearch.com/products/zymo-seq-ribofree-total-rna-library-kit)

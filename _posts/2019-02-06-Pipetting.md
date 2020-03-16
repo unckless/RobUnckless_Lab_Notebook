@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pipetting Exercises for Starting Labwork
+tags: [ Exercise ]
 ---
 _this exercise is a modified from the Moore Laboratory of Zoology's pipette exercise, which they modifed from somewhere else_
 
@@ -8,20 +9,20 @@ _this exercise is a modified from the Moore Laboratory of Zoology's pipette exer
 
 - Accurate pipetting is crucial to the success of molecular projects. Mistakes during pipetting may cause your experiments (e.g. PCR) to fail or to be irreproducible, and thus cause long delays and considerable expense
 - Pipettes are delicate pieces of equipment with high accuracy, which can easily be knocked off their calibration. Furthermore, they are expensive – each set of pipettes represent about $ 1,500.
-- Pipettes are the main source of contamination in PCRs, and thus can cause a lot of problems. 
+- Pipettes are the main source of contamination in PCRs, and thus can cause a lot of problems.
 
 ### Never
-*	Never rotate volume adjustor beyond the upper limit 
+*	Never rotate volume adjustor beyond the upper limit
     *	Changes calibration
 *	Never use without a tip.
-    *	Liquid will get into piston – damage and contamination. 
+    *	Liquid will get into piston – damage and contamination.
 *	Never lay down or turn upside down a pipette with filled tip.
     *	Liquid could run back into the piston, and damage/contaminate it.
-    *	Use pipette holders provided 
+    *	Use pipette holders provided
 *	Never let plunger snap back after withdrawing or ejecting fluid
-    *	Damages piston 
+    *	Damages piston
 ### Use
-* Use the correct pipette. Never adjust the volume beyond the maximum setting, but also do not use pipettes that are too large. Accuracy and precision drop rapidly towards the lower limit of settings. 
+* Use the correct pipette. Never adjust the volume beyond the maximum setting, but also do not use pipettes that are too large. Accuracy and precision drop rapidly towards the lower limit of settings.
 * Adjust volume by turning the volume adjustment knob or the plunger. Be sure to locate the decimal point correctly when reading the volume setting (see above). Always dial DOWN to the desired volume to avoid mechanical backlash affecting accuracy.
 * Firmly seat the proper-sized tip on end of the pipette. If the fit is lose, you will draw up less volume than intended and the liquid will drip from the tip during use.
 * When withdrawing or expelling fluid, always hold the tube firmly between thumb and forefinger. Hold close to eye level to observe change in fluid level in tip. Do not pipet with the tube in rack or when someone else is holding the tube.
@@ -32,7 +33,7 @@ _this exercise is a modified from the Moore Laboratory of Zoology's pipette exer
     - Gently release thumb. If you release quickly, you will create aerosols (small droplets), which will contaminate the pipette.
     - Wait for a second or so, to confirm that all the liquid has been taken up (especially important for high viscosity liquids).
     - Slide pipette tip out along wall of tube to dislodge remaining droplets adhering to the outside of the tip.
-    - Check that there is no air space at the very end of the tip. 
+    - Check that there is no air space at the very end of the tip.
     - Learn the approximate levels that particular volumes fill the tip – this will allow you to check your pipetting visually.
 * To expel sample into tube
     - Touch tip to wall of tube or to the liquid at the bottom of the tube if there is already some in there
@@ -44,7 +45,7 @@ Prevention of cross contamination
 
 -	Use a fresh tip each time
 -	Do not touch the tube with the pipette, only with the tip
--	If you suspect pipette-body contamination, wipe with ethanol on the outside. 
+-	If you suspect pipette-body contamination, wipe with ethanol on the outside.
 -	Draw up liquid slowly to prevent the formation of aerosols, bubbles also mess up your volume
 
 ### Pipetting exercise
@@ -66,7 +67,7 @@ Be careful to use the correct pipette. Use distilled water. You don’t have to 
 10.	Visually check that each tube has the same volume.
 11.	Remove 30 µl from the original strip tubes and pipette into a new set of strip tubes.
 12.	Visually check that each tube has the same volume.
-13.	Remove 20 µl from the original strip tubes and pipette into one new tube. 
+13.	Remove 20 µl from the original strip tubes and pipette into one new tube.
 14.	Remove 160 µl from this tube and discard pipette tip.
 
 **P20 (10-20 µl) – 1 set of strip tubes and 1 eppendorf tube:**
@@ -106,12 +107,3 @@ How accurate were you?
 •	Did you draw air up with the last removal of liquid? Measure the volume of step 4 by adjusting the volume downward. Remember to hold the pipette vertically while doing so.
 
 The pipettes have an accuracy and precision of about 1% - any more than that is human pipetting error! If you got it very wrong, try again.
-
-
-
-
-
-
-
-
-

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Continuing Through-put Mo'orea Coral Extractions Five
-tags: [ DNA, Porites, Pocillopora ]
+tags: [ DNA Extraction, Porites, Pocillopora, DNA ]
 ---
 # 10 DNA only extractions from the first set of _Porites_ and _Pocillopora_ Corals from Mo'orea, 7 to try again, and 3 of Kevin's Astrangia samples
 

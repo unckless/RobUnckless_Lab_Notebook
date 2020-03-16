@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Porites astreoides RNA/DNA Extractions for RNA Seq Test
-tags: [ DNA, RNA , Porites. RNASeq ]
+tags: [ DNA/RNA Extraction , Porites, RNA, DNA ]
 ---
 
 ## Extracting DNA and RNA from Porites astreoides corals for genome project to use the RNA for new Zymo Ribo-free RNASeq test kit

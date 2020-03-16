@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing Number of Montipora Larvae Needed for DNA/RNA Extraction
-tags: [DNA, RNA, larvae]
+tags: [ DNA/RNA Extraction, Montipora, Larvae, DNA, RNA ]
 ---
 
 # Larvae from Biomineralization Project

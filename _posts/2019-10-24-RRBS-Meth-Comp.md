@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RRBS Library Prep of Samples for Methylation Comparison
-tags: [ DNA, Methylation, Library Prep, RRBS, Methylation Compare ]
+tags: [ DNA, Methylation, RRBS, Pocillopora, Montipora ]
 ---
 
 # Reduced Representation Bisulfite Sequencing Library Prep with the Zymo Research EZ DNA Methylation RRBS Library Prep Test Kit for Methylation Comparison

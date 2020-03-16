@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing Quick-DNA Kit on Mo'orea Corals and Tide Pool Mytilus
-tags: [ DNA, Mytilus, Porites, Pocillopora ]
+tags: [ DNA Extraction, Mytilus, Porites, Pocillopora, DNA ]
 ---
 
 ### I was not able to get good RNA at this time from the Zymo DNa/RNA kit. We are moving forward with trying a DNA only kit on the samples to save $, time, and reagents. This was also tried with two _Mytilus californianus_ from the tide pool project that [did not have good RNA](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Tidepool-Mytilus-Test-Extraction/) with the other kit either.

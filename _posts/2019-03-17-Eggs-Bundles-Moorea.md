@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Montipora Eggs and Bundles Troubleshooting and Mo'orea Test DNA/RNA Extraction
-tags: [ DNA, RNA , montipora ]
+tags: [ DNA/RNA Extraction, Montipora, DNA, RNA ]
 ---
 
 #### Previous DNA/RNA test extractions with the _Montipora_ eggs and bundles from the biomineralization project showed some problems with reliably getting both DNA and RNA from the samples

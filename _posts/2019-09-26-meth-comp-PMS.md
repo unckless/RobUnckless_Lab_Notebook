@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Methylation Comparison WGBS and MBDBS With Pico Methyl Seq Library Prep Kit
-tags: [ DNA, Methylation, Library Prep, WGBS, Methylation Compare, MethylMiner ]
+tags: [ DNA, Methylation, Pico Library Prep, WGBS, Pocillopora, Montipora ]
 ---
 
 ## Using the [Zymo Pico Methyl Seq Kit](https://www.zymoresearch.com/products/pico-methyl-seq-library-prep-kit) on the [MBD enriched](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/MBD-Meth-Comp/) 3 _Pocillopora_ and 3 _Montipora_ samples and non-enriched as whole genome bisulfite sequencing for the purpose of comparing them to RRBS preparations

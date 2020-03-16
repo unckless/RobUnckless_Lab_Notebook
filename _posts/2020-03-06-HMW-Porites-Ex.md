@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using the Qiagen Genomic Tip for HMW DNA Extraction of Porites asteroides
-tags: [ HMW DNA, Porites asteroides, genome, Genomic Tip ]
+tags: [ HMW DNA, Porites, DNA Extraction ]
 ---
 
 # High Molecular Weight DNA Extraction of _Porites asteroides_ with the Qiagen Genomic Tip for Intended Genome Sequencing

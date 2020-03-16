@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Eastern Oyster Nutrient Enrichment Samples Prepped with the Invitrogen MethylMiner Methylated DNA Enrichment Kit
-tags: [ DNA, MethylMiner, Methylation, Oyster ]
+tags: [ DNA, , Methylation, Crassostrea ]
 ---
 
 
@@ -17,7 +17,7 @@ DNA from Rebecca is 1µg in 80µl, 80µl is the input for the kit so it was shea
 However, these were very variable. This could be because I did not check the DNA before shearing, and the previous shearing at this time was for corals. Yet, we decided to proceed because the kit only specifies bp under 1000bp, which we have, and the Pico Methyl Seq kit which I am to use for library prep next does not have an insert size requirement as it uses random priming to make the libraries.
 
 
-First step was to write out the steps for the day so I would know how much 1X Bind/Wash Buffer to dilute, as it comes in 5X in the kit, that way it was ready when it was needed. 10mL made. NOTE: I had planned on doing all 12 samples, however there was not enough beads/MBD protein and then I realized the kit is for 25 samples not 30 so I ended up only doing 9. However I had made enough wash buffer for 12 so I saved it for the next day (beacuse they give you more wash buffer proportionally than other reagents)
+First step was to write out the steps for the day so I would know how much 1X Bind/Wash Buffer to dilute, as it comes in 5X in the kit, that way it was ready when it was needed. 10mL made. NOTE: I had planned on doing all 12 samples, however there was not enough beads/MBD protein and then I realized the kit is for 25 samples not 30 so I ended up only doing 9. However I had made enough wash buffer for 12 so I saved it for the next day (because they give you more wash buffer proportionally than other reagents)
 
 
 **Preparing Beads**

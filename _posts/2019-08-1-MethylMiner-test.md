@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Invitrogen MethylMiner Methylated DNA Enrichment Kit Test
-tags: [ DNA, MethylMiner, Methylation ]
+tags: [ DNA, Methylation, Acropora ]
 ---
 
 
@@ -137,4 +137,4 @@ _Note, I did not do this in the hood but I should have, the 3M Sodium Acetate pH
 
 ![TS]({{ site.baseurl}}/images/methylminer-test-ts.png "TS")
 
-Looks like there isn't a significant difference in the size captured or not captured by the beads: good! 
+Looks like there isn't a significant difference in the size captured or not captured by the beads: good!

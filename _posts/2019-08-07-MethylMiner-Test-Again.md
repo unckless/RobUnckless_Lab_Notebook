@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 10 Minute Sonication MethylMiner Test
-tags: [ DNA, MethylMiner, Methylation ]
+tags: [ DNA, Methylation, Acropora ]
 ---
 
 ### Post bisulfite conversion samples from [Previous Post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/MethylMiner-test/) hardly lost size at all, need to try again with a longer sonication.
@@ -39,4 +39,4 @@ _Note last lane is something different and shouldn't be considered_
 
 ![TS]({{ site.baseurl}}/images/ts-8-7-19.png "TS")
 
-The "sizes" are larger in the captured peaks than the sheared, but I think that mostly has to do with inaccuracy at sizing something at such a low concentration. 
+The "sizes" are larger in the captured peaks than the sheared, but I think that mostly has to do with inaccuracy at sizing something at such a low concentration.

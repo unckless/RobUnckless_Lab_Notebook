@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EpiRAD ddRAD Mo'orea Pocillopora Library Prep and Protocol
-tags: [ EpiRAD, ddRAD, Moorea, Pocillopora, DNA, Protocol ]
+tags: [ RAD, Moorea, Pocillopora, DNA, Protocol, Methylation ]
 ---
 
 # Mo'orea Connect Pocillopora (4 sites) EpiRAD ddRAD Library Prep Notebook and General Protocol

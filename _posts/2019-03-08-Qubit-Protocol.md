@@ -1,7 +1,7 @@
 ---
 layout: post
 title: dsDNA and RNA Qubit Quantification Protocol
-tags: [ DNA, RNA , protocol ]
+tags: [ DNA, RNA , Protocol ]
 ---
 
 ### Broad Range dsDNA, High Sensitivity dsDNA, Broad Range RNA, and High Sensitivity RNA

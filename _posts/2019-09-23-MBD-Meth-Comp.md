@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MBD of Samples for Methylation Comparison
-tags: [ DNA, MethylMiner, Methylation, Methylation Comparison ]
+tags: [ DNA, Methylation, Pocillopora, Montipora ]
 ---
 
 ## Methyl-Binding Domain Enrichment of Samples for Methylation Comparison

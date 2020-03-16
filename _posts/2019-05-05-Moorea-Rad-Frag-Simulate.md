@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simulating Double Digest to get Fragment Distributions
-tags: [ DNA, ddRAD, Porites, Pocillopora, Moorea ]
+tags: [ DNA, RAD, Porites, Pocillopora, Methylation ]
 ---
 
 # Using ddRADSeqTools, the _Porites lutea_ genome, and the _Pocillopora damicornis_ genome to simulate PstI and MspI restriction enzyme fragment distributions

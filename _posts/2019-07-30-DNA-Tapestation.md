@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PPP Lab Genomic and D5000 Tape Station Protocol
-tags: [ DNA, protocol ]
+tags: [ DNA, Protocol ]
 ---
 
 ## Agilent [Tape Station 4200](https://www.agilent.com/en/promotions/agilent-4200-tapestation-system?gclid=EAIaIQobChMI_tykoMrw4AIVFI7ICh2S3AZFEAAYASAAEgIqEPD_BwE&gclsrc=aw.ds)

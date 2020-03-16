@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Continuing Through-put Mo'orea Coral Extractions Three
-tags: [ DNA, Porites, Pocillopora ]
+tags: [ DNA Extraction, Porites, Pocillopora, DNA ]
 ---
 
 # And another(!) 20 DNA only extractions from _Porites_ and _Pocillopora_ Corals from Mo'orea

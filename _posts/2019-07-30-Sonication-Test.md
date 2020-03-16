@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing Sonication for MBD
-tags: [ DNA, protocol, Sonication ]
+tags: [ DNA, Acropora ]
 ---
 
 ## Sonication Tests with [Q800R3 Sonicator](https://www.sonicator.com/collections/sonicators/products/q800r-sonicator)
