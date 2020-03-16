@@ -32,7 +32,10 @@ This is from the successful attempt at extracting, the day before there was an u
 - Put mortar on the scale and tarred
 - Used forceps to put chunks into mortar: 0.11g
 - Decided to do a few more chunks (kit recommends 100mg, but hard to say how much skeleton I'm getting and how much will get scrapped out of the mortar)
+- While chiseling again added LN2 to mortar to keep original chunks chilled
 - Final weight 0.18g
+- Poured LN2 into mortar and let boil off
+- Ground chunks with pestle until powdery
 - Scrapped into a chilled 50mL conical with the spatula
 - Poured in the buffer G2 mix
 - Vortexed briefly and placed in incubator genie 10 speed
@@ -105,4 +108,4 @@ Genomic DNA screentape
 ![1]({{ site.baseurl}}/images/por-HMW-1.png "1")
 ![2]({{ site.baseurl}}/images/por-HMW-2.png "2")
 
-Amazing quality! Just have to extract more! 
+Amazing quality! Just have to extract more!
