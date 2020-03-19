@@ -6,6 +6,8 @@ tags: [ DNA, Methylation, Pico Library Prep, WGBS, Pocillopora, Montipora ]
 
 ## Using the [Zymo Pico Methyl Seq Kit](https://www.zymoresearch.com/products/pico-methyl-seq-library-prep-kit) on the [MBD enriched](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/MBD-Meth-Comp/) 3 _Pocillopora_ and 3 _Montipora_ samples and non-enriched as whole genome bisulfite sequencing for the purpose of comparing them to RRBS preparations
 
+Samples for methylation comparison are from the Holobiont Integration Project, and were extracted by Emma Strand or myself, see her notebook posts for the extraction specifications: [20190805 and 20180823](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-August-DNA-RNA-Extractions/), [20190718](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-July-DNA-RNA-Extractions/) and [20190903](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-September-DNA-RNA-Extractions/). 
+
 ### Dilution of WGBS samples
 
 [Previous trial of WGBS](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/WGBS-MC-1/) used 100ng input, which didn't work. So our plan is to do 1ng which has previously been shown to work well with this kit for us. However, all the samples for WGBS need to be diluted to avoid pipetting under 1µl. The easiest was to dilute every sample to be 1ng/µl concentration so 1µl could be used as the input for every sample

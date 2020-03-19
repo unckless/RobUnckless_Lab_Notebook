@@ -6,6 +6,8 @@ tags: [ DNA, Methylation, Pocillopora, Montipora ]
 
 ## Methyl-Binding Domain Enrichment of Samples for Methylation Comparison
 
+Samples for methylation comparison are from the Holobiont Integration Project, and were extracted by Emma Strand or myself, see her notebook posts for the extraction specifications: [20190805 and 20180823](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-August-DNA-RNA-Extractions/), [20190718](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-July-DNA-RNA-Extractions/) and [20190903](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-September-DNA-RNA-Extractions/). 
+
 ### Shearing Samples to ~500bp
 
 1. Prepare samples for 1µg in 80µl of Tris HCl
