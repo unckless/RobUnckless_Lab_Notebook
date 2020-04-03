@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Continuing Through-put Mo'orea Coral Extractions Four
+category: [ Processing ]
 tags: [ DNA Extraction, Porites, Pocillopora, DNA ]
 ---
 # One more 20 DNA only extractions from the first set of _Porites_ and _Pocillopora_ Corals from Mo'orea

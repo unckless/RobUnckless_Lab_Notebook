@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pipetting Exercises for Starting Labwork
-tags: [ Exercise ]
+category: [ Exercise ]
 ---
 _this exercise is a modified from the Moore Laboratory of Zoology's pipette exercise, which they modifed from somewhere else_
 

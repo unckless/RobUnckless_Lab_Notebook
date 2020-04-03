@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Zymo-Seq RiboFree Total RNA Library Prep Kit Test
+category: [ Library Prep ]
 tags: [ RNA , RNA Library Prep, Porites ]
 ---
 

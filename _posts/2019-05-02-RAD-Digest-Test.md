@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Restriction Enzyme Digest Test for Mo'orea Porites and Pocillopora ddRAD and EpiRAD
-tags: [ DNA, RAD, Porites, Pocillopra, Methylation ]
+category: [ Methylation ]
+tags: [ DNA, RAD, Porites, Pocillopra ]
 ---
 
 # 12 Tests of Individual and Double Enzymes for Both Species

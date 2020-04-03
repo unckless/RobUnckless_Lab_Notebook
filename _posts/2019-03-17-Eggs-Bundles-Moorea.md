@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Montipora Eggs and Bundles Troubleshooting and Mo'orea Test DNA/RNA Extraction
+category: [ Processing ]
 tags: [ DNA/RNA Extraction, Montipora, DNA, RNA ]
 ---
 

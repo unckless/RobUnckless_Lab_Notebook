@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Testing Number of Montipora Larvae Needed for DNA/RNA Extraction
+category: [ Processing ]
 tags: [ DNA/RNA Extraction, Montipora, Larvae, DNA, RNA ]
 ---
 
@@ -9,7 +10,7 @@ tags: [ DNA/RNA Extraction, Montipora, Larvae, DNA, RNA ]
 **Using Zymo Duet DNA/RNA Extraction Kit [HERE](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/company-protocols/_d7003t_d7003_quick-dna-rna_miniprep_plus_kit.pdf)**
 **Other components: Thermoixer and centrifuge capable of 16,000 rcf spin (Eppendorf)**
 
-**Goals:** To test our extraction kit on coral larvae 
+**Goals:** To test our extraction kit on coral larvae
 
 
 _Make sure ethanol has been added to the wash buffer, and that enzymes have been re-hydrated before starting_

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: General Template For Writing A Protocol in Your Lab Notebook
-tags: [ Protocol ]
+category: [ Protocol ]
 ---
 
 # Protocol Title: General for the Technique

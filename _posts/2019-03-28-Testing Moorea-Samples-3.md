@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mo'orea Test Extractions Part 3
+category: [ Processing ]
 tags: [ DNA/RNA Extraction, Pocillopora, Montipora, DNA, RNA ]
 ---
 

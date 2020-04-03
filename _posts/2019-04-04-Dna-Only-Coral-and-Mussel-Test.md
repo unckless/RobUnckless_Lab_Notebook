@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Testing Quick-DNA Kit on Mo'orea Corals and Tide Pool Mytilus
+category: [ Processing ]
 tags: [ DNA Extraction, Mytilus, Porites, Pocillopora, DNA ]
 ---
 

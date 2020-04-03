@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Zymo-Seq RiboFree Total RNA Library Prep Kit Soft RNA
+category: [ Library Prep ]
 tags: [ RNA , RNA Library Prep , Montipora, Pocillopora ]
 ---
 
 ## Another free sequencing with the [Zymo-Seq RiboFree Total RNA Library Prep Kit](https://www.zymoresearch.com/products/zymo-seq-ribofree-total-rna-library-kit)
 
-Samples for methylation comparison are from the Holobiont Integration Project, and were extracted by Emma Strand or myself, see her notebook posts for the extraction specifications: [20190805 and 20180823](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-August-DNA-RNA-Extractions/), [20190718](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-July-DNA-RNA-Extractions/) and [20190903](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-September-DNA-RNA-Extractions/). 
+Samples for methylation comparison are from the Holobiont Integration Project, and were extracted by Emma Strand or myself, see her notebook posts for the extraction specifications: [20190805 and 20180823](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-August-DNA-RNA-Extractions/), [20190718](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-July-DNA-RNA-Extractions/) and [20190903](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-September-DNA-RNA-Extractions/).
 
 Using 3 _Pocillopora_ and 3 _Montipora_ soft homogenization RNA samples.
 

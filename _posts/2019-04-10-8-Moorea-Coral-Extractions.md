@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 8 Mo'orea Coral Sample Extractions
+category: [ Processing ]
 tags: [ DNA Extraction, Porites, Pocillopora, DNA ]
 ---
 # 8 DNA only extractions from _Porites_ and _Pocillopora_ Corals from Mo'orea

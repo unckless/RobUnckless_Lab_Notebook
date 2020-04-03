@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Testing Extraction of More Pocillopora and Porites Mo'orea Samples
+category: [ Processing ]
 tags: [ DNA/RNA Extraction, Pocillopora, Montipora, DNA, RNA ]
 ---
 

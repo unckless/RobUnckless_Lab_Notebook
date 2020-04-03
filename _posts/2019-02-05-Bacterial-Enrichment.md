@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Airbrushing Coral for Bacterial Composition Analysis with Homogenate Concentration and Test DNA Extraction
-tags: [ DNA, Microbial Enrichment ]
+category: [ Processing ]
+ags: [ DNA, Microbial Enrichment ]
 ---
 
 ## Airbrushing and Concentrating

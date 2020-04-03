@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Porites astreoides RNA/DNA Extractions for RNA Seq Test
+category: [ Processing ]
 tags: [ DNA/RNA Extraction , Porites, RNA, DNA ]
 ---
 

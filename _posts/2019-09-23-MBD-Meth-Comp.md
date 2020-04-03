@@ -1,12 +1,13 @@
 ---
 layout: post
 title: MBD of Samples for Methylation Comparison
-tags: [ DNA, Methylation, Pocillopora, Montipora ]
+category: [ Processing, Methylation ]
+tags: [ DNA, Pocillopora, Montipora ]
 ---
 
 ## Methyl-Binding Domain Enrichment of Samples for Methylation Comparison
 
-Samples for methylation comparison are from the Holobiont Integration Project, and were extracted by Emma Strand or myself, see her notebook posts for the extraction specifications: [20190805 and 20180823](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-August-DNA-RNA-Extractions/), [20190718](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-July-DNA-RNA-Extractions/) and [20190903](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-September-DNA-RNA-Extractions/). 
+Samples for methylation comparison are from the Holobiont Integration Project, and were extracted by Emma Strand or myself, see her notebook posts for the extraction specifications: [20190805 and 20180823](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-August-DNA-RNA-Extractions/), [20190718](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-July-DNA-RNA-Extractions/) and [20190903](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-September-DNA-RNA-Extractions/).
 
 ### Shearing Samples to ~500bp
 

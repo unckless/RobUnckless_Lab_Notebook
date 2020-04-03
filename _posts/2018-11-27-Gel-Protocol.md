@@ -1,7 +1,8 @@
 ---
 layout: post
 title: PPP Lab Agarose Gel Protocol
-tags: [ Protocol, DNA ]
+category: [ Protocol ]
+tags: [ DNA ]
 ---
 
 #### This protocol is for the Putnam, Prada, and Puritz Labs

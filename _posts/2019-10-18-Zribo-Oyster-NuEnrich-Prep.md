@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Oyster Nutrient Enrichment Treatment RNA Lib Prep with Zymo-Seq RiboFree Total RNA Library Prep Kit
+category: [ Library Prep ]
 tags: [ RNA , RNA Library Prep, Crassostrea ]
 ---
 

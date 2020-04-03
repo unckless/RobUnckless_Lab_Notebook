@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Invitrogen MethylMiner Methylated DNA Enrichment Kit Test
-tags: [ DNA, Methylation, Acropora ]
+category: [ Processing, Methylation ]
+tags: [ DNA, Methylminer, Acropora ]
 ---
 
 

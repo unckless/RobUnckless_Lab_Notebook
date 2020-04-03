@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Continuing Through-put Mo'orea Coral Extractions Three
+category: [ Processing ]
 tags: [ DNA Extraction, Porites, Pocillopora, DNA ]
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Testing Sonication for MBD
+category: [ Methylation ]
 tags: [ DNA, Acropora ]
 ---
 

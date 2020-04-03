@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Starting Through-put Mo'orea Coral Extractions
+category: [ Processing ]
 tags: [ DNA Extraction, Porites, Pocillopora, DNA ]
 ---
 # 18 DNA only extractions from _Porites_ and _Pocillopora_ Corals from Mo'orea

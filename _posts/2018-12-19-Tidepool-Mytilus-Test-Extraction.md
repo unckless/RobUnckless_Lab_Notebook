@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tide pool Flux Mytilus Test DNA RNA Extraction
+category: [ Processing ]
 tags: [ DNA/RNA Extraction, DNA, RNA, Mytilus]
 ---
 

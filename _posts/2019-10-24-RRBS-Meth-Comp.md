@@ -1,12 +1,13 @@
 ---
 layout: post
 title: RRBS Library Prep of Samples for Methylation Comparison
-tags: [ DNA, Methylation, RRBS, Pocillopora, Montipora ]
+category: [ Library Prep, Methylation ]
+tags: [ DNA, RRBS, Pocillopora, Montipora ]
 ---
 
 # Reduced Representation Bisulfite Sequencing Library Prep with the Zymo Research EZ DNA Methylation RRBS Library Prep Test Kit for Methylation Comparison
 
-Samples for methylation comparison are from the Holobiont Integration Project, and were extracted by Emma Strand or myself, see her notebook posts for the extraction specifications: [20190805 and 20180823](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-August-DNA-RNA-Extractions/), [20190718](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-July-DNA-RNA-Extractions/) and [20190903](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-September-DNA-RNA-Extractions/). 
+Samples for methylation comparison are from the Holobiont Integration Project, and were extracted by Emma Strand or myself, see her notebook posts for the extraction specifications: [20190805 and 20180823](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-August-DNA-RNA-Extractions/), [20190718](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-July-DNA-RNA-Extractions/) and [20190903](https://emmastrand.github.io/EmmaStrand_Notebook/Holobiont-Integration-September-DNA-RNA-Extractions/).
 
 ### MspI Digestion
 

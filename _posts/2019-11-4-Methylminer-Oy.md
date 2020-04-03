@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Eastern Oyster Nutrient Enrichment Samples Prepped with the Invitrogen MethylMiner Methylated DNA Enrichment Kit
-tags: [ DNA, , Methylation, Crassostrea ]
+category [ Processing, Methylation ]
+tags: [ DNA, Crassostrea, Methylminer ]
 ---
 
 

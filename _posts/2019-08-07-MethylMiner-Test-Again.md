@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 10 Minute Sonication MethylMiner Test
-tags: [ DNA, Methylation, Acropora ]
+category: [ Methylation ]
+tags: [ DNA, Acropora ]
 ---
 
 ### Post bisulfite conversion samples from [Previous Post](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/MethylMiner-test/) hardly lost size at all, need to try again with a longer sonication.
