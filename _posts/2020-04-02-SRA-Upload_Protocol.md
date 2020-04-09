@@ -78,12 +78,19 @@ Once you have gathered those, the next thing to do is **login to the [submission
   - **Any other attribute you want to add** : such as : pH, replicate, treatment, pCO2, date of spawning, etc etc  
 - I recommend saving your spreadsheet as something specific to this project so that it does not get confused later with other Invertebrate.1.0.xlsx sheets you download. **ALSO** You should always download a new sheet when you go to upload samples because NCBI could update the information they want since the last time you uploaded.
 - Examples of a filled out and **accepted** BioSample spreadsheet. This can be tedious because it's likely none of your other datasheets have things named this way so you may have to individually write out every cell for some columns.
-![4]({{ site.baseurl}}/images/sampname.png "4")
-![5]({{ site.baseurl}}/images/isolate.png "5")
-![6]({{ site.baseurl}}/images/geoloc.png "6")
-![7]({{ site.baseurl}}/images/colleced.png "7")
-![8]({{ site.baseurl}}/images/latlong.png "8")
-![9]({{ site.baseurl}}/images/descript.png "9")
+
+![4]({{ site.baseurl}}/images/sampname.png "4")  
+
+![5]({{ site.baseurl}}/images/isolate.png "5")  
+
+![6]({{ site.baseurl}}/images/geoloc.png "6")  
+
+![7]({{ site.baseurl}}/images/colleced.png "7")  
+
+![8]({{ site.baseurl}}/images/latlong.png "8")  
+
+![9]({{ site.baseurl}}/images/descript.png "9")  
+
 - Now you can go back to the BioSample submission portal and you are ready to click the blue box that says **New Submission**.
 - The first section of the portal has submitter info. If in Hollie's login there is _nothing to change here_ so click to the next section.
 - Choose when to release the BioSamples (and its associated data) and tell NCBI how you are uploading the info (batch).
@@ -97,7 +104,7 @@ Once you have gathered those, the next thing to do is **login to the [submission
 - **At any time you can leave your submission and come back to it in the submission portal, it saves for you**
 - Once the upload is ok, you review everything to make sure it's what you want, then submit your samples!
 - In the submission portal it will change the BioSample submission from in progress to processing. It doesn't take very long to process the samples. Once they are processed, each BioSample now has an associated SAMN# with it.
-![14]({{ site.baseurl}}/images/processed-samples.png "14")
+![14]({{ site.baseurl}}/images/processed-samples-SAMN.png "14")
 - BioSamples are done!
 
 ## 2 BioProject Creation
@@ -129,7 +136,7 @@ Once you have gathered those, the next thing to do is **login to the [submission
 ![21]({{ site.baseurl}}/images/copySAMN.png "21")
 - Then paste the SAMN# into the portal for the BioProject. **Wait a second or two** until the number comes up in the drop down and click on it to choose that sample.
 ![22]({{ site.baseurl}}/images/pasteSAMN.png "22")
-- It's tempting to copy the whole name (ex SAMN14486766 : 128_FE_LOW) and press enter, **BUT** notice that there is a space between the : and the SAMN# on the submission portal, _but not in the dropdown in the upload section_. If you don't choose from the drop-down option, NCBI will not recognize the SAMN# and that sample won't be added to the list. You will get an error like this. **So only copy and paste the SAMN#**.
+- It's tempting to copy the whole name (ex SAMN14486766 : 128 FE LOW) and press enter, **BUT** notice that there is a space between the : and the SAMN# on the submission portal, _but not in the dropdown in the upload section_. If you don't choose from the drop-down option, NCBI will not recognize the SAMN# and that sample won't be added to the list. You will get an error like this. **So only copy and paste the SAMN#**.
 ![23]({{ site.baseurl}}/images/SAMNerror.png "23")
 - The next section is for publications info. If there hasn't been any publications yet with this data you don't need to add anything.
 - Then you review all of your inputs and submit! Once again the submission needs to be processed. Once it is processed you will have a PRJNA#.
@@ -159,15 +166,22 @@ Once you have gathered those, the next thing to do is **login to the [submission
   - Sequence file-type
 - The **design description** column is where you should put all information about how the libraries were prepped, what method, and by whom.
 - Then, in the **filename** column add the Read 1 complete file name. If you have paired end sequence data, add Read 2 in the **filename 2** column of that same row. *_note: make sure that your files are zipped with gzip and note zip._
-- Examples of a filled out and **accepted** SRA metadata sheet:
-![26]({{ site.baseurl}}/images/srasamn.png "26")
-![27]({{ site.baseurl}}/images/sra-title.png "27")
-![28]({{ site.baseurl}}/images/sra-lib-info.png "28")
-![29]({{ site.baseurl}}/images/sra-seq-info.png "29")
-![30]({{ site.baseurl}}/images/sra-descrip.png "30")
-![31]({{ site.baseurl}}/images/seq-name.png "31")
+- Examples of a filled out and **accepted** SRA metadata sheet:  
+
+![26]({{ site.baseurl}}/images/srasamn.png "26")  
+
+![27]({{ site.baseurl}}/images/sra-title.png "27")  
+
+![28]({{ site.baseurl}}/images/sra-lib-info.png "28")  
+
+![29]({{ site.baseurl}}/images/sra-seq-info.png "29")  
+
+![30]({{ site.baseurl}}/images/sra-descrip.png "30")  
+
+![31]({{ site.baseurl}}/images/seq-name.png "31")  
+
 - **Please triple check that your file names match your sample number and matches your SAMN#. This is the most crucial. It is best to always stay in numerical order to help alleviate confusion, especially when you have to copy and paste single cells, or write out names completely.**
-- While on the SRA_data tab choose Save As in a **tab delimited format, such as .txt or .tsv**. This is the formated required by the upload portal.
+- While on the SRA_data tab choose Save As in a **tab delimited format, such as .txt or .tsv**. This is the formatted required by the upload portal.
 - Then choose the tab-delimited version of the file for the metatdata upload in the SRA submission portal. It will check that everything is in the right format and flag you if something needs to be changed.
 - Next you go to upload your files. Choose the FTP command line preload option and click the button to request a pre-load folder.
 ![32]({{ site.baseurl}}/images/request-preload.png "32")
