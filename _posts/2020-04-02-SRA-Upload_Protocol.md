@@ -136,7 +136,7 @@ Once you have gathered those, the next thing to do is **login to the [submission
 ![21]({{ site.baseurl}}/images/copySAMN.png "21")
 - Then paste the SAMN# into the portal for the BioProject. **Wait a second or two** until the number comes up in the drop down and click on it to choose that sample.
 ![22]({{ site.baseurl}}/images/pasteSAMN.png "22")
-- It's tempting to copy the whole name (ex SAMN14486766 : 128 FE LOW) and press enter, **BUT** notice that there is a space between the : and the SAMN# on the submission portal, _but not in the dropdown in the upload section_. If you don't choose from the drop-down option, NCBI will not recognize the SAMN# and that sample won't be added to the list. You will get an error like this. **So only copy and paste the SAMN#**.
+- It's tempting to copy the whole name (ex SAMN14486766 : 128 FE LOW) and press enter, **BUT** notice that there is a space between the : and the SAMN# on the submission portal, _but not in the dropdown in the upload section_. If you don't choose from the drop-down option, NCBI will not recognize the SAMN# and that sample won't be added to the list. You will get an error like this. **So only copy and paste the SAMN# and wait to click the option**. Yes, this is tedious. 
 ![23]({{ site.baseurl}}/images/SAMNerror.png "23")
 - The next section is for publications info. If there hasn't been any publications yet with this data you don't need to add anything.
 - Then you review all of your inputs and submit! Once again the submission needs to be processed. Once it is processed you will have a PRJNA#.
