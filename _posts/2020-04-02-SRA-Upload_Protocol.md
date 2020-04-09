@@ -16,12 +16,12 @@ tags: [ Sequences ]
 
 [SRA - Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra/) "Sequence Read Archive (SRA) data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data. The archive accepts data from all branches of life as well as metagenomic and environmental surveys. SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis." A single SRA submission (or in their language: an EXPERIMENT) is a unique sequencing result for a specific sample. In many of your projects you may have different sequencing results from one sample (RNA, DNA, microbial, etc.).
 
-![1]({{ site.baseurl}}/images/NCBI-Archive.jpeg "1")
+![1]({{ site.baseurl}}/images/NCBI-Archive.jpg "1")
 
 # Submission Workflow
 It seems intuitive to create a BioProject before making the BioSamples, but if you do that the BioProject portal will take you to make BioSamples, and it won't let you upload a batch file when it takes you that way. That's why it is **much easier** to make the BioSamples before the project. You can add the BioProject accession number to your samples after it is created. It is definitely better to have created both the BioProject and all of your BioSamples for what you are trying to upload before you start the SRA submission process. Like most things, it gets more confusing the more things you try to do at once.
 
-![2]({{ site.baseurl}}/images/SRA_Workflow.jpeg "2")
+![2]({{ site.baseurl}}/images/SRA_Workflow.jpg "2")
 
 #### Information to gather before processing
 - Species name and if there is any potential complications with that
@@ -44,7 +44,8 @@ Once you have gathered those, the next thing to do is **login to the [submission
 ## 1 BioSample Submission
 
 - Once logged in, click on the tab that says **My Submissions**.
-- In the Start a New Submission box, click on **BioSample**. This will take you to all your BioSamples.
+- In the Start a New Submission box, click on **BioSample**. This will take you to all your BioSamples.  
+
 ![3]({{ site.baseurl}}/images/new_sub.png "3")
 - Right **next** to the blue box that says **New Submission**, click the link that says **Download batch submission template**.
 - Choose the sample type that your samples fit under (most often invertebrate).
@@ -101,7 +102,8 @@ Once you have gathered those, the next thing to do is **login to the [submission
 
 ## 2 BioProject Creation
 
-- Go into the submission portal and this time choose BioProject in the Start a New Submission Box.
+- Go into the submission portal and this time choose BioProject in the Start a New Submission Box.  
+
 ![3]({{ site.baseurl}}/images/new_sub.png "3")
 - Again the first section of the portal is submitter info. There should be nothing to change.
 - Choose **all types of data** that are applicable for this project. Usually raw sequence reads is one of them
@@ -126,7 +128,7 @@ Once you have gathered those, the next thing to do is **login to the [submission
 - When adding in the SAMN# it is best to have open in another tab the portal to your submissions and copy **only** the SAMN# from that list.
 ![21]({{ site.baseurl}}/images/copySAMN.png "21")
 - Then paste the SAMN# into the portal for the BioProject. **Wait a second or two** until the number comes up in the drop down and click on it to choose that sample.
-![22]({{ site.baseurl}}/images/copySAMN.png "22")
+![22]({{ site.baseurl}}/images/pasteSAMN.png "22")
 - It's tempting to copy the whole name (ex SAMN14486766 : 128_FE_LOW) and press enter, **BUT** notice that there is a space between the : and the SAMN# on the submission portal, _but not in the dropdown in the upload section_. If you don't choose from the drop-down option, NCBI will not recognize the SAMN# and that sample won't be added to the list. You will get an error like this. **So only copy and paste the SAMN#**.
 ![23]({{ site.baseurl}}/images/SAMNerror.png "23")
 - The next section is for publications info. If there hasn't been any publications yet with this data you don't need to add anything.
@@ -134,12 +136,13 @@ Once you have gathered those, the next thing to do is **login to the [submission
 
 ## 3 SRA Sequence Upload
 
-- Finally! Start a new submission for a Sequence Read Archive.
+- Finally! Start a new submission for a Sequence Read Archive.  
+
 ![3]({{ site.baseurl}}/images/new_sub.png "3")
 - We will be doing the ftp upload, so make sure you can access your sequence via the command line
 - Again, the submitter info is the first step and shouldn't be changed.
 - For information, paste in your new PRJNA# and say yes you have BioSamples (these will be added in the metadata sheet). Then choose the release data option that fits will all your other submissions.
-![24]({{ site.baseurl}}/images/SRA-info.png "24")
+![24]({{ site.baseurl}}/images/SRA-Info.png "24")
 - Next, for the metadata upload choose the Excel format and download the excel spreadsheet from NCBI.
 ![25]({{ site.baseurl}}/images/srametadata.png "25")
 - In the excel sheet, the first tab is general instructions about the file, the second tab is where you input your information. The third tab is all of the terms that can be used for Strategy, Source, Selection, and Platforms, as well as definitions of what they are (you should know these before hand, see information to gather before processing).
@@ -159,7 +162,7 @@ Once you have gathered those, the next thing to do is **login to the [submission
 - Examples of a filled out and **accepted** SRA metadata sheet:
 ![26]({{ site.baseurl}}/images/srasamn.png "26")
 ![27]({{ site.baseurl}}/images/sra-title.png "27")
-![28]({{ site.baseurl}}/images/sra-lib.png "28")
+![28]({{ site.baseurl}}/images/sra-lib-info.png "28")
 ![29]({{ site.baseurl}}/images/sra-seq-info.png "29")
 ![30]({{ site.baseurl}}/images/sra-descrip.png "30")
 ![31]({{ site.baseurl}}/images/seq-name.png "31")
