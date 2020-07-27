@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Primer Resuspention and Test PCR for mtORF Pociillopra Species Determination
+title: Primer Resuspention and Test PCR for mtORF Pocillopra Species Determination
 category: [ PCR ]
 tag: [ Pocillopora, mtORF ]
 ---
@@ -95,4 +95,4 @@ tag: [ Pocillopora, mtORF ]
 
 ![gel]({{ site.baseurl}}/images/fatp6-RORF-test-20200725.jpg "1")
 
-The mtORF should be between 900-1000bp. This looks like the amplification worked, but I am wondering if the stuff above the brightest area (also the right size for mtORF) is a PCR bubble. 40 cycles is a lot and maybe it over amplified. All samples were at a concentration higher than 10ng/ul, which is the concentration in the ITS2 protocol. I will try reducing cycles and input DNA. The control samples had no amplification that small band is likely the primer. 
+The mtORF should be between 900-1000bp. This looks like the amplification worked, but I am wondering if the stuff above the brightest area (also the right size for mtORF) is a PCR bubble. 40 cycles is a lot and maybe it over amplified. All samples were at a concentration higher than 10ng/ul, which is the concentration in the ITS2 protocol. I will try reducing cycles and input DNA. The control samples had no amplification that small band is likely the primer.
