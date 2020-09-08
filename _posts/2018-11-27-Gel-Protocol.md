@@ -32,7 +32,7 @@ For a 1% gel:
 17.	Add your samples to each well: ~6μl. Make sure you have made a map in your notebook that shows the order of samples
 18.	Make sure gel is set up to “run towards red”
 19.	Plug black cable into black insert and red cable into red insert of the gel box
-20.	Turn box on and make sure voltage is set to 100V. Set time for 30-60min
+20.	Turn box on and make sure voltage is set to 80-100V. Set time for 45-60min
 21.	Once done, take the tray out of the boxy and using a Kimwipe, slide the gel into your hands. Bring over to the imaging plate and set in the center of the blue square
 22.	Place the orange shield over the gel
 23.	Take a cardboard box with a hole cut in it and put it over the light imager
