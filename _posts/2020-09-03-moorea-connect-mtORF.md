@@ -7,8 +7,8 @@ tag: [ Pocillopora, mtORF ]
 
 ## mtORF Amplification and Sanger Sequencing Prep for the Pocillopora Samples from the Mo'orea Connect Project
 
-**Goal**: Amplify the 56 samples, with 4 control reactions for mtORF. Then dilute them properly and send them to the GSC for Sanger sequencing.
-**Major Results**: Great amplifications again with clear bands and no contamination.
+**Goal**: Amplify the 56 samples, with 4 control reactions for mtORF. Then dilute them properly and send them to the GSC for Sanger sequencing.  
+**Major Results**: Great amplifications again with clear bands and no contamination.  
 **Major Takeaways**: The protocol works great for even more samples (60). Qubiting that many was a hassle though, and maybe a plate reader quantification system would be better. It might be good to increase the resuspension volume after the bead clean, however I still fell like with the variability of the qubit values after the clean up that even so some samples would need to be diluted. And it would be more of a hassle to only have to dilute random samples than to have to dilute all samples.
 
 ## Process
