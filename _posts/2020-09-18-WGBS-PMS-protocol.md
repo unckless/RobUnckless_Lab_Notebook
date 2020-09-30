@@ -133,7 +133,7 @@ Prep Workflow Diagram from Zymo:
 - It should take 20ish minutes between the two holds in the program
 - When the program is done take out the tubes and place them on ice
 
-#### DNA Clean and Concentrator Cleanup (DCC)
+### DNA Clean and Concentrator Cleanup (DCC)
 
 - Make new 1.5mL tubes for each of your samples
 - Add 108.85ul of DNA binding buffer to each of the new 1.5mL tubes. This is a 7:1 ratio of the amount of liquid from the PrepAmp Priming reaction
@@ -155,7 +155,7 @@ Prep Workflow Diagram from Zymo:
 - Centrifuge spin columns at 16,000rcf for 30 seconds
 - Discard spin columns and keep elution tubes on ice
 
-#### 1st Amplification
+### 1st Amplification
 
 - Thaw reagents needed on ice:
   - (2X) Library Amp Master Mix
@@ -171,7 +171,7 @@ Prep Workflow Diagram from Zymo:
 - Place in the thermocycler 1st Pico Amp Program **8 cycles** under the MES login (password 8888)
 - Once the program is done take out the tubes and place on ice
 
-#### DNA Clean and Concentrator Cleanup (DCC)
+### DNA Clean and Concentrator Cleanup (DCC)
 
 - Make new 1.5mL tubes for each of your samples
 - Add 175ul of DNA binding buffer to each of the new 1.5mL tubes. This is a 7:1 ratio of the amount of liquid from the 1st Amplification reaction
@@ -193,7 +193,7 @@ Prep Workflow Diagram from Zymo:
 - Centrifuge spin columns at 16,000rcf for 30 seconds
 - Discard spin columns and keep elution tubes on ice
 
-#### 2nd Amplification
+### 2nd Amplification
 
 - Thaw the Library Amp Master Mix (2X) on ice
 - Thaw the planned paired indexing primers for your samples
@@ -214,7 +214,7 @@ Prep Workflow Diagram from Zymo:
 - Place tubes in the thermocycler 2nd Pico Amp Program (12 Cycles) under the MES login (password 8888)
 - After the program is done, place the samples on ice
 
-#### 1X Bead Clean Up
+### 1X Bead Clean Up
 
 - Take KAPA Pure Beads out of the refrigerator ~30 minutes before use to get to room temperature. Swirl the bottle to mix the beads but don't vortex
 - Make fresh 80% ethanol for the day, using 100% ethanol (in the flammable cabinet) and ultrapure water
@@ -236,12 +236,12 @@ Prep Workflow Diagram from Zymo:
 - Make new strip tubes (final tubes) that are well labeled for your libraries (sample name, date, "lib" initials)
 - Freeze at -20 degrees C if not doing QC on the same day, if QCing next, place on ice
 
-#### Broad Range dsDNA Qubit Assay
+### Broad Range dsDNA Qubit Assay
 
 - Use the [protocol for the Qubit Assay](https://github.com/meschedl/PPP-Lab-Resources/blob/master/Protocols/Qubit-Assay-Protocol.md)
 - Make sure to read each sample twice and use the average as the DNA library concentration
 
-#### D5000 TapeStation Analysis
+### D5000 TapeStation Analysis
 
 - If you get Qubit values for each of your libraries you should run them on the TapeStation to access the library size. If one library had too low DNA concentration the prep probably failed somewhere and there is no need to use the TS on that library
 - Use the [D5000 TapeStation protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/DNA-Tapestation/) to see the size range of your completed libraries. Make sure all reagents say D5000 on them
