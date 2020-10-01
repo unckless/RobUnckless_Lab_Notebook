@@ -51,6 +51,7 @@ Prep Workflow Diagram from Zymo:
 - Dilute extracted DNA to 1ng/ul or appropriate concentration so 1ng of DNA can be used to start the protocol without pipetting below 1ul and the input volume is no more than 20ul
 - Use the same buffer that the extracted DNA is in (ex. 10mM Tris HCl)
 - For example dilute every sample to 1ng/ul so 1ul can be used as the input of the prep
+- [Video link](https://www.youtube.com/watch?v=byipduTsFmc&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=1)
 
 ### Bisulfite Conversion
 
@@ -63,6 +64,7 @@ Prep Workflow Diagram from Zymo:
   - 54 degrees C for 54 minutes
   - 4 degrees C hold
 - _Once the program is done, samples can be stored in the fridge for up to 20 hours, so you can safely stop here overnight_
+- [Video link](https://www.youtube.com/watch?v=4ar8d5NeSks&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=2)
 
 ### Post-Conversion Column Cleanup
 
@@ -70,11 +72,11 @@ Prep Workflow Diagram from Zymo:
 - Add 600ul of M-Binding Buffer to each spin column
 - Add the entire (150ul) bisulfite conversion reaction to their respective spin columns
 - Cap and invert the spin columns (with collection tube attached) 5-10 times to well mix
-- Centrifuge spin columns at 16,000rcf for 30 seconds
+- Centrifuge spin columns at 16,000rcf for 30 seconds [Video link](https://www.youtube.com/watch?v=XNcLVsSHGa4&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=3)
 - Discard flow through in a liquid waste beaker, there is a hazardous waste container for Pico Methyl Seq Kit liquid waste in the SAA
 - Add 100ul of M-Wash Buffer to each spin column
 - Centrifuge spin columns at 16,000rcf for 30 seconds and discard flow through in waste container
-- Add 200ul of L-Desulphonation Buffer to each spin column
+- Add 200ul of L-Desulphonation Buffer to each spin column [Video link](https://www.youtube.com/watch?v=AhI5jI4g7PI&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=4)
 - Let columns sit at room temperature for 15 minutes
 - Warm the tube of DNA Elution Buffer in the thermomixer to 56 degrees C
 - Label new 1.5mL tubes, 1 for each sample (temporary)
@@ -85,7 +87,7 @@ Prep Workflow Diagram from Zymo:
 - Centrifuge spin columns at 16,000rcf for **2 minutes**
 - Transfer spin columns to their new labeled 1.5mL tubes
 - Discard flow through and collection tubes
-- Add 8ul of warmed DNA Elution Buffer by dripping directly onto the filter of the spin columns
+- Add 8ul of warmed DNA Elution Buffer by dripping directly onto the filter of the spin columns [Video Link](https://www.youtube.com/watch?v=HTUPJwe1CIs&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=5)
 - Incubate columns at room temp for 5 minutes
 - Centrifuge the spin columns in tubes at 16,000 rcf for 30 seconds
 - Discard spin columns and keep 1.5mL tubes on ice
@@ -115,12 +117,13 @@ Prep Workflow Diagram from Zymo:
 - Make new strip tubes for each one of your samples
 - Add 7ul of bisulfite converted sample to their respective strip tube. This should be about all the liquid there is in the final tubes from the previous cleanup
 - Add 3ul of PMM to each tube
-- Vortex tubes, spin them down, and place them in the thermocyler in the Pico Priming program under the MES login (password 8888)
+- [Video Link](https://www.youtube.com/watch?v=k5ApfvSbhAQ&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=6)
+- Vortex tubes, spin them down, and place them in the thermocyler in the Pico Methyl Priming program under the MES login (password 8888)
 - During the program there will be two holds during which you will have to add things to your samples:
   - 98 for 2 minutes
   - 8 degrees for 1 minute
   - 8 degree hold
-  - **During hold, open the machine and take out the tubes (don't press a button yet!) vortex and spin the tubes down, add 5.05µl PAMM to each tube, vortex and spin the tubes down again, and place back in thermocycler and press enter on the machine**
+  - **During hold, open the machine and take out the tubes (don't press a button yet!) vortex and spin the tubes down, add 5.05µl PAMM to each tube, vortex and spin the tubes down again, and place back in thermocycler and press enter on the machine, [Video link](https://www.youtube.com/watch?v=P2noo1yXC3g&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=7)**
   - 8 degrees for 4 minutes
   - 16 degrees for 1 minute with 3% ramp rate
   - 22 degrees for 1 minute with 3% ramp rate
@@ -138,10 +141,10 @@ Prep Workflow Diagram from Zymo:
 - Make new 1.5mL tubes for each of your samples
 - Add 108.85ul of DNA binding buffer to each of the new 1.5mL tubes. This is a 7:1 ratio of the amount of liquid from the PrepAmp Priming reaction
 - Set the thermomixer to 56 degrees C and place the DNA Elution Buffer in to warm
-- Add the total volume of the strip tubes from the PrepAmp Priming reaction to their respective 1.5mL tube. This should be 15.55ul but there may be less because the lid temperature on the theremocycler program is low and does not prevent evaporation
+- Add the total volume of the strip tubes from the PrepAmp Priming reaction to their respective 1.5mL tube. This should be 15.55ul but there may be less because the lid temperature on the theremocycler program is low and does not prevent evaporation. [Video ink](https://www.youtube.com/watch?v=lDLQGq6IPBY&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=8)
 - Vortex and spin down the 1.5mL tubes to mix
 - Set up a spin column and a collection tube for each sample (same as before)
-- Add the total volume of the 1.5mL tube to their respective spin column
+- Add the total volume of the 1.5mL tube to their respective spin column. [Video link](https://www.youtube.com/watch?v=lUlZnIVWIvg&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=9)
 - Centrifuge the spin columns at 16,000rcf for 30 seconds
 - Discard the flowthough in the same waste beaker or container as above
 - Add 200ul of DNA Wash Buffer to each spin column
