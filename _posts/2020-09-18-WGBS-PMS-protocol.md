@@ -223,14 +223,14 @@ Prep Workflow Diagram from Zymo:
 
 - Take KAPA Pure Beads out of the refrigerator ~30 minutes before use to get to room temperature. Swirl the bottle to mix the beads but don't vortex
 - Make fresh 80% ethanol for the day, using 100% ethanol (in the flammable cabinet) and ultrapure water
-- When beads are at room temp, add 26ul (equal volume) of beads to each strip tube. Pipette slowly because the bead solution is very viscous. Pipette mix the bead-sample mix at least 10 times until homogeneously brown
+- When beads are at room temp, add 26ul (equal volume) of beads to each strip tube. Pipette slowly because the bead solution is very viscous. Pipette mix the bead-sample mix at least 10 times until homogeneously brown. [Video link](https://www.youtube.com/watch?v=M-c4QewJUeg&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=12)
 - Set up the rotating shaker on the Qubit bench and place the strip tubes on the shaker, rotating at 200rpm for 15 minutes
 - Get the "short" magnet plate from the Puritz lab bench: it's silver, clear, and white with horizontal magnetic bars
 - At the 15 minutes on the shaker, place the tubes on the magnet rack and wait until the liquid goes clear and the beads have gone to the magnet
 - Using a p200 pipette set to 45ul, carefully remove the clear supernatant from each tube without disturbing the beads and discard in a waste trough
 - Add 200ul of 80% ethanol to each tube
 - Remove the ethanol (200ul) from each tube carefully, without disturbing the beads, and discard the liquid in the waste trough
-- Add another 200ul of 80% ethanol to each tube
+- Add another 200ul of 80% ethanol to each tube. [Video link](https://www.youtube.com/watch?v=O9C89M3rSvg&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=13)
 - Remove the ethanol (200ul) from each tube carefully, without disturbing the beads, and discard the liquid in the waste trough
 - Use a p20 set to 20ul to remove any residual liquid in each tube
 - Let tubes air dry for ~1 more minute
