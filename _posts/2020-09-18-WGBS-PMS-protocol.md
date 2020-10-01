@@ -173,6 +173,7 @@ Prep Workflow Diagram from Zymo:
 - Vortex and spin down tubes
 - Place in the thermocycler 1st Pico Amp Program **8 cycles** under the MES login (password 8888)
 - Once the program is done take out the tubes and place on ice
+- [Video link](https://www.youtube.com/watch?v=Jy03aMCKW3U&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=10)
 
 ### DNA Clean and Concentrator Cleanup (DCC)
 
@@ -216,6 +217,7 @@ Prep Workflow Diagram from Zymo:
 - Vortex and spin down tubes after all components are added to each tube
 - Place tubes in the thermocycler 2nd Pico Amp Program (12 Cycles) under the MES login (password 8888)
 - After the program is done, place the samples on ice
+- [Video link](https://www.youtube.com/watch?v=Vsn9XDs0Sok&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=11)
 
 ### 1X Bead Clean Up
 
