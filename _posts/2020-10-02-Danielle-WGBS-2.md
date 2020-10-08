@@ -7,8 +7,8 @@ tag: [ WGBS ]
 
 # Using the Zymo Pico Methyl Seq Library Prep Kit for the 2nd Set of 16 of Danielle's Pocillopora DNA Samples and Sample E7 Again for Whole Genome Bisulfite Sequencing
 
-**Goal** Library prep 17 samples for WGBS
-**Results** 15 samples were prepped successfully, 2 did not work
+**Goal** Library prep 17 samples for WGBS  
+**Results** 15 samples were prepped successfully, 2 did not work  
 **Takeaways** E7 worked this time, I am not sure why E2 and E9 did not. I will have to prep them again. Also the KAPA HiFi HotStart Ready Mix can be substituted in the last amplification, but it might over amplify them a little bit? Those libraries amplified way better than the others. Increasing the number of cycles to 13 didn't seem to do anything to help library yield.
 
 
