@@ -7,8 +7,8 @@ tag: [ WGBS ]
 
 # Using the Zymo Pico Methyl Seq Library Prep Kit for Two Final of Danielle's Pocillopora DNA Samples for Whole Genome Bisulfite Sequencing
 
-**Goal** Library prep 2 samples for WGBS that failed previously
-**Results** Both samples worked!
+**Goal** Library prep 2 samples for WGBS that failed previously  
+**Results** Both samples worked!  
 **Takeaways** I re-diluted the sample DNA and the index primers, so I do not know if either of those was the initial problem or something else during the prep. I continue to struggle to get all preps to work on the first prep, I am not sure why. It was noticeably easier and much more manageable to do 2 samples instead of 16/17. I think that might be almost too many to do at once.
 
 ### This library prep followed the [exact protocol for the Zymo Pico Methyl Seq Kit from me](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/WGBS-PMS-protocol/). See that protocol for detailed descriptions of each steps. Tables and values specific for this prep are included below.
