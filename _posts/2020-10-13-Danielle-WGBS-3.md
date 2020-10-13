@@ -96,7 +96,7 @@ tag: [ WGBS ]
 - [TapeStation report link](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2020-10-13%20-%2015.30.02.pdf)
 E2 Library:
 ![1]({{ site.baseurl}}/images/20201013-TS-1.png "1")
-E3 Library:
+E9 Library:
 ![2]({{ site.baseurl}}/images/20201013-TS-2.png "2")
 
 #### Samples and Index Sequences
