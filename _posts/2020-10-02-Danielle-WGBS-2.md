@@ -45,7 +45,7 @@ tag: [ WGBS ]
 #### Amplification with Prep-Amp Primers
   - Followed exact steps as in the protocol
   - Priming Master Mix calculations (PMM):
-    - 2ul PrepAmp Buffer * 17.7 = 35.4l
+    - 2ul PrepAmp Buffer * 17.7 = 35.4ul
     - 1ul PrepAmp Primer * 17.7 = 17.7ul
   - PrepAmp Master Mix calculations (PAMM):
     - 1ul PrepAmp Buffer * 17.7 = 17.7ul
@@ -148,8 +148,6 @@ C23|ATGAGGCC|GTTAATTG
 E16|ACTAAGAT|AACCGCGG
 C19|GTCGGAGC|GGTTATAA
 C25|CTTGGTAT|CCAAGTCC
-E2|TCCAACGC|TTGGACTT
-E9|CCGTGAAG|CAGTGGAT
 C32|TTACAGGA|TGACAAGC
 E15|GGCATTCT|CTAGCTTG
 C17|AATGCCTC|TCGATCCA
