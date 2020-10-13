@@ -1,4 +1,4 @@
-Proceeded---
+---
 layout: post
 title: Final 2 Re-do WGBS Library Prep for Danielle's Pocillopora Samples
 category: [ Library Prep, Methylation ]
