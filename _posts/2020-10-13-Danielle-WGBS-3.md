@@ -91,7 +91,7 @@ tag: [ WGBS ]
 |E2|13.8|13.7|13.75|
 |E9|15.4|15.3|15.35|
 
-####D5000 TapeStation
+#### D5000 TapeStation
 - Followed [TapeStation protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/DNA-Tapestation/)
 - [TapeStation report link](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2020-10-13%20-%2015.30.02.pdf)
 E2 Library:
