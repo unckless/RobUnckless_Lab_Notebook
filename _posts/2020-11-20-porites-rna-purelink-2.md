@@ -10,8 +10,8 @@ tags: [ RNA, Porites, RNA Extraction ]
 
 In this Extraction I used: [Purelink RNA mini Kit](https://www.thermofisher.com/order/catalog/product/12183018A#/12183018A), [Trizol Reagent](https://www.thermofisher.com/order/catalog/product/15596026#/15596026), [1-Bromo-3-cholropropane](https://www.sigmaaldrich.com/catalog/product/sigma/b9673?lang=en&region=US), and [a protocol from Federica](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/company-protocols/Coral%20fragment%20RNA%20extraction.docx). I modified the protocol by increasing the initial volume of trizol reagent to 750ul and homogenizing with the tissuelyser for 4 minutes at 25Hz, switching tube positions at 2 minutes.
 
-**Goal**: Extract high quality RNA out of these samples to send to Israel
-**Result**: Again, no RNA extracted :(
+**Goal**: Extract high quality RNA out of these samples to send to Israel  
+**Result**: Again, no RNA extracted :(  
 **Major Take Aways**: Again, not sure why it's not working, samples looked nicely homogenized this time. I should have added 800ul trizol at the beginning, because I was still 50ul less getting out of the beads and after the centrifugation.
 
 #### Note: Protocol is done in the hood as Trizol and 1-Bromo-3-cholropropane are toxic and corrosive. PPE of lab coat, mask, eye glasses, and gloves were worn at all times. Solid and liquid wastes are hazardous.
