@@ -85,7 +85,7 @@ In this Extraction I used: [Purelink RNA mini Kit](https://www.thermofisher.com/
 - Centrifuged 15 seconds at 12,000 rcf
 - Discarded flow through in trizol waste and changed collection tubes
 - Added 80ul DNase mixture to each spin column and incubated at room temp for 12 minutes
-- Added 60ul of 100% ethanol to wash buffer 2
+- Added 60ml of 100% ethanol to wash buffer 2
 - After incubation, added 350ul wash buffer 1
 - Centrifuged 15 seconds at 12,000 rcf
 - Discarded flow through in trizol waste and changed collection tubes
