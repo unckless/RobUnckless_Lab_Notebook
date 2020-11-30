@@ -10,8 +10,8 @@ tags: [ RNA, Porites, RNA Extraction ]
 
 In this Extraction I used: [Purelink RNA mini Kit](https://www.thermofisher.com/order/catalog/product/12183018A#/12183018A), [Trizol Reagent](https://www.thermofisher.com/order/catalog/product/15596026#/15596026), [1-Bromo-3-cholropropane](https://www.sigmaaldrich.com/catalog/product/sigma/b9673?lang=en&region=US), and [a protocol from Federica](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/company-protocols/Coral%20fragment%20RNA%20extraction.docx). I modified the protocol by grinding a large chunk on LN2, increasing the initial volume of trizol reagent to 1100ul and homogenizing with the tissuelyser for 4 minutes at 25Hz, switching tube positions at 2 minutes.
 
-**Goal**: Extract high quality RNA out of one sample to get this protocol nailed down
-**Result**: Again, no RNA extracted :(
+**Goal**: Extract high quality RNA out of one sample to get this protocol nailed down  
+**Result**: Again, no RNA extracted :(  
 **Major Take Aways**: Now I really don't know what is the problem, maybe I have been using too much sample this whole time. That is my only guess
 
 #### Note: Protocol is done in the hood as Trizol and 1-Bromo-3-cholropropane are toxic and corrosive. PPE of lab coat, mask, eye glasses, and gloves were worn at all times. Solid and liquid wastes are hazardous.
@@ -57,7 +57,7 @@ In this Extraction I used: [Purelink RNA mini Kit](https://www.thermofisher.com/
 ![1]({{ site.baseurl}}/images/20201125-8.jpeg "1")
 - There was also a visible pellet in each tube, probably skeleton?
 - A:
-![1]({{ site.baseurl}}/images/20201125-6.jpeg "1")
+![1]({{ site.baseurl}}/images/20201125-7.jpeg "1")
 - B:
 ![1]({{ site.baseurl}}/images/20201125-9.jpeg "1")
 - Was able to remove ~550ul of the top clearish layer into new 1.5mL tubes (tough to remove without getting other layers)
