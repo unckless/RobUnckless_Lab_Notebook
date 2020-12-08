@@ -1,6 +1,6 @@
 ---
 layout: post
-title Porites astrodies RNA Extraction with Zymo Kit
+title: Porites astrodies RNA Extraction with Zymo Kit
 category: [ Extraction ]
 tags: [ RNA, Porites, RNA Extraction ]
 ---

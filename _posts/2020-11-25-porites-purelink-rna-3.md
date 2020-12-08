@@ -5,7 +5,6 @@ category: [ Extraction ]
 tags: [ RNA, Porites, RNA Extraction ]
 ---
 
-
 # Trying Extraction Again With RNA Purelink Kit to Get RNA from 1 _Porites asteroides_ Samples
 
 In this Extraction I used: [Purelink RNA mini Kit](https://www.thermofisher.com/order/catalog/product/12183018A#/12183018A), [Trizol Reagent](https://www.thermofisher.com/order/catalog/product/15596026#/15596026), [1-Bromo-3-cholropropane](https://www.sigmaaldrich.com/catalog/product/sigma/b9673?lang=en&region=US), and [a protocol from Federica](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/company-protocols/Coral%20fragment%20RNA%20extraction.docx). I modified the protocol by grinding a large chunk on LN2, increasing the initial volume of trizol reagent to 1100ul and homogenizing with the tissuelyser for 4 minutes at 25Hz, switching tube positions at 2 minutes.
