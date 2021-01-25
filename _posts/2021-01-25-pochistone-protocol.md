@@ -35,7 +35,7 @@ Information on Sanger sequencing at the URI GSC is [here](https://web.uri.edu/gs
 
 - Primer working stock dilution
 - DNA dilution
-- mtORF amplification
+- PocHistone amplification
 - 1X bead clean up
 - Qubit and Gel
 - DNA dilution and prep for sequencing
