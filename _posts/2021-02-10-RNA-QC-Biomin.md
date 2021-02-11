@@ -34,28 +34,28 @@ tags: [ RNA, Montipora,  ]
 - [Results Link](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2021-02-10%20-%2010.51.38.pdf)
 - Comparisons of traces per sample (note samples from 2019 are labeled by the extraction number, see table above):
 
-**183 20190517**  
-![](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-12-66.png)
-**183 20210210**  
+**183 20190517**    
+![](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-12-66.png)  
+**183 20210210**    
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/183-66-20210210.png)
 
-**156 20190427**   
-![](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-8-37.png)
-**156 20210210**  
+**156 20190427**     
+![](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-8-37.png)  
+**156 20210210**      
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/156-37-20210210.png)
 
-**129 20190506**  
-![](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-10-53.png)  
-**129 20210210**  
+**129 20190506**    
+![](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-10-53.png)   
+**129 20210210**    
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/129-53-20210210.png)  
 
 **164 20190427**  
-![](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-8-40.png)  
+![](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-8-40.png)   
 **164 20210210**  
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/164-40-20210210.png)  
 
 **371 20190322**  
-![](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-4-25.png)  
+![](https://raw.githubusercontent.com/echille/E.-Chille-Open-Lab-Notebook/master/images/TS-biomin-Ext-Batch-4-25.png)   
 **371 20210210**  
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/371-25-20210210.png)
 
@@ -96,4 +96,4 @@ The difference in heights is based on concentration, there was a wide range betw
 
 Even though 371 and 183 have a little low 260/230 values (should be ~2.00), the traces look pretty good, and the other samples have good ratios. They are from the same timepoint, so maybe that has something to do with it. It looks like there might not be a contamination issue with larvae samples.
 
-I do still think I should check some RNA after doing a few test samples. Zymo [no longer uses heated digestions](https://files.zymoresearch.com/protocols/_d7003t_d7003_quick-dna-rna_miniprep_plus_kit.pdf) (updated 1/27/2021), and suggests homogenization in something like a tissuelyser for any tissue samples. So I will probably have to do a slightly modified protocol than [Erin's](https://echille.github.io/E.-Chille-Open-Lab-Notebook/Protocol-for-DNA-RNA-Extractions-of-Montipora-Coral-Larvae-Using-Zymo-Duet-Extraction-Kit/). 
+I do still think I should check some RNA after doing a few test samples. Zymo [no longer uses heated digestions](https://files.zymoresearch.com/protocols/_d7003t_d7003_quick-dna-rna_miniprep_plus_kit.pdf) (updated 1/27/2021), and suggests homogenization in something like a tissuelyser for any tissue samples. So I will probably have to do a slightly modified protocol than [Erin's](https://echille.github.io/E.-Chille-Open-Lab-Notebook/Protocol-for-DNA-RNA-Extractions-of-Montipora-Coral-Larvae-Using-Zymo-Duet-Extraction-Kit/).
