@@ -66,10 +66,10 @@ In this processing I use  a _Pocillopora actua_ coral fragment from the Holobion
 
 - Made 6 DNA lo-bind 1.5mL tubes, 5 each with 833ul of the elution liquid, and the 6th with 740ul of the elution liquid
 - Added 583ul (0.7 volumes) of room temp 100% isopropanol to each of the first 5 tubes, and 518ul to the 6th tube
-- Gently inverted to mix
+- Gently inverted to mix, I saw what looked like precipitated DNA at this stage
 - Centrifuged all lo-bind tubes at 10,000 rcf for 30 minutes at 1 degree C
 - Put the 70% EtOH in the freezer to chill
-- Once finished, looked for pellets: there was a visible small brown pellet in each tube
+- Once finished, looked for pellets: there was a visible small whitish pellet in each tube
 - One tube at a time, removed most of the supernatant
 - One tube at a time, added 1mL of cold 70% EtOH and vortexed briefly
 - Centrifuged tubes for 10 minutes at 4 degrees C 10,000 rcf
