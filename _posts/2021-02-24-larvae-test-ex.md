@@ -174,6 +174,7 @@ Traces:
 - 1% gel run for 1 hour at 80V
 
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/IMG_4632%20copy.jpg)
+- There is some strange streaking/smearing here. It could be an artifact of the gel, or it could be that some of the lipid layer was sucked up and put through the DNA column, and that came out with the DNA
 
 **TapeStation**
 - Followed RNA TapeStation [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/)
