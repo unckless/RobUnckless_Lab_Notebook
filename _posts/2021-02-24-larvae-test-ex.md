@@ -24,7 +24,7 @@ tags: [ DNA/RNA Extraction, Acropora, DNA, RNA ]
 ### Homogenization
 
 - Thawed samples on ice bucket
-  - I noticed that in each sample, some of the larvae were stuck up on the side of the tube not in the shield liquid:
+  - I noticed that in each sample, some of the larvae were stuck up on the side of the tube not in the shield liquid:  
 A5_1  
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/A501.jpg)  
 A5_2  
@@ -41,7 +41,7 @@ A5_4
 - Homogenization seemed more complete and there were less flakes in the tubes, bubbles had to be centrifuged down in the minifuge
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/A50-HOMOG2.jpg)
 - Cleaned 2 plastic pestles with 10% bleach, DI water, 70% ethanol, and RNaseZap
-- Used the cleaned pestles to hand-homogenize samples A5_3 and A5_4. I spent ~3-4 minutes on each tube: smashing, swirling, etc. The larvae float so it was hard to break them down. Additionally the liquid volume was a little high and some bubbled over onto my gloves. Gloves were changed between samples. After 4 minutes on each sample, I decided that was a reasonable effort even though not all of it had broken up.
+- Used the cleaned pestles to hand-homogenize samples A5_3 and A5_4. I spent ~3-4 minutes on each tube: smashing, swirling, etc. The larvae float so it was hard to break them down. Additionally the liquid volume was a little high and some bubbled over onto my gloves. Gloves were changed between samples. After 4 minutes on each sample, I decided that was a reasonable effort even though not all of it had broken up.  
 A5_3  
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/A50-PESTLE1.jpg)  
 A5_4  
@@ -49,7 +49,7 @@ A5_4
 - To each tube: added 100ul of pro K digestion buffer and 50ul of proteinase K
 - Vortexed and spun down tubes. _Here I noticed that the pestle homogenized tubes were less broken down than I had thought. Because they got so bubbly, I did not see un-broken up larvae floating at the top of the tubes_
 - Placed the tubes in the thermomixer set to **23 degrees C** this is room temp, and 800rpm for 30 minutes
-- After pro k incubation, the samples looked more broken down
+- After pro k incubation, the samples looked more broken down  
 A5_1  
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/A501-2.jpg)  
 A5_2  
@@ -59,7 +59,7 @@ A5_3
 A5_4  
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/A504-2.jpg)  
 - I wanted to try to pellet any left over debris, so I centrifuged the tubes for 1 minute at 5,000rcf (g)
-- After centrifugation, there was a visible fatty layer of debris at the liquid line in each tube, as well as some pelleted debris:
+- After centrifugation, there was a visible fatty layer of debris at the liquid line in each tube, as well as some pelleted debris:  
 A5_1  
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/A501-3.jpg)  
 A5_2  
