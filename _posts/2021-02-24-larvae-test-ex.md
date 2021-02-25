@@ -177,4 +177,4 @@ Traces:
 
 **TapeStation**
 - Followed RNA TapeStation [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/)
--[Results link](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2021-02-24%20-%2015.39.22.pdf)
+- [Results link](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2021-02-24%20-%2015.39.22.pdf)
