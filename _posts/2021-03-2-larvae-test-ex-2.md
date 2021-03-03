@@ -9,7 +9,7 @@ tags: [ DNA/RNA Extraction, Montipora, DNA, RNA ]
 
 **Goal**: Develop a good protocol for extracting high quality DNA and RNA and a good homogenization method for coral larvae/eggs  
 **Results**: No DNA for egg sample, pretty good DNA for the larvae sample. RNA quantity was very good, quality for the egg sample was very good, not as good for the larvae sample. 260/230 for egg sample not great.   
-**Take-aways**: This protocol might work, there was basically no issue with lipids in these two samples surprisingly. RNA is not great for the larvae, but similar to some of Erin's extractions. However these samples were flash frozen and were not stored in DAN/RNA shield, which is now Ariana's samples are stored.
+**Take-aways**: This protocol might work, there was basically no issue with lipids in these two samples surprisingly. RNA is not great for the larvae, but similar to some of Erin's extractions. However these samples were flash frozen and were not stored in DNA/RNA shield, which is now Ariana's samples are stored.
 
 ### Sample Info and Protocol Notes
 
