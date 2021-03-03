@@ -133,7 +133,7 @@ Traces (green and red):
 - 1% gel run for 1 hour at 100V
 - [Gel Protocol](https://github.com/meschedl/PPP-Lab-Resources/blob/master/Protocols/Agrose-Gel-Protocol.md)
 - Note that I ran sample 122 before Qubiting so I did not know that there was no DNA. There is some weird fluorescence in that well, it could be imaging effects from the ladder, or a tiny amount of ladder got into that well
-![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/IMG_4632%20copy.jpg)
+![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/IMG_4661%20copy.jpg)
 
 **TapeStation**
 - Followed RNA TapeStation [protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/RNA-TapeStation-Protocol/)
