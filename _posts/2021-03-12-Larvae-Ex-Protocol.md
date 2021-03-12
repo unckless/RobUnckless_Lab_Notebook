@@ -9,7 +9,7 @@ tags: [ DNA/RNA Extraction, Larvae, DNA, RNA ]
 
 ### Goal: Used for extraction high quality, quantity, and purity DNA and RNA from coral larvae or eggs. Can be used on samples stored in DNA/RNA Shield or flash frozen. For samples with more than 50 larvae, a fraction can be saved for the potential to do a second extraction.
 
-### Materials and Equiptment
+## Materials and Equipment
 
 - [Quick-DNA/RNA Miniprep Plus Kit](https://www.zymoresearch.com/collections/quick-dna-rna-kits/products/quick-dna-rna-miniprep-plus-kit)
 - [Ultrapure water](https://www.fishersci.com/shop/products/water-ultrapur-milliporesigma-2/M1012620500#?keyword=ultra%20pure%20water)
@@ -26,11 +26,11 @@ tags: [ DNA/RNA Extraction, Larvae, DNA, RNA ]
 - Workspace dedicated for RNA work
 - [RNaseZap](https://www.thermofisher.com/order/catalog/product/AM9784#/AM9784)
 
-### Steps
+## Steps
 **Note all steps of sample preparation, DNA, and RNA extraction are done at the RNA bench and with filter tips**  
 **QC steps can be done at the Putnam bench and don't require filter tips**
 
-#### Sample preparation
+### Sample preparation
 
 **Flash frozen samples in tubes**
 
