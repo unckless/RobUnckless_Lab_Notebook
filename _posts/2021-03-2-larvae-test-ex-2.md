@@ -126,7 +126,7 @@ tags: [ DNA/RNA Extraction, Montipora, DNA, RNA ]
 Full Results:  
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/IMG_4664.jpg)
 
-Traces (green and red):  
+Traces:  
 ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/IMG_4665.jpg)
 
 **Gel**
