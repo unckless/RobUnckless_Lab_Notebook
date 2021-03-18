@@ -105,7 +105,7 @@ tags: [ DNA/RNA Extraction, Larvae, DNA, RNA ]
 - Centrifuge columns for **2 minutes** seconds at 16,000rcf
 - Label new 1.5mL tubes for the final DNA elution: use sample ID, "DNA," the date, and your initials
 - Pour out the flow through into the waste beaker and put the column back into the same collection tube
-- Centrifuge the columns "dry" for 30 seconds
+- Centrifuge the columns "dry" for 1 minute
 - Transfer the yellow columns to their corresponding newly labeled 1.5mL tubes. Leave the caps open on the 1.5mL tubes. Collection tubes can be discarded
 - Add 50ul of warmed 10mM Tris HCl to each yellow column by dripping onto the white filter
 - Incubate/let tubes rest for 5 minutes at room temp
@@ -151,7 +151,7 @@ tags: [ DNA/RNA Extraction, Larvae, DNA, RNA ]
 - Centrifuge columns for **2 minutes** seconds at 16,000rcf
 - Label new RNA," the date, and your initials
 - Pour out the flow through into the waste beaker and put the column back into the same collection tube
-- Centrifuge the columns "dry" for 30 seconds
+- Centrifuge the columns "dry" for 1 minute
 - Transfer the green columns to their corresponding newly labeled 1.5mL tubes. Leave the caps open on the 1.5mL tubes. Collection tubes can be discarded
 - Add 50ul of warmed ultrapure water to each green column by dripping onto the white filter
 - Incubate/let tubes rest for 5 minutes at room temp
