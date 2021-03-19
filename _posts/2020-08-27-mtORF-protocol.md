@@ -66,21 +66,18 @@ Information on Sanger sequencing at the URI GSC is [here](https://web.uri.edu/gs
 
 #### mtORF Amplification
 
-1. Each sample will be amplified in triplicate (3 reactions), each reaction being 33ul total volume. Meaning that 100ul of reaction master mix and sample are needed for each sample
+1. Each sample will be amplified one time in a 33ul reaction volume
 2. Calculate the amount of master mix is needed: add number of samples and negative controls plus a % error (5-10%) to get the _n_ number
 3. Make master mix in 1.5mL or 5mL tube with these components scaled up to your _n_ number:
-  - 50ul Phusion PCR master mix * _n_ =
-  - 44ul UltraPure water * _n_ =
-  - 1.3ul 10uM working stock FatP6.1 primer * _n_ =
-  - 1.3ul 10uM working stock RORF primer * _n_ =
+  - 16.66ul Phusion PCR master mix * _n_ =
+  - 14.66ul UltraPure water * _n_ =
+  - 0.43ul 10uM working stock FatP6.1 primer * _n_ =
+  - 0.43ul 10uM working stock RORF primer * _n_ =
 4. Vortex and spin down master mix and keep on ice
-5. Use a new 96 well plate and add 97ul of master mix to as many wells as samples you have + the number of negative controls planned (usually 1 per row). For ease of pipetting, this is the same layout of the dilution plate you already made
-6. Using a p20 multichannel pipette, add 3ul of DNA sample to their respective well in the plate where the master mix is added, making 1 well with 100ul of mix and DNA per sample. Be careful to keep orientation of plates the same and of the multichannel the same when transferring between the two plates. If you don't already have aliquots for negative controls, add 3ul of water in the wells for those reactions
+5. Use a new 96 well plate and add 32ul of master mix to as many wells as samples you have + the number of negative controls planned (usually 1 per row). For ease of pipetting, this is the same layout of the dilution plate you already made
+6. Using a p2 multichannel pipette, add 1ul of DNA sample to their respective well in the plate where the master mix is added. Be careful to keep orientation of plates the same and of the multichannel the same when transferring between the two plates. If you don't already have aliquots for negative controls, add 1ul of water in the wells for those reactions. You should have 33ul in each well of your reaction plate
 7. Cover plate with foil seal and vortex to mix. Centrifuge down to remove bubbles
-8. Set up two other 96 well plates (or if you used half of the first plate you can use the other wells on it)
-9. Use the multichannel p200 to remove 33ul from each well in the first plate and replicate that plate in one of the other plates, change pipette tips, and again take 33ul from the first plate and replicate that row in the remaining empty 96 well plate. Repeat 33ul separation for all rows in the initial plate. After this you should have 3 identical plates (or partial plates) each will 33ul of mix and DNA in each
-10. Cover plates with foil seal and spin down to remove bubbles
-11. If you have 3 plates you will need 3 thermocyclers
+11. You will need 1 thermocycler (if you have more than 96 samples you'll need more than 1)
 12. Turn on thermocyler and login to PUTNAM (1,2,3,4) and navigate to the FATP RORF program  
 13. Run that program for however many plates you have
 14. Program, bold fields are cycled 30 times:
@@ -97,32 +94,33 @@ Information on Sanger sequencing at the URI GSC is [here](https://web.uri.edu/gs
 1. Take KAPA pure beads out of 4 degree fridge ~30 minutes before use to get to room temperature, and swirl to even out the beads (which settle on the bottom), and keep them in a drawer while warming out of the light
 2. Make fresh 80% ethanol in a 50mL conical for the day, pour out 40mL of 100% ethanol into the conical, and add ultrapure water up to 50mL
 3. Take plates out of either fridge or thermocyler and spin down in centrifuge
-4. Recombine triplicate reactions back together with a p200 multichannel, until there is one plate with each sample well having ~100ul again
-5. You can either add beads 1 well at a time or by row using a multichannel and a liquid trough. If you have more than 16 samples, it saves time to use a trough
-6. Take beads out of the drawer and swirl again. If using a trough, calculate how many beads you'll need: 100ul * _n_ and pipette that volume of beads into the trough
-7. Adding beads to samples: If adding to individual wells, us a p200 and add 100ul of beads to each well, slowly because the bead liquid is very viscus. Pipette up and down at least 10 times per sample to mix, pipette slowly to avoid bubbles forming. You have to completely mix gently here, your DNA is binding to the beads in this step. The same process applies to using the multichannel, suck up 100ul with all the tips and slowly add to your row in the plate, pipette mixing at least 10 times slowly. Repeat for all rows/samples, avoid bubbles because they can effect magnetic binding, tap down plate gently if some appear
+5. You can either add beads 1 well at a time or by row using a multichannel and a liquid trough/basin. If you have more than 16 samples, it saves time to use a trough and multichannel
+6. Take beads out of the drawer and swirl again. If using a trough, calculate how many beads you'll need: 33ul * _n_ and pipette that volume of beads into the trough. If you are adding to individual wells, do not use a trough
+7. Adding beads to samples: If adding to individual wells, us a p200 and add 33ul of beads to each well, slowly because the bead liquid is very viscus. Pipette up and down at least 10 times per sample to mix, pipette slowly to avoid bubbles forming. You have to completely mix gently here, your DNA is binding to the beads in this step. The same process applies to using the multichannel, suck up 33ul with all the tips and slowly add to your row in the plate, pipette mixing at least 10 times slowly. Repeat for all rows/samples, avoid bubbles because they can effect magnetic binding, tap down plate gently if some appear
 8. Take the rotating shaker off the shared equipment shelf and plug in by the qubit. Let your bead-sample plate incubate shaking for 15 minutes at 200 speed to facilitate DNA binding
 9. After incubation, place the plate on the magnet plate (white plate with silver metal knobs), and place back on the shaker for ~5 minutes. Larger volumes can take longer for the beads to magnetize so shaking helps
 10. Take plate back to bench. Set up a trough for "supernatant", a trough for EtOH, and for ultra pure water
 11. Pour some EtOH and water into their troughs but leave the supernatant one empty
-12. When the liquid in the wells has gone clear, carefully use the multichannel to pipette out the clear supernatant without disturbing the beads (set pipettes to ~175ul), it helps to slide the tips down the sides of the tubes without the beads. The clear sides alternates each row. Discard supernatant in the labeled trough and change tips. Remove supernatant from every well
-13. Add 200ul of 80% EtOH to each well carefully without disturbing the beads, again you can put the tips on the side of the wells without the beads
+12. When the liquid in the wells has gone clear, carefully use the multichannel to pipette out the clear supernatant without disturbing the beads (set pipettes to ~55ul), it helps to slide the tips down the sides of the tubes without the beads. The clear sides alternates each row. Discard supernatant in the labeled trough and change tips. Remove supernatant from every well
+13. Add 100ul of 80% EtOH to each well carefully without disturbing the beads, again you can put the tips on the side of the wells without the beads
 14. Remove the clear supernatant from each well without disturbing the beads and discard into the supernatant trough, changing tips for each well
 15. Repeat the last two steps (2 ethanol washes)
 16. Use the p20 multichannel pipette to suck up any remaining ethanol at the bottom of the wells of the plate (still on magnet)
 17. Wait ~2 minutes to let any residual ethanol to dry
 18. Take plate off the magnet into a regular rack
-19. Set multichannel to 50ul and add 50ul of ultrapure nuclease-free water to each well of the plate. Carefully add the water **to the beads**, you'll have to pipette up and down slowly as long as it takes to resuspend the beads off the side of the well. Alternate the tip position to get beads stuck on opposite sides of the wells. Avoid making bubbles and repeat for every row
+19. Set multichannel to 30ul and add 30ul of ultrapure nuclease-free water to each well of the plate. Carefully add the water **to the beads**, you'll have to pipette up and down slowly as long as it takes to resuspend the beads off the side of the well. Alternate the tip position to get beads stuck on opposite sides of the wells. Avoid making bubbles and repeat for every row
 20. Place plate on the shaker at 200 rpm for 5 minutes
 21. Get another plate ready for the cleaned amplifications
 22. Once done shaking, place the plate back on the magnet and wait until the wells become clear
-23. Remove the 50ul of clear supernatant from each well and into the new 96-well plate
+23. Remove the 30ul of clear supernatant from each well and into the new 96-well plate
 24. Seal the plate with a labeled foil seal and place in the fridge if quantifying the next day, or freezer if it will be there over the weekend
 
-#### Qubit and gel
+#### Qubit or Plate Reader Assay and Gel
 
 1. Use the broad range dsDNA Qubit assay to quantify every one of the amplified and cleaned samples
 2. [Qubit protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Qubit-Protocol/)
+3. If you have over 20-30 samples, you can use the plate reader to quantify your DNA using the Biotium PicoGreen Assay
+4. [Plate Reader Protocol](https://github.com/meschedl/PPP-Lab-Resources/blob/master/Protocols/Biotium-BroadRange-DNA-PlateReader.md)
 3. Run a 1% gel on all of the amplified and cleaned samples, use a 1kb plus DNA ladder. There should be 1 band at ~1000bp. Other bands are signs of potential contamination or off target amplification
 4. [Gel protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/Gel-Protocol/)
 
