@@ -245,3 +245,9 @@ print(MethylFlashAvgOD)
     ## 14            0.5454923
     ## 15            0.5840325
     ## 16            0.6507367
+
+Write-out csv of %
+
+``` r
+write.csv(MethylFlashAvgOD, "/Users/maggieschedl/Desktop/URI/Putnam/MESPutnam_Open_Lab_Notebook/csv_files/MethylFlash-20210402-OD-Percentages.csv")
+```

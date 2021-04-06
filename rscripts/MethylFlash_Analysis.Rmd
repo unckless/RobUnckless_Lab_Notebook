@@ -116,8 +116,11 @@ Print the 5mC% calculations
 print(MethylFlashAvgOD)
 ```
 
+Write-out csv of %
 
-
+```{r}
+write.csv(MethylFlashAvgOD, "/Users/maggieschedl/Desktop/URI/Putnam/MESPutnam_Open_Lab_Notebook/csv_files/MethylFlash-20210402-OD-Percentages.csv")
+```
 
 
 
