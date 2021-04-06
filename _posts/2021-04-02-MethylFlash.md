@@ -94,7 +94,7 @@ M-209|2019-12-04|22|51.1|3.91|6.09
 
 **Actual Assay**  
 Plate layout
-![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/2021-04-02-plate.png)
+![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/20210402-ss.png)
 
 - Vortexed and spun down binding solution (BS)
 - Added 100ul BS to each NC well
