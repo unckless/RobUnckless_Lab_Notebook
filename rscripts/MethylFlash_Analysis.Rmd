@@ -14,23 +14,23 @@ Check directory
 getwd()
 ```
 
-# For generating the Standard Curve I went through a couple of options
-# I tried 3 types of regression lines.  There is a standard linear regression, a quadratic regression ("Use this method when the standard curve is flat due to a saturated signal intensity at high PC%"), and a standard linear regression with the last points (5% PC) removed because the manual says that not all points are necessary: "determine the slope (OD/%) of the standard curve using linear regression and the most linear part (at least 4 concentration points incluing 0) of the standard curve for optimal slope calculation" 
-# All of the R^2 and significances for the regressions are high/significant so it probably doesn't matter that much which way we chose to analyze it. 
-# There is no difference in the slopes of any of the lines if I used the averages of the duplicates, and the slopes are what determine the calculations 
+### For generating the Standard Curve I went through a couple of options
+### I tried 3 types of regression lines.  There is a standard linear regression, a quadratic regression ("Use this method when the standard curve is flat due to a saturated signal intensity at high PC%"), and a standard linear regression with the last points (5% PC) removed because the manual says that not all points are necessary: "determine the slope (OD/%) of the standard curve using linear regression and the most linear part (at least 4 concentration points incluing 0) of the standard curve for optimal slope calculation" 
+### All of the R^2 and significances for the regressions are high/significant so it probably doesn't matter that much which way we chose to analyze it. 
+### There is no difference in the slopes of any of the lines if I used the averages of the duplicates, and the slopes are what determine the calculations 
 
 
 
-# Read in duplicate absorbances of the standards 
+Read in duplicate absorbances of the standards 
 ```{r}
 #read in csv of absorbances
-Standards <- read.csv("PC_Standard_Curve.csv")
+Standards <- read.csv("/Users/maggieschedl/Desktop/URI/Putnam/MESPutnam_Open_Lab_Notebook/csv_files/PC_Standard_Curve.csv")
 Standards <- Standards[-c(15), ] # remove row with NA, not sure why it inputs like that
 ```
 
 Read in csv of the average OD for each sample
 ```{r}
-MethylFlashAvgOD <- read.csv("MethylFlash-20210402-Average.csv")
+MethylFlashAvgOD <- read.csv("/Users/maggieschedl/Desktop/URI/Putnam/MESPutnam_Open_Lab_Notebook/csv_files/MethylFlash-20210402-Average.csv")
 ```
 
 Make basic plot of the standards to see what it looks like
@@ -61,7 +61,7 @@ MethylFlashAvgOD$LM_5mc_Percentage <- (((MethylFlashAvgOD$Average_OD-AverageNC)/
 ```
 
 
-Second Order Regression or Quadratic Model because the high percentage PC flatten
+# Second Order Regression or Quadratic Model because the high percentage PC flatten
 
 ```{r}
 # try fitting quadratic model
@@ -88,7 +88,7 @@ Slope2 <- 0.4067
 MethylFlashAvgOD$QU_5mc_Percentage <- (((((Slope2^2+(4*Slope1*(MethylFlashAvgOD$Average_OD-AverageNC)))^.5)-Slope2)/(2*Slope1))/100)*100
 ```
 
-Linear Model without 5% PC Standard Point
+# Linear Model without 5% PC Standard Point
 
 ```{r}
 # Remove 5% points
