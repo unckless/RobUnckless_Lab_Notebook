@@ -115,4 +115,4 @@ In this sample processing I use the [QIAGEN Genomic-tip 100/G](https://www.qiage
 - 4: 258.97ng DNA
 - 5: 334.875ng DNA
 - 6: NA
-- **TOTAL: 883.835ng DNA **
+- **TOTAL: 883.835ng DNA**
