@@ -10,8 +10,8 @@ tags: [ HMW DNA, DNA Extraction ]
 In this sample processing I use the [QIAGEN Genomic-tip 100/G](https://www.qiagen.com/us/products/discovery-and-translational-research/dna-rna-purification/dna-purification/genomic-dna/qiagen-genomic-tip-100g/#orderinginformation), the [QIAGEN Genomic DNA Buffer Set](https://www.qiagen.com/us/products/discovery-and-translational-research/dna-rna-purification/dna-purification/genomic-dna/blood-and-cell-culture-dna-midi-kit/#orderinginformation), [QIAGEN RNase A (100mg/mL concentration)](https://www.qiagen.com/us/products/discovery-and-translational-research/lab-essentials/enzymes/rnase-a/?clear=true#orderinginformation), [QIAGEN Proteinase K](https://www.qiagen.com/us/products/discovery-and-translational-research/lab-essentials/enzymes/qiagen-proteinase-k/?clear=true#orderinginformation), and [DNA lo-bind tubes](https://online-shop.eppendorf.us/US-en/Laboratory-Consumables-44512/Tubes-44515/DNA-LoBind-Tubes-PF-56252.html)
 
 
-**Goal**: Extract high quality DNA from these samples, and try to get 20-25ug of material  
-**Result**: Very little DNA, but the quality is good!
+**Goal**: Extract high quality DNA from these samples, and try to get 20-25ug of material    
+**Result**: Very little DNA, but the quality is good!  
 **Thoughts**: I am not sure if I did not use enough sample or if the storage conditions made the yield so low. Shield does lyse tissue, and in the sample tubes there is definitely residue in the liquid that is probably rich with DNA that I did not pick up. Potentially even rinsing the tissue with the PBS got rid of some tissue. Or I did not grind the tissue very well in the mortar and pestle because the liquid after incubation was very clear, when in previous preps it is usually colored. Or, because no pellet was visible to me, I could have sucked up what was there during the precipitation and then there would be DNA loss.
 
 **Notes on this Sample**  
