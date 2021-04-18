@@ -102,7 +102,7 @@ tags: [ HMW DNA, DNA Extraction ]
 
 #### Qubit
 
-- Use the broad range DNA assay and [protocol]([protocol](https://github.com/meschedl/PPP-Lab-Resources/blob/master/Protocols/Qubit-Assay-Protocol.md)
+- Use the broad range DNA assay and [protocol](https://github.com/meschedl/PPP-Lab-Resources/blob/master/Protocols/Qubit-Assay-Protocol.md)
 - Quantify both the top and bottom of each tube and then use the averages of each tube for the final concentration
 - You should be getting very high DNA quants for this, above 100ng/ul is good
 
