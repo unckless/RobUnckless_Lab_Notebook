@@ -7,13 +7,40 @@ tag: [ WGBS ]
 
 # Protocol For Using the [Zymo Pico Methyl Seq Library Prep Kit](https://www.zymoresearch.com/products/pico-methyl-seq-library-prep-kit)
 
-### Goal
+### Goal, Steps, and Explanation
 
 Prepare sequenceable libraries of DNA that have been bisulfite converted for methylation data and subsequent whole genome bisulfite sequencing.
 
 Prep Workflow Diagram from Zymo:
 
-![1]({{ site.baseurl}}/images/PMS-workflow.png "1")
+![1](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/PMS-workflow.png)
+
+#### Protocol Steps
+
+- **DNA Dilution**
+  - First you dilute your extracted DNA to a total amount of 1 or 10ng. This kit takes a very low input of DNA.
+- **Bisulfite Conversion**
+  - This step bisulfite-treats the DNA. This fragments the DNA, makes it single stranded, and converts all **non-methylated** Cytosines into Uracils. This happens because you treat the DNA with sodium bisulfate, which through a chemical reaction de-aminates the Cytosines (removing the NH3 group) and turns them into Uracils (see image below). Methylated Cs stay as Cs. The DNA becomes single stranded because it no-longer pairs well with the opposite strand, Uracils are 1. usually only present in RNA, and 2. Thymine takes the place of them in DNA. T and A pair together, and C and G pair together.
+  ![](https://raw.githubusercontent.com/meschedl/MESPutnam_Open_Lab_Notebook/master/images/Screen%20Shot%202021-04-25%20at%2011.25.48%20AM.png)
+- **Post-Conversion Column Cleanup**
+  - Sodium bisulfite is a harsh chemical that needs to be cleaned out of the DNA. This is why the DNA is treated with a Desulphonation Buffer in this step.
+- **Amplification with Prep-Amp Primers**
+  - Here, the converted DNA is randomly primed with PCR primers that have [degenerate bases](idtdna.com/pages/support/faqs/what-are-the-base-degeneracy-codes-that-you-use-(eg.-r-w-k-v-s)-) so that amplification takes place all across the genome. Random priming and PCR of the fragmented DNA results in pieces of DNA 150-600bp long. The polymerase in this step is able to recognize Uracil and thus is more sensitive than other polymerases used in PCRs. This is why it needs to be added in twice, after the 98 degree step, because it would break down at that temperature.
+- **DNA Clean and Concentrator Cleanup**
+  - This step removes leftover enzymes and buffers from the solution that would inhibit the next reaction.
+- **1st Amplification**
+  - This step again amplifies the DNA and adds on the specific adapters that allow the DNA to anneal to the flow-cell during sequencing. It is also at this step that the Uracil is converted to Thymines (maybe, could be the previous step, Zymo is not transparent about the method).
+- **DNA Clean and Concentrator Cleanup**
+  - This step removes leftover enzymes and buffers from the solution that would inhibit the next reaction.
+- **2nd Amplification with Index Primers**
+  - Another amplification is needed to add the barcoded indexes to the DNA, which allows for multiple samples to be pooled together for sequencing.
+- **1X Bead Cleanup**
+  - This step removes leftover enzymes and buffers and any remaining primer from the solution. What is left is the purified libraries.
+- **Broad Range dsDNA Qubit Assay**
+  - The libraries need to be quantified before sequencing, previous sequencing has shown that libraries with concentrations below 7ng/ul have not sequenced well and have been removed from the analysis. If you have a library with a low quant, it might be advantageous to re-do the library.
+- **D5000 TapeStation Assay**
+  - The libraries also need to be visualized for accurate size determination. Libraries that are being sequenced together should all be about the same size distribution. Previous sequencing has also shown that a library noticeably a different size from the others sequenced poorly and was removed from the analysis. If you have a library with a strange size, it might be advantageous to re-do the library.
+
 
 ### Materials and Equitpment
 
@@ -28,21 +55,7 @@ Prep Workflow Diagram from Zymo:
 - [Broad range dsDNA Qubit assay](https://www.thermofisher.com/order/catalog/product/Q32850#/Q32850) and [tubes for Qubit use](https://www.fishersci.com/shop/products/axygen-pcr-tubes-0-5ml-flat-cap-10/p-4909458)
 - [TapeStation4200](https://www.agilent.com/en/product/automated-electrophoresis/tapestation-systems/tapestation-instruments/4200-tapestation-system-228263) or other fragment analyzer
 - [D5000 Tapestation Supplies](https://www.agilent.com/en/product/automated-electrophoresis/tapestation-systems/tapestation-dna-screentape-reagents/dna-screentape-analysis-228260)
-- UDI Index primers (see spreadsheet)
-
-### Protocol Steps
-
-- DNA dilution
-- Bisulfite Conversion
-- Post-Conversion Column Cleanup
-- Amplification with Prep-Amp Primers
-- DNA Clean and Concentrator Cleanup
-- 1st Amplification
-- DNA Clean and Concentrator Cleanup
-- 2nd Amplification with Index Primers
-- 1X Bead Cleanup
-- Broad Range dsDNA Qubit Assay
-- D5000 TapeStation Assay
+- UDI Index primers: [see spreadsheet](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/DNA_RNA-protocols/Indexes_and_Barcodes/UDI_Index_Primer_Pairs_for_Pico_WGBS.csv)
 
 
 **Note about Thermocycler Programs**
