@@ -69,7 +69,7 @@ Prep Workflow Diagram from Zymo:
 **Note about timing and planning this prep**
 
 - Calculate how much DNA you're going to use before you start the prep, ideally for all samples, getting the volumes ready before you start
-- Plan how you will index your samples before starting the preps. We have paired i5 and i7 indexes that go from 1-60. Each sample needs a unique pair, and the individual indexes are not used more than once. Ie you can have two samples that have i5-1, i7-1, and i5-2, i7-2. But you cannot have two samples that have i5-1, i7-1, and i5-1, i7-2. i5-1 can't be used twice to mitigate any possible index-hopping (however rare)
+- Plan how you will index your samples before starting the preps. We have paired i5 and i7 indexes that go from 1-60. These indexes are combined into single tubes at 10uM concentration, where i7 1 is paired with i5 1 and so on. This is to help mitigate index hopping on patterned flow-cells, however rare it might be.
 - The list of primer/indexes we have are [here](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resourses/DNA_RNA-protocols/Indexes_and_Barcodes/UDI_Index_Primer_Pairs_for_Pico_WGBS.csv). Right now there are 1-60
 - It can make things easier on you do the prep over 1.5 days: start the prep in the afternoon by doing the DNA dilution and bisulfite conversion. The BS converted DNA can be stable at 4 degrees C for 20 hours. So you can take it out of the thermocycler after the conversion program and store it in the fridge for the next day
 - It will probably take you the entire second day if you do 10 or more samples (including the QC)
@@ -79,7 +79,7 @@ Prep Workflow Diagram from Zymo:
 ### DNA Dilution - Plan this before starting your library prep
 
 - Sample input to the Pico Methyl Seq kit has been somewhat optimized to work well with 10ng input, **but we used to do 1ng and that worked sometimes as well**
-- Dilute extracted DNA to 1ng/ul or appropriate concentration so 10ng of DNA can be used to start the protocol without pipetting below 1ul and the input volume is no more than 20ul
+- Dilute extracted DNA to 1ng/ul or appropriate concentration so 10ng of DNA can be used to start the protocol without pipetting below 1ul and the input volume is no more than 20ul 
 - Use the same buffer that the extracted DNA is in (ex. 10mM Tris HCl)
 - For example dilute every sample to 1ng/ul so 10ul can be used as the input of the prep
 - [Video link](https://www.youtube.com/watch?v=byipduTsFmc&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=1)
@@ -235,15 +235,14 @@ Prep Workflow Diagram from Zymo:
 - Make new strip tubes for each of the samples
 - In each strip tube combine:
   - 12ul of DNA from the above DCC step
-  - 14ul of Library Amp Master Mix
-  - 1ul of the i5 10uM index primer
-  - 1ul of the i7 10uM index primer
+  - 13ul of Library Amp Master Mix
+  - 1ul of the combined i7 and i5 primer pair
 - For adding these I usually make a table where each addition can be highlighted after each pipette, ex:
 
-|sample|vol DNA| vol LibAmp MM| vol i5| vol i7|
+|sample|vol DNA| vol LibAmp MM| vol primer pair|
 |---|---|---|---|---|
-|1|12|14|1ul index 1|1ul index 1|
-|2|12|14|1ul index 2|1ul index 2|
+|1|12|13|1ul index 1|
+|2|12|13|1ul index 2|
 
 - Vortex and spin down tubes after all components are added to each tube
 - Place tubes in the thermocycler and choose the program for your samples: for 1ng input DNA use "12 PICO METHYL AMP 2", for 10ng input DNA, use "10 PICO METHYL AMP 2"
@@ -254,9 +253,9 @@ Prep Workflow Diagram from Zymo:
 
 - Take KAPA Pure Beads out of the refrigerator ~30 minutes before use to get to room temperature. Swirl the bottle to mix the beads but don't vortex
 - Make fresh 80% ethanol for the day, using 100% ethanol (in the flammable cabinet) and ultrapure water
-- When beads are at room temp, add 26ul (equal volume) of beads to each strip tube. Pipette slowly because the bead solution is very viscous. Pipette mix the bead-sample mix at least 10 times until homogeneously brown. [Video link](https://www.youtube.com/watch?v=M-c4QewJUeg&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=12)
+- When beads are at room temp, add 25ul (equal volume) of beads to each strip tube. Pipette slowly because the bead solution is very viscous. Pipette mix the bead-sample mix at least 10 times until homogeneously brown. [Video link](https://www.youtube.com/watch?v=M-c4QewJUeg&list=PLI8mZMNHcIVq9DFCOPksLhcch8UbJj4Pq&index=12)
 - Set up the rotating shaker on the Qubit bench and place the strip tubes on the shaker, rotating at 200rpm for 15 minutes
-- Get the "short" magnet plate from the Puritz lab bench: it's silver, clear, and white with horizontal magnetic bars
+- Use the grey long 24-spot magnet on the Putnam bench
 - At the 15 minutes on the shaker, place the tubes on the magnet rack and wait until the liquid goes clear and the beads have gone to the magnet
 - Using a p200 pipette set to 45ul, carefully remove the clear supernatant from each tube without disturbing the beads and discard in a waste trough
 - Add 200ul of 80% ethanol to each tube
