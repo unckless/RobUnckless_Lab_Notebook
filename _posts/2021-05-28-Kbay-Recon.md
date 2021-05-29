@@ -53,9 +53,9 @@ After the PCR (13 minutes), I performed the normal 1X bead cleanup as outlined i
 
 #### D5000 TapeStation
 - Followed [TapeStation protocol](https://meschedl.github.io/MESPutnam_Open_Lab_Notebook/DNA-Tapestation/)
-- I used two tapes
--[Link 1](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2021-05-28%20-%2011.04.09.pdf)  
--[Link 2](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2021-05-28%20-%2011.51.07.pdf)  
+- I used two tapes  
+- [Link 1](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2021-05-28%20-%2011.04.09.pdf)  
+- [Link 2](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2021-05-28%20-%2011.51.07.pdf)  
 
 Example before and after traces, clearly two peaks visible in the first one:  
 **Before**  
