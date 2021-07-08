@@ -74,7 +74,7 @@ tag: [ RNA, TagSeq ]
   - 4ul 5x FS buffer * 4.4 = 17.6ul
   - 1ul 3iLL-30TV (10uM) *4.4 = 4.4ul
 - Pipette mix and spin down RFRT
-- Added 8ul RFRT to each RNA strip tube with the 125ul aliquots
+- Added 8ul RFRT to each RNA strip tube with the 125ng aliquots
 - Pipette mixed strip tubes and spun down
 - Placed strip tubes in warmed up thermocycler and pressed enter on program
 - Took tubes out at the 2.5 min mark and put on the ice bucket for 2 minutes (at least, going into next step)
