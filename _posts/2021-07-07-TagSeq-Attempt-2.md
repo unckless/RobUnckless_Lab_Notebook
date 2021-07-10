@@ -222,6 +222,53 @@ RNA from holobiont project was used as to not freeze-thaw Ariana's RNA. To get t
 ## Troubleshooting thoughts
 
 - The first step looks good: the RNA is fragmented, I'm not sure what size they are supposed to be but at least all of them are uniform. The RIN scores from these samples are good as well. The concentration is also pretty high, 20ng/ul
-- The Qubit after the cDNA amplification has me thinking that the problem we are having is happening/starting either at the 1st strand or the cDNA amplification. The concentration is high going into the 1st strand, 20ng/ul, although there is no way to know how much of that is the poly-A ends... In the [Lohman protocol](https://docs.google.com/document/d/1IgRz-NCeGUhxgNaD5H5OZxhYiX2cKwUv/edit) they say that the concentration should be around 1-2ng/ul after the cDNA step. It looks like the cDNA amplification didn't work, but it may not have worked because the 1st strand didn't work. We don't have a kit to quantify the ssDNA 1st strand, and it seems like it would be too low to quantify even if we did. 
+- The Qubit after the cDNA amplification has me thinking that the problem we are having is happening/starting either at the 1st strand or the cDNA amplification. The concentration is high going into the 1st strand, 20ng/ul, although there is no way to know how much of that is the poly-A ends... In the [Lohman protocol](https://docs.google.com/document/d/1IgRz-NCeGUhxgNaD5H5OZxhYiX2cKwUv/edit) they say that the concentration should be around 1-2ng/ul after the cDNA step. It looks like the cDNA amplification didn't work, but it may not have worked because the 1st strand didn't work. We don't have a kit to quantify the ssDNA 1st strand, and it seems like it would be too low to quantify even if we did.
 - Whatever the issue is, it's compounding, because the index PCR basically did nothing to increase the concentration of the DNA, which means the primers are barely annealing?
 - I also noticed another difference between Lohman and UTAustin protocols, Lohman do not have a bead clean after the 1st strand synthesis and the UTA protocol does. Not sure if that is making any difference in our situation
+
+
+## 20210709 "S1" QC, Qubit, NanoDrop, and TapeStation
+
+**Ran RNA Qubit, NanoDrop for RNA, DNA, and ssDNA, and RNA TapeStation on the "saved" S1 samples after 1st strand sysnthesis**
+
+RNA HS Qubit
+
+|Sample|Reading 1 (ng/ul)|Reading 2(ng/ul)|Average (ng/ul)|
+|---|---|---|---|
+|S1|44 RFU|-|-|
+|S2|718 RFU|-|-|
+|5|16.9|16.5|16.75|
+|6|20.2|20.2|20.2|
+|7|22|22|22|
+|8|22.6|22.4|22.5|
+
+RNA NanoDrop
+
+|Sample|ng/ul|260/280|260/230|
+|---|---|---|---|
+|5|15.96|2.06|2.25|
+|6|20.23|2.04|2.11|
+|7|21.64|2.07|1.81|
+|8|22.13|2.02|2.1|
+
+DNA NanoDrop
+
+|Sample|ng/ul|260/280|260/230|
+|---|---|---|---|
+|5|19.96|2.14|2.27|
+|6|25.55|2.07|2.19|
+|7|27.47|2.06|1.79|
+|8|27.69|1.92|2.08|
+
+ssDNA NanoDrop
+
+|Sample|ng/ul|260/280|260/230|
+|---|---|---|---|
+|5|13.05|2.13|2.27|
+|6|16.8|2.07|2.25|
+|7|18.31|2.06|1.74|
+|8|18.37|1.93|2.09|
+
+RNA TapeStation
+
+[Results Link](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2021-07-09%20-%2017.21.30.pdf)
