@@ -272,3 +272,92 @@ ssDNA NanoDrop
 RNA TapeStation
 
 [Results Link](https://github.com/meschedl/MESPutnam_Open_Lab_Notebook/blob/master/tapestation_pdfs/2021-07-09%20-%2017.21.30.pdf)
+
+
+## 202100723 ssDNA Qubit
+
+**Had to prepare libraries to the 1st strand synthesis stage to run ssDNA (single strand, also reads RNA though) Qubit on samples after fragmentation and after 1st strand synthesis**
+
+### RNA Fragmentation and RT Primer Annealing
+
+- Cleaned bench, pipettes, and racks with RNaseZap
+- Thawed RNA samples on ice
+- Made 4 new strip tubes for sample dilution
+- Samples diluted to 800ng in 20ul total
+- Vortexed and spun down RNA before aliquoting on ice
+
+|Sample|lib ID|ul ultrapure water|ul RNA|
+|---|-----|-----|---|
+|2204|5A|0|10|
+|2202|6A|5|5|
+|1043|7A|1.25|8.75|
+|2860|8A|1.15|8.85|
+
+- Turned on themocycler and started program 95 so the themocycler warmed up and the block was at 95 C (95C hold, 95C 2.5min)
+- Prepared RNA fragmentation/RT master mix (RFRT)
+  - 1ul dntps (10uM) * 4.4 = 4.4ul
+  - 2ul 0.1M DTT * 4.4 = 8.8ul
+  - 4ul 5x FS buffer * 4.4 = 17.6ul
+  - 1ul 3iLL-30TV (10uM) *4.4 = 4.4ul
+- Pipette mix and spin down RFRT
+- Added 8ul RFRT to each RNA strip tube with the 800ng aliquots
+- Pipette mixed strip tubes and spun down
+- Placed strip tubes in warmed up thermocycler and pressed enter on program
+- Took tubes out at the 2.5 min mark and put on the ice bucket for 2 minutes/until the next step
+- Removed 1.5 ul from each sample for ssDNA qubit later
+- Made 1X FS buffer to add back into samples from volume that was used:
+  - 8ul of ultrapure water
+  - 2ul 5X FS buffer
+- Added 1.5ul of 1X FS buffer back into samples, still on ice
+
+### 20210707 1st Strand cDNA Synthesis
+
+- Made 1st strand master mix (FSMM)
+  - 1ul SiLL - SWMW (10uM) * 4.4 = 4.4ul
+  - 1ul SmartScribe RT * 4.4 = 4.4ul
+- Pipette mixed FSMM and keep on ice
+- Added 2ul FSMM to each strip tube
+- Pipette mixed with 10ul and spun down strip tubes
+- Turned on themocycler and started 1st Strand cDNA program, once the block was at 42 degrees, put the strip tubes in the machine and pressed enter (42 degrees C hold, 42 degrees C 60 min, 65 degrees C 15 min, 4 degree hold). Program is 1 hour 15 min long
+
+### 20210707 0.9X Bead Cleanup 1
+
+- Took out KAPA pure beads 1 hour before use, stored in drawer for warm up
+- Made fresh 80% ethanol
+- Spun down tubes out of the thermocycler
+- Added 30ul ultra pure water to each sample (total vol now 50ul)
+- Added 45ul KAPA pure beads to each tube, pipette mixing 10 times for each tube
+- Place tubes on the shaker for 15 min at 200rpm shaking
+- After, placed tubes on the magnet stand and waited until the liquid was clear
+- Removed 90ul of the clear supernatant from each tube
+- Added 100ul of fresh 80% ethanol to each tube
+- Removed 100ul of the clear supernatant from each tube
+- Added 100ul of fresh 80% ethanol to each tube
+- Removed 100ul of the clear supernatant from each tube
+- Removed any remaining liquid with a p20
+- Let "dry" for 3 min max
+- Resuspended beads in 15ul ultra pure water
+- Incubated tubes on the shaker for 5 minutes 2000rpm
+- Placed on magnet and let solution go clear
+- Removed 15ul into tubes for Qubit
+
+### ssDNA Qubit
+
+|Sample||Average (ng/ul)|
+|---|---|
+|S1|70 RFU|
+|S2|718 RFU|
+|5A - fragmentation|5|
+|6A - fragmentation|4|
+|7A - fragmentation|5.6|
+|8 - fragmentation|5.12|
+|5A - 1st strand|2.38|
+|6A - 1st strand|3.62|
+|7A - 1st strand|2.5|
+|8A - 1st strand|3.12|
+|SILL 10uM|77.2|
+|SILL 200uM|too high to read|
+|3ILL 10uM|95.4|
+|3ILL 200uM|too high to read|
+|5ILL 10uM|69.4|
+|5ILL 200uM|too high to read|
