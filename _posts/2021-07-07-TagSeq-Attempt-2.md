@@ -361,3 +361,19 @@ RNA TapeStation
 |3ILL 200uM|too high to read|
 |5ILL 10uM|69.4|
 |5ILL 200uM|too high to read|
+
+## 20210727 Calculate molarities of primers from the ssDNA qubit values
+
+Base Pair sizes for primers:
+
+S-ILL: ACCCCATGGGGCTACACGACGCTCTTCCGATCTNNMWGGG **40 bp**  
+3ILL-30TV: ACGTGTGCTCTTCCGATCTAATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTV  **52 bp**  
+5ILL:  CTACACGACGCTCTTCCGATCT **22 bp**
+
+Molarity Calculations - Equation: (concentration/(660*bp size))*1000000 = nM
+
+S-ILL: (77.2/(660*40))*1000000 = 2,727.27 nM which is 2.7mM   
+3ILL-30TV: (95.4/(660*52))*1000000 = 2,779.72 nM wich is 2.7mM
+5ILL: (69.4/(660*22))*1000000 = 4779.6 nM which is 4.8mM
+
+These all should be 10mM. Not sure if the Qubit is slightly off, or if the dilution or original resuspention was wrong. Potentially this is why the library prep is not working? 
