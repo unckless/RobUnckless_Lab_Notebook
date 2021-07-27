@@ -370,7 +370,7 @@ S-ILL: ACCCCATGGGGCTACACGACGCTCTTCCGATCTNNMWGGG **40 bp**
 3ILL-30TV: ACGTGTGCTCTTCCGATCTAATTTTTTTTTTTTTTTTTTTTTTTTTTTTTTV  **52 bp**  
 5ILL:  CTACACGACGCTCTTCCGATCT **22 bp**
 
-Molarity Calculations - Equation: (concentration/(660 * bp size))*1000000 = nM
+Molarity Calculations - Equation: (concentration/(660 * bp size)) * 1000000 = nM
 
 - S-ILL: (77.2/(660*40))*1000000 = 2,727.27 nM which is 2.7mM   
 - 3ILL-30TV: (95.4/(660*52))*1000000 = 2,779.72 nM which is 2.7mM  
