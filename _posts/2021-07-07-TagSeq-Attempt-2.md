@@ -377,3 +377,20 @@ Molarity Calculations - Equation: (concentration/(660 * bp size)) * 1000000 = nM
 - 5ILL: (69.4/(660*22))*1000000 = 4779.6 nM which is 4.8mM
 
 These all should be 10mM. Not sure if the Qubit is slightly off, or if the dilution or original resuspention was wrong. Potentially this is why the library prep is not working?
+
+## 20210728 Checking if original primer concentrations were correctly calculated
+
+**3iLL - 30TV**  
+104.6nmol dried  
+523ul low TE for a 200uM stock solution  
+Back calculation: 104.6nmol/523ul = 0.2nmol/ul which is nM, so this is 200uM. Correct calculation
+
+**5iLL**  
+90.8nmol dried  
+454ul low TE for a 200uM stock solution  
+Back calculation: 90.8nmol/454ul = 0.2nmol/ul, or nM. Which is 200uM. Correct calculation
+
+**5iLL-SWMW**  
+51.7nmol dried  
+258.5ul TE  
+Back calculation: 51.7nmol/258.5ul = 0.2nmol.ul, or nM, which is 200uM. Correct calculation
