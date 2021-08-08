@@ -26,6 +26,8 @@ RNA from holobiont project was used as to not freeze-thaw Ariana's RNA. To be ab
 |1059|Pacuta|73.2|11|
 |2493|Pacuta|73.7|12|
 
+Ordered new SmartScribe with FS buffer and pre-made 0.1M DTT from Thermo to try. 
+
 ## RNA Fragmentation and RT Primer Annealing
 
 - Cleaned bench, pipettes, and racks with RNaseZap
@@ -45,12 +47,12 @@ RNA from holobiont project was used as to not freeze-thaw Ariana's RNA. To be ab
 - Turned on themocycler and started program 95 so the themocycler warmed up and the block was at 95 C (95C hold, 95C 2.5min)
 - Prepared RNA fragmentation/RT master mix (RFRT) **A**
   - 1ul dntps (10uM) * 4.4 = 4.4ul
-  - 2ul 0.1M DTT * 4.4 = 8.8ul
+  - 2ul 0.1M **OLD** DTT * 4.4 = 8.8ul
   - 4ul 5x **NEW** FS buffer * 4.4 = 17.6ul
   - 1ul 3iLL-30TV (10uM) *4.4 = 4.4ul
 - Prepared RNA fragmentation/RT master mix (RFRT) **B**
   - 1ul dntps (10uM) * 4.4 = 4.4ul
-  - 2ul 0.1M DTT * 4.4 = 8.8ul
+  - 2ul 0.1M **NEW** DTT * 4.4 = 8.8ul
   - 4ul 5x **OLD** FS buffer * 4.4 = 17.6ul
   - 1ul 3iLL-30TV (10uM) *4.4 = 4.4ul
 - Pipette mix and spin down RFRT
