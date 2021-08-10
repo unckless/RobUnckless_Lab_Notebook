@@ -372,9 +372,9 @@ S-ILL: ACCCCATGGGGCTACACGACGCTCTTCCGATCTNNMWGGG **40 bp**
 
 Molarity Calculations - Equation: (concentration/(660 * bp size)) * 1000000 = nM
 
-- S-ILL: (77.2/(660*40))*1000000 = 2,727.27 nM which is 2.7mM   
-- 3ILL-30TV: (95.4/(660*52))*1000000 = 2,779.72 nM which is 2.7mM  
-- 5ILL: (69.4/(660*22))*1000000 = 4779.6 nM which is 4.8mM
+- S-ILL: (77.2/(660 x 40)) x 1000000 = 2,727.27 nM which is 2.7mM   
+- 3ILL-30TV: (95.4/(660 x 52)) x 1000000 = 2,779.72 nM which is 2.7mM  
+- 5ILL: (69.4/(660 x 22)) x 1000000 = 4779.6 nM which is 4.8mM
 
 These all should be 10mM. Not sure if the Qubit is slightly off, or if the dilution or original resuspention was wrong. Potentially this is why the library prep is not working?
 
