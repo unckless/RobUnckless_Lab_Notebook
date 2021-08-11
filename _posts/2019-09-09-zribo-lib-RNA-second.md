@@ -160,7 +160,7 @@ We decided to do 3 more cycles of PCR, creating a new program that had the exact
 **Cleanup with DNA MagBeads**
 
 34. Added MagBead Buffer to bead concentrate as above
-35. After program was over, added 685µl MagBeads to each sample and pipetted at least 10 times each until completely homogenous
+35. After program was over, added 68.5µl MagBeads to each sample and pipetted at least 10 times each until completely homogenous
 18. Placed on shaker for 5 minutes
 19. Placed on magnet plate and placed on the shaker to help
 20. Once the supernatant was clear, the clear liquid was removed from each sample without disturbing the beads while still on the magnet plate
